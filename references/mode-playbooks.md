@@ -18,6 +18,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "요즘 잘 먹히는" | market reference | `market-research-protocol.md` | current web research, then stable references |
 | "장르 조사값/장르별 100종 클리셰 등록" | genre reference registration | `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md` | `cliche-structure-assembly-rules.md`, `external-cliche-reference-map.md` |
 | "클리셰 레퍼런스 참고 고도화 진행2" | reference synthesis upgrade | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md`, `scene-proof-bank.md` |
+| "클리셰 레퍼런스 참고 고도화 진행3" | reference triangulation upgrade | `reference-triangulation-protocol-3.md`, `cliche-graph-stress-tests.md` | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -39,6 +40,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load only the relevant half of the 100-item bank when the user names a genre: A for fantasy/hunter/tower/regression/finance, B for martial arts/academy/possession/support/romance.
 - Load `cliche-structure-assembly-rules.md` whenever the user asks to structure or combine cliches from the banks.
 - Load `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, and `reference-derived-card-bank-3.md` for a second or deeper upgrade based on diverse trope/motif/story references.
+- Load `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.md` when the user asks for phase 3, graph verification, stress testing, or deeper engine validation.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -102,6 +104,25 @@ Avoid:
 - treating reference names as output material;
 - applying too many twists until the genre promise disappears;
 - ending with abstract theory instead of cards, scenes, and loops.
+
+### Reference Triangulation Upgrade
+
+Use when the user asks for phase 3, deeper validation, or more reliable reference-backed cliche engineering.
+
+Steps:
+
+1. Use `reference-triangulation-protocol-3.md` to score candidate cliches across recognition, story function, reward clarity, Korean localization, serial durability, originality safety, and remixability.
+2. Require three supports for stable cards: recognition support, structure support, and Korean webnovel localization support.
+3. Use `cliche-graph-stress-tests.md` to check required nodes and causal edges.
+4. Repair weak cards by changing proof object, witness, institution, cost, or edge cause.
+5. Run `scripts/cliche_graph_lint.py --self-test` after editing the script, and use it on saved cliche graph artifacts when available.
+6. End with a graph verdict: pass, revise, or rebuild.
+
+Avoid:
+
+- accepting cards because they are familiar only;
+- building graphs where events happen without causal edges;
+- calling a graph durable when proof, witness, cost, or long-term ladder is missing.
 
 ### Genre Reference Registration
 

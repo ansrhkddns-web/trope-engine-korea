@@ -120,6 +120,27 @@ Fail signs:
 - the result imitates a named work's scene order;
 - novelty removes the commercial genre pleasure.
 
+### Cliche Graph Test
+
+Use when the output claims to be a cliche graph, phase-3 upgrade, or durable trope engine.
+
+The graph passes if:
+
+- required nodes exist: promise, advantage, pressure, proof, witness, institution, cost, hook;
+- edges are causal rather than decorative;
+- the protagonist makes an active choice;
+- cost comes from the reward;
+- the graph can generate a 3-5 episode loop;
+- the long-term ladder preserves the original reward.
+
+Fail signs:
+
+- cards are listed but not connected;
+- proof is private;
+- witness has no authority;
+- cost is random punishment;
+- removing a card changes nothing.
+
 ## Acceptance Output
 
 Use:
@@ -133,6 +154,7 @@ Use:
 | 50-episode |  |  |  |
 | Originality |  |  |  |
 | Reference synthesis |  |  |  |
+| Cliche graph |  |  |  |
 
 Then add:
 
