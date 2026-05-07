@@ -21,6 +21,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "클리셰 레퍼런스 참고 고도화 진행3" | reference triangulation upgrade | `reference-triangulation-protocol-3.md`, `cliche-graph-stress-tests.md` | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` |
 | "클리셰 레퍼런스 참고 고도화 진행4" | reference routing compile | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md` | routed references, `acceptance-tests.md`, `production-handoff.md` |
 | "클리셰 레퍼런스 참고 고도화 진행5" | reference selection optimize | `cliche-selection-optimizer-5.md`, `trope-portfolio-builder-5.md` | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md`, `acceptance-tests.md` |
+| "클리셰 레퍼런스 참고 고도화 진행6" | reader feedback calibrate | `reader-feedback-calibrator-6.md`, `cliche-fatigue-repair-loop-6.md` | `reader-response-simulation.md`, `acceptance-tests.md`, `failure-patterns.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -45,6 +46,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.md` when the user asks for phase 3, graph verification, stress testing, or deeper engine validation.
 - Load `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md` when the user asks for phase 4, compiled engines, routing, reusable packaging, or end-to-end reference selection.
 - Load `cliche-selection-optimizer-5.md` and `trope-portfolio-builder-5.md` when the user asks for phase 5, candidate ranking, best cliche selection, portfolio balance, score-based repair, or reducing redundant cliche stacks.
+- Load `reader-feedback-calibrator-6.md` and `cliche-fatigue-repair-loop-6.md` when the user asks for phase 6, reader comments, retention risk, fatigue repair, paid-trust risk, or episode-level response calibration.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -165,6 +167,27 @@ Avoid:
 - fixing a weak engine by adding more cards instead of repairing the missing slot;
 - letting novelty outrank first-scene proof;
 - selecting cards that cannot show reward through proof object and witness.
+
+### Reader Feedback Calibrate
+
+Use when the user asks for phase 6, reader-response calibration, fatigue repair, likely comments, retention risk, or whether the selected portfolio will keep readers paying attention.
+
+Steps:
+
+1. Use `reader-feedback-calibrator-6.md` to simulate click, first proof, repeat, and paid-trust reader responses.
+2. Simulate at least three reader cohorts when the output is substantial: speed reader, genre loyalist, novelty seeker, power fantasy reader, strategy reader, relationship/status reader, or paid-boundary reader.
+3. Score promise clarity, first reward visibility, agency belief, reaction pleasure, repeat curiosity, freshness credibility, fatigue risk, paid-trust safety, confusion control, and copy-shadow safety.
+4. Use `cliche-fatigue-repair-loop-6.md` to repair the weakest episode or cliche role through proof rotation, witness escalation, cost causality, competence injection, reward diversification, debt payoff, institution turn, or copy-shadow break.
+5. End with likely praise, likely complaints, 1-5 episode feedback map, paid-trust verdict, first repair, and revised proof/loop/hook.
+6. If the output is saved or requested as a stable artifact, run `scripts/cliche_feedback_lint.py <path>` or pipe the output through it.
+
+Avoid:
+
+- repairing weak reader response by adding lore;
+- removing the familiar reward just to look fresh;
+- predicting only praise without naming the first complaint;
+- opening a paid hook before paying one visible promise;
+- treating fatigue as a reason to discard the portfolio before trying proof, witness, cost, or payoff-order repair.
 
 ### Genre Reference Registration
 

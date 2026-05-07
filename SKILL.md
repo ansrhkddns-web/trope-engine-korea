@@ -1,6 +1,6 @@
 ---
 name: trope-engine-korea
-description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, ranking, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, support classes, genre survey values, 100-item cliche banks, reference routing, reference synthesis, triangulation, graph stress tests, remix operators, compiled trope engines, cliche selection optimization, ranked trope portfolios, proof scenes, title/logline/tag packaging, production handoff, 1-50 escalation, trope packs, bibles, episode seeds, hooks, or trope variation plans.
+description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, ranking, calibrating, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, support classes, genre survey values, 100-item cliche banks, reference routing, reference synthesis, triangulation, graph stress tests, remix operators, compiled trope engines, cliche selection optimization, ranked trope portfolios, reader feedback calibration, cliche fatigue repair, paid-trust checks, proof scenes, title/logline/tag packaging, production handoff, 1-50 escalation, trope packs, bibles, episode seeds, hooks, or trope variation plans.
 ---
 
 # Trope Engine Korea
@@ -26,6 +26,8 @@ Load only the reference needed for the task:
 - `references/trope-engine-compiler-4.md`: compile routed references into a stable trope engine with source packet, card pool, graph, first proof scene, episode loop, escalation, packaging, validation, and handoff.
 - `references/cliche-selection-optimizer-5.md`: score, rank, repair, or reject candidate cliches by recognition, genre fit, reward, proof visibility, agency, cost, durability, freshness, originality safety, and package alignment.
 - `references/trope-portfolio-builder-5.md`: assemble ranked cliche candidates into balanced 6-card, 8-card, or 12-card trope portfolios with role coverage, redundancy checks, first proof, loop, and long-term hook.
+- `references/reader-feedback-calibrator-6.md`: simulate reader cohorts, likely praise, complaints, fatigue, paid-trust risk, and repair priority for a selected trope portfolio or compiled engine.
+- `references/cliche-fatigue-repair-loop-6.md`: repair stale, repetitive, too-easy, or hook-heavy cliche loops by rotating proof, witness, cost, institution, reward, antagonist competence, and payoff order.
 - `references/reference-synthesis-engine-2.md`: convert diverse cliche, motif, trope, folklore, web fiction, progression, and Korean regression/reincarnation references into safe Korean webnovel cliche machinery.
 - `references/reference-triangulation-protocol-3.md`: verify reference-derived cliches through recognition, structure, localization, serial durability, originality safety, and remixability before using them in stable engines.
 - `references/cliche-graph-stress-tests.md`: stress-test cliche graphs for required nodes, causal edges, proof visibility, agency, cost integrity, witness authority, payoff density, scale ladder, and paid-trust hooks.
@@ -65,6 +67,7 @@ Optional script:
 - `scripts/cliche_graph_lint.py`: check a saved cliche graph or reference-synthesis output for triangulation, graph nodes, causal edges, proof, witness, cost, loop, operator, and copy-risk signals.
 - `scripts/cliche_engine_compile_lint.py`: check a saved compiled trope engine for route, source packet, genre core, reader contract, normalized cards, graph, first proof, episode loop, escalation, package, validation, and handoff signals.
 - `scripts/cliche_portfolio_lint.py`: check a saved phase-5 cliche portfolio for brief, source families, candidate pool, scoring axes, selected slots, balance, proof scene, episode loop, copy risk, and repair signals.
+- `scripts/cliche_feedback_lint.py`: check a saved phase-6 reader feedback or fatigue-repair artifact for reader cohorts, feedback axes, positive comments, complaints, episode map, paid trust, repair, copy-shadow, and verdict signals.
 
 ## Workflow
 
@@ -75,6 +78,7 @@ Optional script:
    - `reference triangulation upgrade`: verify reference-derived cliches and stress-test cliche graphs before they become stable trope engines.
    - `reference routing compile`: route references and compile them into a reusable end-to-end trope engine.
    - `reference selection optimize`: score candidate cliches and assemble a balanced ranked portfolio for the current brief.
+   - `reader feedback calibrate`: simulate reader response, fatigue, paid-trust risk, and repair the weakest cliche loop.
    - `genre reference registration`: register genre survey defaults and large 100-item cliche banks for later reference.
    - `successful cliche upgrade`: use high-frequency successful webnovel cliche loops and presets to make a concept more commercially recognizable.
    - `input assembly`: convert vague genre keywords or rough ideas into an actionable trope engine.
@@ -143,6 +147,7 @@ Optional script:
    - Use `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.md` when the user asks for phase 3, deeper validation, graph structure, or whether reference-derived cliches actually work as a serial engine.
    - Use `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md` when the user asks for phase 4, end-to-end compilation, reusable engine packaging, or reference routing.
    - Use `cliche-selection-optimizer-5.md` and `trope-portfolio-builder-5.md` when the user asks for phase 5, cliche ranking, best-card selection, portfolio balancing, candidate repair, or stronger selection logic.
+   - Use `reader-feedback-calibrator-6.md` and `cliche-fatigue-repair-loop-6.md` when the user asks for phase 6, reader-response calibration, cliche fatigue repair, likely comments, retention risk, paid-trust checks, or episode-level repair.
    - Use `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for widely used, proven, successful, popular, or commercially reliable webnovel cliches.
    - Use `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md`, and `cliche-structure-assembly-rules.md` when the user asks to register genre research values, build genre-specific 100-cliche lists, or structure cliches by genre.
    - For successful-cliche requests, include at least one identity cliche, advantage cliche, proof cliche, social reaction cliche, renewal cliche, and long-term cliche.
@@ -184,6 +189,7 @@ Optional script:
    - If the user provides a cliche graph, reference-synthesis output, or phase-3 engine artifact, run `scripts/cliche_graph_lint.py <path>` or pipe text with `-`.
    - If the user provides a compiled trope engine artifact or asks to validate phase-4 output, run `scripts/cliche_engine_compile_lint.py <path>` or pipe text with `-`.
    - If the user provides a ranked cliche portfolio, phase-5 selection output, or asks to validate card selection, run `scripts/cliche_portfolio_lint.py <path>` or pipe text with `-`.
+   - If the user provides a reader feedback, fatigue repair, or phase-6 calibration artifact, run `scripts/cliche_feedback_lint.py <path>` or pipe text with `-`.
    - Treat lint as a missing-section check, not a literary quality judgment.
 
 15. Produce a usable output:
@@ -232,6 +238,7 @@ For most requests, include:
 - Triangulation score or cliche graph stress-test verdict if useful
 - Routing result or compiled engine validation if useful
 - Ranked cliche portfolio, candidate score, or selection balance if useful
+- Reader feedback calibration, fatigue repair, or paid-trust risk if useful
 - Reward channels and visible proof
 - Freshness levers
 - First proof scene
@@ -260,6 +267,7 @@ Before finalizing, check:
 - If using external references, did each reference become function, pressure, proof object, witness, cost, and safe variation rather than a copied scene?
 - If using a cliche graph, does every required node have causal edges and a visible proof/cost loop?
 - If using phase-5 selection, does the final portfolio cover identity, advantage, proof, witness, cost, renewal, institution, and long-term hook without redundant proof objects?
+- If using phase-6 feedback, did the output predict likely praise, likely complaints, fatigue risk, paid-trust risk, and the first concrete repair?
 - Is every major reward visible through an object, witness, institution, or changed access?
 - Does the fresh variation create scenes instead of just terminology?
 - If genres are combined, does one primary engine clearly own the first click?

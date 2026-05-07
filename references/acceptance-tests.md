@@ -187,6 +187,30 @@ Fail signs:
 - the support genre steals the primary genre's first click;
 - weak selection is solved by adding more cards instead of repairing a missing role.
 
+### Reader Feedback Test
+
+Use when the output claims to be a reader feedback calibration, phase-6 upgrade, fatigue repair, comment simulation, retention check, or paid-trust diagnosis.
+
+The feedback calibration passes if:
+
+- it names the selected portfolio or compiled engine being tested;
+- it identifies the reference families used for response modeling;
+- it simulates at least three reader cohorts when the artifact is substantial;
+- it scores promise clarity, first reward visibility, agency belief, reaction pleasure, repeat curiosity, freshness credibility, fatigue risk, paid-trust safety, confusion control, and copy-shadow safety;
+- it predicts both likely positive comments and likely complaints;
+- it maps reader response across the 1-5 episode loop;
+- it identifies the first fatigue point;
+- it repairs the weakest point by changing pressure, proof object, witness, cost, institution, antagonist competence, reward channel, or payoff order;
+- it checks that the paid boundary pays one visible reward before opening a new hook.
+
+Fail signs:
+
+- it predicts only praise;
+- it uses vague "readers may like it" language without episode-level risk;
+- fatigue is solved by adding lore or terminology;
+- paid transition is a pure withheld answer;
+- repair removes the familiar genre reward instead of refreshing how the reward is earned.
+
 ## Acceptance Output
 
 Use:
@@ -203,6 +227,7 @@ Use:
 | Cliche graph |  |  |  |
 | Compiled engine |  |  |  |
 | Cliche portfolio |  |  |  |
+| Reader feedback |  |  |  |
 
 Then add:
 

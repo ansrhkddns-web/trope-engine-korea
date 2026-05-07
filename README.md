@@ -14,6 +14,7 @@
 - 클리셰 카드가 실제 연재 그래프로 작동하는지 검사하는 그래프 스트레스 테스트
 - 요청별로 필요한 레퍼런스를 고르고 최종 클리셰 엔진으로 조립하는 4차 라우팅/컴파일 파이프라인
 - 후보 클리셰를 점수화하고 중복 없는 포트폴리오로 고르는 5차 선택 최적화 엔진
+- 선택된 클리셰 포트폴리오의 독자 반응, 피로도, 유료 전환 신뢰를 보정하는 6차 피드백 엔진
 - 익숙한 클리셰를 metric swap, witness swap, cost injection 같은 연산자로 변주
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
 - 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
@@ -59,6 +60,10 @@ $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행4. 레퍼�
 
 ```text
 $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행5. 후보 클리셰 점수화와 포트폴리오 선택까지 해줘.
+```
+
+```text
+$trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행6. 독자 반응, 피로도, 유료 전환 신뢰까지 보정해줘.
 ```
 
 ```text
@@ -129,6 +134,8 @@ trope-engine-korea/
 │   ├── reference-routing-matrix-4.md
 │   ├── cliche-selection-optimizer-5.md
 │   ├── trope-portfolio-builder-5.md
+│   ├── reader-feedback-calibrator-6.md
+│   ├── cliche-fatigue-repair-loop-6.md
 │   ├── scene-proof-bank.md
 │   ├── self-audit-prompts.md
 │   ├── successful-cliche-card-bank-2.md
@@ -143,6 +150,7 @@ trope-engine-korea/
     ├── cliche_graph_lint.py
     ├── cliche_engine_compile_lint.py
     ├── cliche_portfolio_lint.py
+    ├── cliche_feedback_lint.py
     ├── genre_bank_count.py
     └── trope_pack_lint.py
 ```
@@ -164,6 +172,8 @@ trope-engine-korea/
 | `references/trope-engine-compiler-4.md` | 라우팅된 레퍼런스를 소스 패킷, 카드 풀, 그래프, 1화, 1-5화, 패키지, 검증, 인계까지 컴파일 |
 | `references/cliche-selection-optimizer-5.md` | 후보 클리셰를 인식도, 장르 적합도, 보상, 증명성, 주인공 행동성, 비용, 장기성, 고유성으로 점수화 |
 | `references/trope-portfolio-builder-5.md` | 점수화한 후보를 6카드, 8카드, 12카드 포트폴리오로 균형 있게 조립 |
+| `references/reader-feedback-calibrator-6.md` | 선택된 포트폴리오의 독자 코호트별 반응, 예상 칭찬/불만, 피로도, 유료 전환 신뢰를 예측 |
+| `references/cliche-fatigue-repair-loop-6.md` | 반복되는 증명, 목격자, 보상, 비용, 훅의 피로도를 수리하는 연산자와 에피소드 루프 |
 | `references/cliche-remix-operators.md` | 익숙한 클리셰를 증거물, 목격자, 비용, 기관, 소유권 등으로 변주하는 연산자 모음 |
 | `references/reference-derived-card-bank-3.md` | 기능 카드, 모티프 카드, 그래프 카드로 구성된 3차 레퍼런스 파생 카드 은행 |
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
@@ -187,6 +197,7 @@ trope-engine-korea/
 | `scripts/cliche_graph_lint.py` | 레퍼런스 합성/클리셰 그래프 산출물의 삼각검증, 노드, 엣지, 증거물, 비용 누락 검사 |
 | `scripts/cliche_engine_compile_lint.py` | 컴파일된 클리셰 엔진 산출물의 라우팅, 소스 패킷, 카드 풀, 그래프, 검증, 인계 누락 검사 |
 | `scripts/cliche_portfolio_lint.py` | 5차 클리셰 포트폴리오 산출물의 후보군, 점수축, 선택 슬롯, 균형, 증명 장면, 수리 지점 누락 검사 |
+| `scripts/cliche_feedback_lint.py` | 6차 독자 피드백/피로도 수리 산출물의 독자 코호트, 점수축, 불만, 1-5화 지도, 유료 전환, 수리안 누락 검사 |
 
 ## 작업 모드
 
@@ -199,6 +210,7 @@ trope-engine-korea/
 | `reference triangulation upgrade` | 레퍼런스 파생 클리셰를 삼각검증하고 그래프 스트레스 테스트로 내구성 점검 |
 | `reference routing compile` | 요청별 레퍼런스 묶음을 라우팅하고 재사용 가능한 클리셰 엔진으로 컴파일 |
 | `reference selection optimize` | 후보 클리셰를 점수화하고 역할 중복 없는 포트폴리오로 선택 |
+| `reader feedback calibrate` | 선택된 포트폴리오의 독자 반응, 피로도, 유료 전환 신뢰를 예측하고 수리 |
 | `genre reference registration` | 웹소설 장르 조사값과 장르별 100종 클리셰 뱅크를 등록/참조 |
 | `trope pack` | 클리셰 카드, 보상, 변주, 첫 증명 장면 생성 |
 | `familiar-but-fresh premise` | 익숙한 장르 장치를 새 콘셉트로 변주 |
@@ -357,6 +369,27 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 
 최종 결과는 단순 상위 점수표가 아니라 6카드, 8카드, 12카드 포트폴리오로 나옵니다. 예를 들어 8카드 포트폴리오는 `정체성`, `우위`, `1화 증명`, `사회 반응`, `기관 반응`, `비용/적대`, `갱신/반복`, `장기 훅`을 모두 채워야 합니다. 그래서 같은 종류의 랭크 테스트만 여러 개 고르는 문제를 줄이고, 실제 연재에 필요한 역할 균형을 맞춥니다.
 
+## 독자 피드백 보정 6차 고도화
+
+6차 고도화는 고른 클리셰 포트폴리오가 실제 독자에게 어떻게 읽힐지 미리 점검합니다.
+
+```text
+선택된 포트폴리오 → 독자 코호트별 반응 → 1-5화 피로도 지도 → 유료 전환 신뢰 → 첫 수리안
+```
+
+이 단계에서는 “재미있어 보인다”에서 끝내지 않고, 어떤 독자가 좋아하고 어떤 독자가 이탈할지 나눠 봅니다.
+
+| 점검축 | 확인하는 것 |
+| --- | --- |
+| 클릭 반응 | 제목/초반에서 장르 재미가 바로 보이는가 |
+| 첫 증명 반응 | 주인공이 왜 다른지 증거물과 목격자로 보이는가 |
+| 반복 반응 | 2-5화에서 같은 재미가 다른 압박으로 반복되는가 |
+| 피로도 | 같은 증명, 같은 놀람, 같은 보상만 반복되지 않는가 |
+| 유료 전환 신뢰 | 유료 전환 전에 보상 하나를 지급하고 다음 질문을 여는가 |
+| 복사 그림자 | 특정 작품의 장면 순서, 규칙, 기관이 떠오르지 않는가 |
+
+피로도가 감지되면 익숙한 보상을 버리지 않고, 증거물, 목격자, 비용, 기관, 적대자의 유능함, 보상 지급 순서를 바꿔 수리합니다. 예를 들어 헌터물에서 매번 “랭크 테스트”만 반복된다면, 2화는 생존률 감사, 3화는 협회 청문회, 4화는 길드 계약 분쟁처럼 증명 방식을 돌려 독자에게 같은 쾌감을 새 압박으로 보여줍니다.
+
 ## 레퍼런스 기반 업그레이드
 
 이 스킬은 클리셰를 단순히 많이 나열하지 않고, 다음 레퍼런스 계열을 **기능 단위**로 추상화해 사용합니다.
@@ -381,6 +414,8 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 - [TaleStream: Supporting Story Ideation with Trope Knowledge](https://arxiv.org/abs/2309.03790)
 - [Kishotenketsu / 기승전결 개요](https://en.wikipedia.org/wiki/Kish%C5%8Dtenketsu)
 - [웹소설에 나타난 회귀와 환생의 욕망코드](https://scholar.kyobobook.co.kr/article/detail/4010027519081)
+- [Reader-response criticism overview](https://en.wikipedia.org/wiki/Reader-response_criticism)
+- [Narrative engagement overview](https://en.wikipedia.org/wiki/Narrative_engagement)
 
 성공 클리셰 고도화에서 보조적으로 참고한 공개 장르/태그 자료:
 
@@ -480,7 +515,14 @@ python scripts/cliche_portfolio_lint.py --self-test
 python scripts/cliche_portfolio_lint.py path/to/cliche-portfolio.md
 ```
 
-이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`, `cliche_portfolio_lint.py`는 Python 표준 라이브러리만 사용합니다.
+독자 피드백/피로도 검증:
+
+```bash
+python scripts/cliche_feedback_lint.py --self-test
+python scripts/cliche_feedback_lint.py path/to/reader-feedback.md
+```
+
+이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`, `cliche_portfolio_lint.py`, `cliche_feedback_lint.py`는 Python 표준 라이브러리만 사용합니다.
 
 ## 라이선스
 
