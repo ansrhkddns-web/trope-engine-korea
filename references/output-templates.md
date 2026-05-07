@@ -131,6 +131,42 @@ Use with `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.
 - **그래프 판정**:
 - **다음 산출물**:
 
+## 레퍼런스 라우팅 컴파일 4차 고도화
+
+Use with `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md`.
+
+- **라우팅 결과**:
+
+| 항목 | 값 |
+| --- | --- |
+| 요청 의도 |  |
+| 장르 범위 |  |
+| 레퍼런스 깊이 |  |
+| 산출물 형태 |  |
+| 검증 방식 |  |
+
+- **소스 패킷**:
+
+| 소스 유형 | 사용한 자료 | 신뢰 태그 | 사용 이유 |
+| --- | --- | --- | --- |
+| stable-structure |  |  |  |
+| stable-genre |  |  |  |
+| research-signal |  |  |  |
+| platform-current |  |  |  |
+| copy-risk |  |  |  |
+
+- **장르 코어**:
+- **독자 계약**:
+- **정규화한 카드 풀**:
+- **클리셰 그래프**:
+- **1화 증명 장면**:
+- **1-5화 루프**:
+- **장기 확장 사다리**:
+- **상품 패키지 방향**:
+- **검증 판정**:
+- **첫 수리 지시**:
+- **생산 인계**:
+
 ## 입력 조립 결과
 
 Use when the user's request is vague or keyword-heavy.
@@ -485,6 +521,7 @@ Use with `acceptance-tests.md` when deciding readiness.
 | 고유성 안전 |  |  |  |
 | 레퍼런스 합성 |  |  |  |
 | 클리셰 그래프 |  |  |  |
+| 컴파일 엔진 |  |  |  |
 
 Then add:
 

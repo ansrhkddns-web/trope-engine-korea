@@ -1,6 +1,6 @@
 ---
 name: trope-engine-korea
-description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system/constellation, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, production/support classes, webnovel genre survey values, 100-item genre cliche banks, reference synthesis, reference triangulation, cliche graph stress tests, remix operators, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality safety, production handoff, 1-50 episode escalation, and serialization-ready trope packs, bibles, episode seeds, hooks, or trope variation plans.
+description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, support classes, genre survey values, 100-item cliche banks, reference routing, reference synthesis, triangulation, graph stress tests, remix operators, compiled trope engines, proof scenes, title/logline/tag packaging, production handoff, 1-50 escalation, trope packs, bibles, episode seeds, hooks, or trope variation plans.
 ---
 
 # Trope Engine Korea
@@ -22,6 +22,8 @@ Load only the reference needed for the task:
 - `references/input-assembly-protocol.md`: interpret vague prompts, many genre keywords, rough premises, or "commercial/familiar but fresh" requests.
 - `references/mode-playbooks.md`: choose the right execution mode, reference set, output size, and final section for the request.
 - `references/external-cliche-reference-map.md`: synthesize external trope, motif, folklore, and story-ideation reference families into reusable design principles.
+- `references/reference-routing-matrix-4.md`: route user requests to the smallest useful reference packet by intent, genre scope, reference depth, output artifact, and verification need.
+- `references/trope-engine-compiler-4.md`: compile routed references into a stable trope engine with source packet, card pool, graph, first proof scene, episode loop, escalation, packaging, validation, and handoff.
 - `references/reference-synthesis-engine-2.md`: convert diverse cliche, motif, trope, folklore, web fiction, progression, and Korean regression/reincarnation references into safe Korean webnovel cliche machinery.
 - `references/reference-triangulation-protocol-3.md`: verify reference-derived cliches through recognition, structure, localization, serial durability, originality safety, and remixability before using them in stable engines.
 - `references/cliche-graph-stress-tests.md`: stress-test cliche graphs for required nodes, causal edges, proof visibility, agency, cost integrity, witness authority, payoff density, scale ladder, and paid-trust hooks.
@@ -59,6 +61,7 @@ Optional script:
 - `scripts/trope_pack_lint.py`: check a saved markdown trope pack for missing required planning signals. Use when the user provides a file or asks to audit completeness, not for every normal reply.
 - `scripts/genre_bank_count.py`: verify genre cliche bank files contain the expected 100 cliche seeds per genre section.
 - `scripts/cliche_graph_lint.py`: check a saved cliche graph or reference-synthesis output for triangulation, graph nodes, causal edges, proof, witness, cost, loop, operator, and copy-risk signals.
+- `scripts/cliche_engine_compile_lint.py`: check a saved compiled trope engine for route, source packet, genre core, reader contract, normalized cards, graph, first proof, episode loop, escalation, package, validation, and handoff signals.
 
 ## Workflow
 
@@ -67,6 +70,7 @@ Optional script:
    - `reference-backed upgrade`: use diverse cliche references to expand the cliche taxonomy or card bank.
    - `reference synthesis upgrade`: use the phase-2 synthesis engine, remix operators, and reference-derived card bank to transform broad references into usable cliche graphs.
    - `reference triangulation upgrade`: verify reference-derived cliches and stress-test cliche graphs before they become stable trope engines.
+   - `reference routing compile`: route references and compile them into a reusable end-to-end trope engine.
    - `genre reference registration`: register genre survey defaults and large 100-item cliche banks for later reference.
    - `successful cliche upgrade`: use high-frequency successful webnovel cliche loops and presets to make a concept more commercially recognizable.
    - `input assembly`: convert vague genre keywords or rough ideas into an actionable trope engine.
@@ -133,6 +137,7 @@ Optional script:
    - Use `reference-backed-card-bank-1.md` when the user asks for more diverse references, broader cliche sources, or non-obvious structural cards.
    - Use `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, and `reference-derived-card-bank-3.md` when the user asks for another upgrade using diverse cliche references, wants more structural variety, or needs cliches transformed through motifs/functions/graphs.
    - Use `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.md` when the user asks for phase 3, deeper validation, graph structure, or whether reference-derived cliches actually work as a serial engine.
+   - Use `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md` when the user asks for phase 4, end-to-end compilation, reusable engine packaging, or reference routing.
    - Use `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for widely used, proven, successful, popular, or commercially reliable webnovel cliches.
    - Use `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md`, and `cliche-structure-assembly-rules.md` when the user asks to register genre research values, build genre-specific 100-cliche lists, or structure cliches by genre.
    - For successful-cliche requests, include at least one identity cliche, advantage cliche, proof cliche, social reaction cliche, renewal cliche, and long-term cliche.
@@ -172,6 +177,7 @@ Optional script:
 14. Lint only when useful:
    - If the user provides a saved markdown output or asks to check completeness, run `scripts/trope_pack_lint.py <path>` or pipe text with `-`.
    - If the user provides a cliche graph, reference-synthesis output, or phase-3 engine artifact, run `scripts/cliche_graph_lint.py <path>` or pipe text with `-`.
+   - If the user provides a compiled trope engine artifact or asks to validate phase-4 output, run `scripts/cliche_engine_compile_lint.py <path>` or pipe text with `-`.
    - Treat lint as a missing-section check, not a literary quality judgment.
 
 15. Produce a usable output:
@@ -218,6 +224,7 @@ For most requests, include:
 - Reference-backed cliche function or motif if useful
 - Reference synthesis, remix operators, or graph cards if useful
 - Triangulation score or cliche graph stress-test verdict if useful
+- Routing result or compiled engine validation if useful
 - Reward channels and visible proof
 - Freshness levers
 - First proof scene

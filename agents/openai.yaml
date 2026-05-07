@@ -1,4 +1,4 @@
 interface:
   display_name: "Trope Engine Korea"
-  short_description: "Korean webnovel cliche graph engine"
-  default_prompt: "Use $trope-engine-korea to build a Korean webnovel trope spec from genre survey values, 100-item cliche banks, reference synthesis, triangulation, cliche graph stress tests, remix operators, proof scenes, reader rewards, packaging, acceptance tests, and production handoff."
+  short_description: "Korean webnovel compiled trope engine"
+  default_prompt: "Use $trope-engine-korea to build a Korean webnovel trope spec from routed references, genre survey values, 100-item cliche banks, reference synthesis, triangulation, graph stress tests, compiled engine validation, proof scenes, reader rewards, packaging, acceptance tests, and production handoff."

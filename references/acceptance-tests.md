@@ -141,6 +141,28 @@ Fail signs:
 - cost is random punishment;
 - removing a card changes nothing.
 
+### Compiled Engine Test
+
+Use when the output claims to be a compiled trope engine, phase-4 upgrade, or reusable bible-ready artifact.
+
+The compiled engine passes if:
+
+- it names the route and reference packet;
+- it defines genre core and first-click owner;
+- it normalizes cards into role, reward, proof, witness, cost, and repeat method;
+- it includes a cliche graph and first proof scene;
+- it builds a 1-5 episode loop and long-term escalation;
+- it aligns package direction with the first proof;
+- it gives validation verdicts and production handoff.
+
+Fail signs:
+
+- it only lists references;
+- routing and output artifact do not match;
+- the card pool has no normalized schema;
+- package promises a reward the proof scene does not pay;
+- validation has no repair.
+
 ## Acceptance Output
 
 Use:
@@ -155,6 +177,7 @@ Use:
 | Originality |  |  |  |
 | Reference synthesis |  |  |  |
 | Cliche graph |  |  |  |
+| Compiled engine |  |  |  |
 
 Then add:
 

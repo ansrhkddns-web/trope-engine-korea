@@ -12,6 +12,7 @@
 - 다양한 클리셰/모티프/서사 레퍼런스를 기능, 압박, 증거물, 목격자, 비용으로 변환하는 2차 합성 엔진
 - 레퍼런스 기반 클리셰를 인식/구조/한국형 웹소설 적합성으로 삼각검증하는 3차 검증 프로토콜
 - 클리셰 카드가 실제 연재 그래프로 작동하는지 검사하는 그래프 스트레스 테스트
+- 요청별로 필요한 레퍼런스를 고르고 최종 클리셰 엔진으로 조립하는 4차 라우팅/컴파일 파이프라인
 - 익숙한 클리셰를 metric swap, witness swap, cost injection 같은 연산자로 변주
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
 - 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
@@ -49,6 +50,10 @@ $trope-engine-korea로 다양한 클리셰 레퍼런스를 참고해서 2차 고
 
 ```text
 $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행3. 삼각검증과 그래프 스트레스 테스트까지 붙여줘.
+```
+
+```text
+$trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행4. 레퍼런스 라우팅과 컴파일 검증까지 붙여줘.
 ```
 
 ```text
@@ -116,6 +121,7 @@ trope-engine-korea/
 │   ├── reference-backed-card-bank-1.md
 │   ├── reference-synthesis-engine-2.md
 │   ├── reference-triangulation-protocol-3.md
+│   ├── reference-routing-matrix-4.md
 │   ├── scene-proof-bank.md
 │   ├── self-audit-prompts.md
 │   ├── successful-cliche-card-bank-2.md
@@ -123,10 +129,12 @@ trope-engine-korea/
 │   ├── trope-card-library.md
 │   ├── trope-combination-matrix.md
 │   ├── trope-engine-schema.md
+│   ├── trope-engine-compiler-4.md
 │   ├── variation-engine.md
 │   └── webnovel-genre-survey-values.md
 └── scripts/
     ├── cliche_graph_lint.py
+    ├── cliche_engine_compile_lint.py
     ├── genre_bank_count.py
     └── trope_pack_lint.py
 ```
@@ -144,6 +152,8 @@ trope-engine-korea/
 | `references/reference-synthesis-engine-2.md` | 다양한 클리셰/모티프/서사 레퍼런스를 한국형 웹소설 카드로 변환하는 2차 합성 엔진 |
 | `references/reference-triangulation-protocol-3.md` | 레퍼런스 파생 클리셰를 인식, 구조, 한국형 웹소설 적합성 기준으로 삼각검증 |
 | `references/cliche-graph-stress-tests.md` | 클리셰 그래프의 필수 노드, 인과 엣지, 증거물, 비용, 장기 사다리 점검 |
+| `references/reference-routing-matrix-4.md` | 요청 의도, 장르 범위, 레퍼런스 깊이, 산출물, 검증 방식에 따라 읽을 자료를 라우팅 |
+| `references/trope-engine-compiler-4.md` | 라우팅된 레퍼런스를 소스 패킷, 카드 풀, 그래프, 1화, 1-5화, 패키지, 검증, 인계까지 컴파일 |
 | `references/cliche-remix-operators.md` | 익숙한 클리셰를 증거물, 목격자, 비용, 기관, 소유권 등으로 변주하는 연산자 모음 |
 | `references/reference-derived-card-bank-3.md` | 기능 카드, 모티프 카드, 그래프 카드로 구성된 3차 레퍼런스 파생 카드 은행 |
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
@@ -165,6 +175,7 @@ trope-engine-korea/
 | `scripts/trope_pack_lint.py` | 저장된 결과물의 필수 요소 누락 검사 |
 | `scripts/genre_bank_count.py` | 장르별 클리셰 뱅크가 장르당 100종씩 들어 있는지 검사 |
 | `scripts/cliche_graph_lint.py` | 레퍼런스 합성/클리셰 그래프 산출물의 삼각검증, 노드, 엣지, 증거물, 비용 누락 검사 |
+| `scripts/cliche_engine_compile_lint.py` | 컴파일된 클리셰 엔진 산출물의 라우팅, 소스 패킷, 카드 풀, 그래프, 검증, 인계 누락 검사 |
 
 ## 작업 모드
 
@@ -175,6 +186,7 @@ trope-engine-korea/
 | `input assembly` | 애매한 키워드나 거친 아이디어를 장르 엔진으로 조립 |
 | `reference synthesis upgrade` | 다양한 외부 레퍼런스를 기능/모티프/그래프 카드로 변환해 스킬 엔진 고도화 |
 | `reference triangulation upgrade` | 레퍼런스 파생 클리셰를 삼각검증하고 그래프 스트레스 테스트로 내구성 점검 |
+| `reference routing compile` | 요청별 레퍼런스 묶음을 라우팅하고 재사용 가능한 클리셰 엔진으로 컴파일 |
 | `genre reference registration` | 웹소설 장르 조사값과 장르별 100종 클리셰 뱅크를 등록/참조 |
 | `trope pack` | 클리셰 카드, 보상, 변주, 첫 증명 장면 생성 |
 | `familiar-but-fresh premise` | 익숙한 장르 장치를 새 콘셉트로 변주 |
@@ -292,6 +304,22 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 
 이 경로에서 빠지는 노드가 있거나, 다음 사건이 앞 사건 때문에 생기지 않으면 `revise` 또는 `rebuild`로 판단합니다.
 
+## 레퍼런스 라우팅 컴파일 4차 고도화
+
+4차 고도화는 스킬이 무조건 모든 레퍼런스를 읽지 않도록, 요청에 맞는 자료 묶음을 먼저 고르게 합니다.
+
+```text
+요청 의도 → 장르 범위 → 레퍼런스 깊이 → 산출물 형태 → 검증 방식
+```
+
+그다음 선택된 자료만 사용해 다음 구조로 컴파일합니다.
+
+```text
+소스 패킷 → 장르 코어 → 독자 계약 → 카드 풀 → 클리셰 그래프 → 1화 증명 → 1-5화 루프 → 장기 확장 → 상품 패키지 → 검증 → 생산 인계
+```
+
+이 레이어의 목적은 답변을 더 길게 만드는 것이 아니라, 같은 프로젝트를 여러 번 이어가도 스킬이 “무엇을 근거로, 어떤 카드로, 어떤 검증을 거쳐” 엔진을 만들었는지 잃어버리지 않게 하는 것입니다.
+
 ## 레퍼런스 기반 업그레이드
 
 이 스킬은 클리셰를 단순히 많이 나열하지 않고, 다음 레퍼런스 계열을 **기능 단위**로 추상화해 사용합니다.
@@ -401,7 +429,14 @@ python scripts/cliche_graph_lint.py --self-test
 python scripts/cliche_graph_lint.py path/to/cliche-graph.md
 ```
 
-이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`는 Python 표준 라이브러리만 사용합니다.
+컴파일 엔진 검증:
+
+```bash
+python scripts/cliche_engine_compile_lint.py --self-test
+python scripts/cliche_engine_compile_lint.py path/to/compiled-engine.md
+```
+
+이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`는 Python 표준 라이브러리만 사용합니다.
 
 ## 라이선스
 

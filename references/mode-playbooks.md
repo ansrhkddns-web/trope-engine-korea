@@ -19,6 +19,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "장르 조사값/장르별 100종 클리셰 등록" | genre reference registration | `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md` | `cliche-structure-assembly-rules.md`, `external-cliche-reference-map.md` |
 | "클리셰 레퍼런스 참고 고도화 진행2" | reference synthesis upgrade | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md`, `scene-proof-bank.md` |
 | "클리셰 레퍼런스 참고 고도화 진행3" | reference triangulation upgrade | `reference-triangulation-protocol-3.md`, `cliche-graph-stress-tests.md` | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` |
+| "클리셰 레퍼런스 참고 고도화 진행4" | reference routing compile | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md` | routed references, `acceptance-tests.md`, `production-handoff.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -41,6 +42,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `cliche-structure-assembly-rules.md` whenever the user asks to structure or combine cliches from the banks.
 - Load `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, and `reference-derived-card-bank-3.md` for a second or deeper upgrade based on diverse trope/motif/story references.
 - Load `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.md` when the user asks for phase 3, graph verification, stress testing, or deeper engine validation.
+- Load `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md` when the user asks for phase 4, compiled engines, routing, reusable packaging, or end-to-end reference selection.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -123,6 +125,24 @@ Avoid:
 - accepting cards because they are familiar only;
 - building graphs where events happen without causal edges;
 - calling a graph durable when proof, witness, cost, or long-term ladder is missing.
+
+### Reference Routing Compile
+
+Use when the user asks for phase 4, routing, compiled trope engines, or a reusable end-to-end engine.
+
+Steps:
+
+1. Use `reference-routing-matrix-4.md` to identify intent, genre scope, reference depth, output artifact, and verification need.
+2. Load only the routed reference packet.
+3. Use `trope-engine-compiler-4.md` to compile route, source packet, genre core, reader contract, card pool, normalized cards, cliche graph, first proof scene, 1-5 episode loop, escalation, package, validation, and handoff.
+4. If the output is saved or requested as a stable artifact, run `scripts/cliche_engine_compile_lint.py <path>` or pipe the output through it.
+5. End with a validation verdict and the next production artifact.
+
+Avoid:
+
+- loading every reference file by default;
+- producing a theory-only routing plan without a compiled engine;
+- skipping validation after claiming the engine is reusable.
 
 ### Genre Reference Registration
 
