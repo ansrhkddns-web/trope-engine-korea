@@ -11,8 +11,8 @@ Every request should be routed by:
 1. **Intent**: what the user wants done.
 2. **Genre scope**: one genre, cross-genre, or genre-wide.
 3. **Reference depth**: default, 100-bank, synthesis, triangulation, or market-current.
-4. **Output artifact**: trope pack, graph, bible insert, episode ladder, package, diagnosis, or compiled engine.
-5. **Verification need**: none, lint, triangulation, graph stress test, or market check.
+4. **Output artifact**: trope pack, graph, bible insert, episode ladder, package, diagnosis, compiled engine, or ranked portfolio.
+5. **Verification need**: none, lint, triangulation, graph stress test, portfolio lint, or market check.
 
 ## Intent Router
 
@@ -25,6 +25,7 @@ Every request should be routed by:
 | "고도화 진행2" | synthesis | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md` | `reference-derived-card-bank-3.md` | reference synthesis test |
 | "고도화 진행3" | triangulation | `reference-triangulation-protocol-3.md`, `cliche-graph-stress-tests.md` | `cliche_graph_lint.py` | graph lint |
 | "고도화 진행4" | routed compiler | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md` | all routed files | `cliche_engine_compile_lint.py` |
+| "고도화 진행5" | selection optimizer | `cliche-selection-optimizer-5.md`, `trope-portfolio-builder-5.md` | routed genre banks, `trope-engine-compiler-4.md` | `cliche_portfolio_lint.py` |
 | "성공한/잘 먹히는" | success cliche | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `scene-proof-bank.md` | acceptance tests |
 | "1화 장면" | proof scene | `scene-proof-bank.md` | `reader-reward-model.md` | first-scene test |
 | "50화/장기연재" | escalation | `escalation-ladders.md` | `cliche-graph-stress-tests.md` | 50-episode test |
@@ -101,6 +102,17 @@ Load:
 - the routed genre/reference files;
 - `acceptance-tests.md`;
 - `production-handoff.md`.
+
+### Level 6: Ranked Portfolio
+
+Use when phase 5, best-card selection, ranked candidates, portfolio balance, or redundancy reduction is requested.
+
+Load:
+
+- `cliche-selection-optimizer-5.md`;
+- `trope-portfolio-builder-5.md`;
+- routed genre/reference banks;
+- `acceptance-tests.md`.
 
 ## Source Reliability Tags
 

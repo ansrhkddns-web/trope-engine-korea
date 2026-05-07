@@ -20,6 +20,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "클리셰 레퍼런스 참고 고도화 진행2" | reference synthesis upgrade | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md`, `scene-proof-bank.md` |
 | "클리셰 레퍼런스 참고 고도화 진행3" | reference triangulation upgrade | `reference-triangulation-protocol-3.md`, `cliche-graph-stress-tests.md` | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` |
 | "클리셰 레퍼런스 참고 고도화 진행4" | reference routing compile | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md` | routed references, `acceptance-tests.md`, `production-handoff.md` |
+| "클리셰 레퍼런스 참고 고도화 진행5" | reference selection optimize | `cliche-selection-optimizer-5.md`, `trope-portfolio-builder-5.md` | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md`, `acceptance-tests.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -43,6 +44,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, and `reference-derived-card-bank-3.md` for a second or deeper upgrade based on diverse trope/motif/story references.
 - Load `reference-triangulation-protocol-3.md` and `cliche-graph-stress-tests.md` when the user asks for phase 3, graph verification, stress testing, or deeper engine validation.
 - Load `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md` when the user asks for phase 4, compiled engines, routing, reusable packaging, or end-to-end reference selection.
+- Load `cliche-selection-optimizer-5.md` and `trope-portfolio-builder-5.md` when the user asks for phase 5, candidate ranking, best cliche selection, portfolio balance, score-based repair, or reducing redundant cliche stacks.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -143,6 +145,26 @@ Avoid:
 - loading every reference file by default;
 - producing a theory-only routing plan without a compiled engine;
 - skipping validation after claiming the engine is reusable.
+
+### Reference Selection Optimize
+
+Use when the user asks for phase 5, ranked cliche selection, portfolio balancing, or a stronger decision layer over many candidate cliches.
+
+Steps:
+
+1. Use `cliche-selection-optimizer-5.md` to normalize candidate cards into role, reward, proof object, witness, protagonist action, cost, repeat method, freshness lever, and copy risk.
+2. Score candidates by recognition, genre fit, reward fit, proof visibility, protagonist agency, cost integrity, serial durability, freshness pressure, originality safety, and package alignment.
+3. Use `trope-portfolio-builder-5.md` to choose a balanced 6-card, 8-card, or 12-card portfolio instead of blindly taking the highest scores.
+4. Remove redundant cards that repeat the same proof object, witness, reward, or cost.
+5. Convert the selected portfolio into a first proof scene, 1-5 episode loop, 50+ hook, and first repair.
+6. If the output is saved or requested as a stable artifact, run `scripts/cliche_portfolio_lint.py <path>` or pipe the output through it.
+
+Avoid:
+
+- choosing only the top-scoring cards when they do the same job;
+- fixing a weak engine by adding more cards instead of repairing the missing slot;
+- letting novelty outrank first-scene proof;
+- selecting cards that cannot show reward through proof object and witness.
 
 ### Genre Reference Registration
 

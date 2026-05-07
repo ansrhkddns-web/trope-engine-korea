@@ -13,6 +13,7 @@
 - 레퍼런스 기반 클리셰를 인식/구조/한국형 웹소설 적합성으로 삼각검증하는 3차 검증 프로토콜
 - 클리셰 카드가 실제 연재 그래프로 작동하는지 검사하는 그래프 스트레스 테스트
 - 요청별로 필요한 레퍼런스를 고르고 최종 클리셰 엔진으로 조립하는 4차 라우팅/컴파일 파이프라인
+- 후보 클리셰를 점수화하고 중복 없는 포트폴리오로 고르는 5차 선택 최적화 엔진
 - 익숙한 클리셰를 metric swap, witness swap, cost injection 같은 연산자로 변주
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
 - 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
@@ -54,6 +55,10 @@ $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행3. 삼각�
 
 ```text
 $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행4. 레퍼런스 라우팅과 컴파일 검증까지 붙여줘.
+```
+
+```text
+$trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행5. 후보 클리셰 점수화와 포트폴리오 선택까지 해줘.
 ```
 
 ```text
@@ -122,6 +127,8 @@ trope-engine-korea/
 │   ├── reference-synthesis-engine-2.md
 │   ├── reference-triangulation-protocol-3.md
 │   ├── reference-routing-matrix-4.md
+│   ├── cliche-selection-optimizer-5.md
+│   ├── trope-portfolio-builder-5.md
 │   ├── scene-proof-bank.md
 │   ├── self-audit-prompts.md
 │   ├── successful-cliche-card-bank-2.md
@@ -135,6 +142,7 @@ trope-engine-korea/
 └── scripts/
     ├── cliche_graph_lint.py
     ├── cliche_engine_compile_lint.py
+    ├── cliche_portfolio_lint.py
     ├── genre_bank_count.py
     └── trope_pack_lint.py
 ```
@@ -154,6 +162,8 @@ trope-engine-korea/
 | `references/cliche-graph-stress-tests.md` | 클리셰 그래프의 필수 노드, 인과 엣지, 증거물, 비용, 장기 사다리 점검 |
 | `references/reference-routing-matrix-4.md` | 요청 의도, 장르 범위, 레퍼런스 깊이, 산출물, 검증 방식에 따라 읽을 자료를 라우팅 |
 | `references/trope-engine-compiler-4.md` | 라우팅된 레퍼런스를 소스 패킷, 카드 풀, 그래프, 1화, 1-5화, 패키지, 검증, 인계까지 컴파일 |
+| `references/cliche-selection-optimizer-5.md` | 후보 클리셰를 인식도, 장르 적합도, 보상, 증명성, 주인공 행동성, 비용, 장기성, 고유성으로 점수화 |
+| `references/trope-portfolio-builder-5.md` | 점수화한 후보를 6카드, 8카드, 12카드 포트폴리오로 균형 있게 조립 |
 | `references/cliche-remix-operators.md` | 익숙한 클리셰를 증거물, 목격자, 비용, 기관, 소유권 등으로 변주하는 연산자 모음 |
 | `references/reference-derived-card-bank-3.md` | 기능 카드, 모티프 카드, 그래프 카드로 구성된 3차 레퍼런스 파생 카드 은행 |
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
@@ -176,6 +186,7 @@ trope-engine-korea/
 | `scripts/genre_bank_count.py` | 장르별 클리셰 뱅크가 장르당 100종씩 들어 있는지 검사 |
 | `scripts/cliche_graph_lint.py` | 레퍼런스 합성/클리셰 그래프 산출물의 삼각검증, 노드, 엣지, 증거물, 비용 누락 검사 |
 | `scripts/cliche_engine_compile_lint.py` | 컴파일된 클리셰 엔진 산출물의 라우팅, 소스 패킷, 카드 풀, 그래프, 검증, 인계 누락 검사 |
+| `scripts/cliche_portfolio_lint.py` | 5차 클리셰 포트폴리오 산출물의 후보군, 점수축, 선택 슬롯, 균형, 증명 장면, 수리 지점 누락 검사 |
 
 ## 작업 모드
 
@@ -187,6 +198,7 @@ trope-engine-korea/
 | `reference synthesis upgrade` | 다양한 외부 레퍼런스를 기능/모티프/그래프 카드로 변환해 스킬 엔진 고도화 |
 | `reference triangulation upgrade` | 레퍼런스 파생 클리셰를 삼각검증하고 그래프 스트레스 테스트로 내구성 점검 |
 | `reference routing compile` | 요청별 레퍼런스 묶음을 라우팅하고 재사용 가능한 클리셰 엔진으로 컴파일 |
+| `reference selection optimize` | 후보 클리셰를 점수화하고 역할 중복 없는 포트폴리오로 선택 |
 | `genre reference registration` | 웹소설 장르 조사값과 장르별 100종 클리셰 뱅크를 등록/참조 |
 | `trope pack` | 클리셰 카드, 보상, 변주, 첫 증명 장면 생성 |
 | `familiar-but-fresh premise` | 익숙한 장르 장치를 새 콘셉트로 변주 |
@@ -320,6 +332,31 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 
 이 레이어의 목적은 답변을 더 길게 만드는 것이 아니라, 같은 프로젝트를 여러 번 이어가도 스킬이 “무엇을 근거로, 어떤 카드로, 어떤 검증을 거쳐” 엔진을 만들었는지 잃어버리지 않게 하는 것입니다.
 
+## 클리셰 선택 최적화 5차 고도화
+
+5차 고도화는 후보 클리셰를 많이 뽑은 뒤, 그중 어떤 카드를 실제 기획에 써야 하는지 고르는 선택 엔진입니다.
+
+```text
+후보 카드 정규화 → 10개 축 점수화 → 역할 슬롯 선택 → 중복 제거 → 1화/1-5화/50화 훅 검증
+```
+
+점수화 기준은 다음처럼 작동합니다.
+
+| 점수축 | 확인하는 것 |
+| --- | --- |
+| 인식도 | 독자가 한 줄만 봐도 어떤 재미인지 알아보는가 |
+| 장르 적합도 | 메인 장르의 클릭 약속을 강화하는가 |
+| 보상 적합도 | 힘, 돈, 지위, 복수, 지식, 안전, 관계, 인정 중 하나를 지급하는가 |
+| 증명성 | 보상이 숫자, 계약, 랭크, 장면 결과, 목격자로 보이는가 |
+| 주인공 행동성 | 우위가 행동과 선택을 만드는가 |
+| 비용 무결성 | 성공이 다음 압박을 만드는가 |
+| 연재 내구성 | 1-5화 반복과 50화 이상 확장에 쓸 수 있는가 |
+| 신선한 압박 | 이름 바꾸기가 아니라 장면 압박을 바꾸는가 |
+| 고유성 안전 | 특정 작품의 설정, 규칙, 장면 순서를 베끼지 않는가 |
+| 패키지 정렬 | 제목, 로그라인, 태그, 1화가 같은 약속을 파는가 |
+
+최종 결과는 단순 상위 점수표가 아니라 6카드, 8카드, 12카드 포트폴리오로 나옵니다. 예를 들어 8카드 포트폴리오는 `정체성`, `우위`, `1화 증명`, `사회 반응`, `기관 반응`, `비용/적대`, `갱신/반복`, `장기 훅`을 모두 채워야 합니다. 그래서 같은 종류의 랭크 테스트만 여러 개 고르는 문제를 줄이고, 실제 연재에 필요한 역할 균형을 맞춥니다.
+
 ## 레퍼런스 기반 업그레이드
 
 이 스킬은 클리셰를 단순히 많이 나열하지 않고, 다음 레퍼런스 계열을 **기능 단위**로 추상화해 사용합니다.
@@ -436,7 +473,14 @@ python scripts/cliche_engine_compile_lint.py --self-test
 python scripts/cliche_engine_compile_lint.py path/to/compiled-engine.md
 ```
 
-이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`는 Python 표준 라이브러리만 사용합니다.
+클리셰 포트폴리오 검증:
+
+```bash
+python scripts/cliche_portfolio_lint.py --self-test
+python scripts/cliche_portfolio_lint.py path/to/cliche-portfolio.md
+```
+
+이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`, `cliche_portfolio_lint.py`는 Python 표준 라이브러리만 사용합니다.
 
 ## 라이선스
 

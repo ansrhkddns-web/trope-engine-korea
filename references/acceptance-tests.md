@@ -163,6 +163,30 @@ Fail signs:
 - package promises a reward the proof scene does not pay;
 - validation has no repair.
 
+### Cliche Portfolio Test
+
+Use when the output claims to be a ranked cliche portfolio, phase-5 upgrade, selection optimizer output, or best-card recommendation.
+
+The portfolio passes if:
+
+- it states the brief, primary genre, source families, candidate count, and selected count;
+- candidate cards are normalized before selection;
+- scoring axes include recognition, genre fit, reward fit, proof visibility, protagonist agency, cost integrity, serial durability, freshness pressure, originality safety, and package alignment;
+- selected cards cover identity, advantage, proof, witness, institution, cost, renewal, and long-term hook;
+- the portfolio removes redundant proof objects, witnesses, rewards, and costs;
+- at least one cost comes directly from the protagonist's success;
+- the strongest selected proof card becomes a first proof scene;
+- the selected portfolio can produce a 1-5 episode loop and a 50+ expansion hook;
+- rejected or deferred cards have reasons and repair notes.
+
+Fail signs:
+
+- it chooses only the highest scores even when the cards duplicate the same job;
+- it does not show scoring or selection reasons;
+- the selected cards have no proof object or witness;
+- the support genre steals the primary genre's first click;
+- weak selection is solved by adding more cards instead of repairing a missing role.
+
 ## Acceptance Output
 
 Use:
@@ -178,6 +202,7 @@ Use:
 | Reference synthesis |  |  |  |
 | Cliche graph |  |  |  |
 | Compiled engine |  |  |  |
+| Cliche portfolio |  |  |  |
 
 Then add:
 
