@@ -22,6 +22,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "클리셰 레퍼런스 참고 고도화 진행4" | reference routing compile | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md` | routed references, `acceptance-tests.md`, `production-handoff.md` |
 | "클리셰 레퍼런스 참고 고도화 진행5" | reference selection optimize | `cliche-selection-optimizer-5.md`, `trope-portfolio-builder-5.md` | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md`, `acceptance-tests.md` |
 | "클리셰 레퍼런스 참고 고도화 진행6" | reader feedback calibrate | `reader-feedback-calibrator-6.md`, `cliche-fatigue-repair-loop-6.md` | `reader-response-simulation.md`, `acceptance-tests.md`, `failure-patterns.md` |
+| "클리셰 레퍼런스 참고 고도화 진행7" | serial arc deploy | `serial-arc-deployment-planner-7.md`, `reward-debt-ledger-7.md` | `reader-feedback-calibrator-6.md`, `escalation-ladders.md`, `production-handoff.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -47,6 +48,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `reference-routing-matrix-4.md` and `trope-engine-compiler-4.md` when the user asks for phase 4, compiled engines, routing, reusable packaging, or end-to-end reference selection.
 - Load `cliche-selection-optimizer-5.md` and `trope-portfolio-builder-5.md` when the user asks for phase 5, candidate ranking, best cliche selection, portfolio balance, score-based repair, or reducing redundant cliche stacks.
 - Load `reader-feedback-calibrator-6.md` and `cliche-fatigue-repair-loop-6.md` when the user asks for phase 6, reader comments, retention risk, fatigue repair, paid-trust risk, or episode-level response calibration.
+- Load `serial-arc-deployment-planner-7.md` and `reward-debt-ledger-7.md` when the user asks for phase 7, serial deployment, episode operation, 1-50 placement, reward scheduling, reward debt, hook cadence, or converting a tested engine into an arc plan.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -188,6 +190,28 @@ Avoid:
 - predicting only praise without naming the first complaint;
 - opening a paid hook before paying one visible promise;
 - treating fatigue as a reason to discard the portfolio before trying proof, witness, cost, or payoff-order repair.
+
+### Serial Arc Deploy
+
+Use when the user asks for phase 7, episode/arc operation, reward scheduling, hook cadence, reward debt, or converting a reader-tested cliche engine into a serial deployment plan.
+
+Steps:
+
+1. Use `serial-arc-deployment-planner-7.md` to choose the deployment horizon: 1 episode, 1-5, 6-25, 26-50, or 50+.
+2. Assign one primary job to each episode or segment: promise proof, method repeat, social amplification, cost arrival, mini-arc payoff, scale transfer, antagonist competence, reward diversification, myth expansion, or reset-with-memory.
+3. Use `reward-debt-ledger-7.md` to track open and paid promises across proof, revenge, power, money/status, knowledge, relationship, safety, and justice debts.
+4. Rotate hook types so every ending is not the same cliffhanger: consequence, discovery, authority, contract, rival, scale, emotional, or metric hook.
+5. Add feedback checkpoints after episodes 1, 3, 5, 10, 15, 25, and 50 when the horizon reaches them.
+6. End with continuity anchors, restricted cards, validation verdict, first repair, and next production artifact.
+7. If the output is saved or requested as a stable artifact, run `scripts/cliche_serial_lint.py <path>` or pipe the output through it.
+
+Avoid:
+
+- packing too many cliche jobs into one episode;
+- opening more reward debts without paying earlier promises;
+- using the same cliffhanger type every episode;
+- letting scale expansion change the core reader reward;
+- treating reader comments as orders to rewrite the genre promise.
 
 ### Genre Reference Registration
 

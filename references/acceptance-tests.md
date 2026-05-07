@@ -211,6 +211,32 @@ Fail signs:
 - paid transition is a pure withheld answer;
 - repair removes the familiar genre reward instead of refreshing how the reward is earned.
 
+### Serial Deployment Test
+
+Use when the output claims to be a serial arc deployment, phase-7 upgrade, episode operation plan, reward debt ledger, hook cadence plan, or 1-50 cliche deployment.
+
+The deployment passes if:
+
+- it names the selected engine or portfolio being deployed;
+- it states the deployment horizon;
+- every listed episode or segment has one primary job;
+- each episode job includes pressure, protagonist method, proof object, witness, reward paid, and new cost/question;
+- it tracks reward debt opened and paid;
+- the paid boundary pays one visible reward before opening a larger question;
+- hook types rotate instead of repeating the same cliffhanger;
+- later arcs grow from prior institution reaction or cost rather than unrelated escalation;
+- feedback checkpoints exist before predictable fatigue points;
+- continuity anchors preserve the non-negotiable reader promise and restricted cards.
+
+Fail signs:
+
+- the plan is only a list of events without cliche jobs;
+- several major cliches compete inside one episode;
+- new mysteries open faster than old promises are paid;
+- every episode ends with the same danger hook;
+- 26-50 expansion changes genre pleasure instead of scaling it;
+- the deployment has no first repair or next artifact.
+
 ## Acceptance Output
 
 Use:
@@ -228,6 +254,7 @@ Use:
 | Compiled engine |  |  |  |
 | Cliche portfolio |  |  |  |
 | Reader feedback |  |  |  |
+| Serial deployment |  |  |  |
 
 Then add:
 

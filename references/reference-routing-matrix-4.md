@@ -11,8 +11,8 @@ Every request should be routed by:
 1. **Intent**: what the user wants done.
 2. **Genre scope**: one genre, cross-genre, or genre-wide.
 3. **Reference depth**: default, 100-bank, synthesis, triangulation, or market-current.
-4. **Output artifact**: trope pack, graph, bible insert, episode ladder, package, diagnosis, compiled engine, ranked portfolio, or reader feedback calibration.
-5. **Verification need**: none, lint, triangulation, graph stress test, portfolio lint, feedback lint, or market check.
+4. **Output artifact**: trope pack, graph, bible insert, episode ladder, package, diagnosis, compiled engine, ranked portfolio, reader feedback calibration, or serial deployment plan.
+5. **Verification need**: none, lint, triangulation, graph stress test, portfolio lint, feedback lint, serial lint, or market check.
 
 ## Intent Router
 
@@ -27,6 +27,7 @@ Every request should be routed by:
 | "고도화 진행4" | routed compiler | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md` | all routed files | `cliche_engine_compile_lint.py` |
 | "고도화 진행5" | selection optimizer | `cliche-selection-optimizer-5.md`, `trope-portfolio-builder-5.md` | routed genre banks, `trope-engine-compiler-4.md` | `cliche_portfolio_lint.py` |
 | "고도화 진행6" | feedback calibrator | `reader-feedback-calibrator-6.md`, `cliche-fatigue-repair-loop-6.md` | selected portfolio, `reader-response-simulation.md`, `acceptance-tests.md` | `cliche_feedback_lint.py` |
+| "고도화 진행7" | serial deployment | `serial-arc-deployment-planner-7.md`, `reward-debt-ledger-7.md` | selected engine, feedback calibration, `production-handoff.md` | `cliche_serial_lint.py` |
 | "성공한/잘 먹히는" | success cliche | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `scene-proof-bank.md` | acceptance tests |
 | "1화 장면" | proof scene | `scene-proof-bank.md` | `reader-reward-model.md` | first-scene test |
 | "50화/장기연재" | escalation | `escalation-ladders.md` | `cliche-graph-stress-tests.md` | 50-episode test |
@@ -126,6 +127,18 @@ Load:
 - selected portfolio or compiled engine reference;
 - `acceptance-tests.md`;
 - `reader-response-simulation.md` when the user wants more comment detail.
+
+### Level 8: Serial Deployment
+
+Use when phase 7, episode operation, arc deployment, reward debt, hook cadence, or 1-50 cliche placement is requested.
+
+Load:
+
+- `serial-arc-deployment-planner-7.md`;
+- `reward-debt-ledger-7.md`;
+- selected compiled engine, portfolio, or feedback artifact when available;
+- `production-handoff.md`;
+- `acceptance-tests.md`.
 
 ## Source Reliability Tags
 
