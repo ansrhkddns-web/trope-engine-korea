@@ -66,6 +66,37 @@ Then add:
 - **금지/제한할 복사 위험**:
 - **1화 증명 장면으로 바꿀 카드**:
 
+## 레퍼런스 합성 2차 고도화
+
+Use with `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, and `reference-derived-card-bank-3.md`.
+
+- **참고한 레퍼런스 계열**:
+- **추출 기준**:
+
+| 레퍼런스 계열 | 추출한 기능 | 압박 원천 | 한국형 기관 | 증거물 | 보상 | 갱신 비용 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Trope catalog |  |  |  |  |  |  |
+| Motif index |  |  |  |  |  |  |
+| Propp-like function |  |  |  |  |  |  |
+| Dramatic situation |  |  |  |  |  |  |
+| Kishotenketsu turn |  |  |  |  |  |  |
+| Progression fantasy |  |  |  |  |  |  |
+| Korean 회귀/환생/빙의 |  |  |  |  |  |  |
+| Trope graph research |  |  |  |  |  |  |
+
+- **선택한 레퍼런스 파생 카드**:
+
+| 카드 ID | 카드 | 역할 | 지급 보상 | 증명 장면 | 비용/훅 |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+- **적용한 리믹스 연산자**:
+- **카드 그래프**:
+- **1화 증명 장면**:
+- **3-5화 반복 루프**:
+- **복사 위험 차단 규칙**:
+- **다음 산출물**:
+
 ## 입력 조립 결과
 
 Use when the user's request is vague or keyword-heavy.
@@ -418,6 +449,7 @@ Use with `acceptance-tests.md` when deciding readiness.
 | 유료 전환 신뢰 |  |  |  |
 | 50화 확장성 |  |  |  |
 | 고유성 안전 |  |  |  |
+| 레퍼런스 합성 |  |  |  |
 
 Then add:
 

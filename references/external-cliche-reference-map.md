@@ -63,6 +63,9 @@ When consulting any cliche reference:
 
 ## Use With Existing References
 
+- Pair with `reference-synthesis-engine-2.md` for deeper phase-2 extraction from broad reference families.
+- Pair with `cliche-remix-operators.md` when familiar cliches need concrete transformation operators.
+- Pair with `reference-derived-card-bank-3.md` when a reference-backed upgrade needs ready function/motif/graph cards.
 - Pair with `cliche-taxonomy-engine.md` to decompose and rebuild cliches.
 - Pair with `reference-backed-card-bank-1.md` for ready-to-use cards.
 - Pair with `originality-safety.md` when a source work is named.

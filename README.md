@@ -9,6 +9,8 @@
 - 한국형 웹소설 장르 기본값 설계
 - 웹소설 장르 조사값 등록: 판타지, 헌터, 탑/시스템, 회귀, 재벌/현판, 무협, 아카데미, 빙의, 제작/지원직, 로맨스/로판
 - 장르별 100종 클리셰 레퍼런스 뱅크 제공
+- 다양한 클리셰/모티프/서사 레퍼런스를 기능, 압박, 증거물, 목격자, 비용으로 변환하는 2차 합성 엔진
+- 익숙한 클리셰를 metric swap, witness swap, cost injection 같은 연산자로 변주
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
 - 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
 - 익숙한 클리셰를 새롭게 보이게 하는 변주 설계
@@ -37,6 +39,10 @@ $trope-engine-korea로 웹소설에서 많이 쓰이는 성공 클리셰 6개를
 
 ```text
 $trope-engine-korea로 장르별 100종 클리셰 뱅크를 참고해서 회귀+재벌물을 구조화해줘.
+```
+
+```text
+$trope-engine-korea로 다양한 클리셰 레퍼런스를 참고해서 2차 고도화 카드 그래프를 만들어줘.
 ```
 
 ```text
@@ -81,6 +87,7 @@ trope-engine-korea/
 ├── references/
 │   ├── acceptance-tests.md
 │   ├── cliche-taxonomy-engine.md
+│   ├── cliche-remix-operators.md
 │   ├── cliche-structure-assembly-rules.md
 │   ├── default-genre-settings.md
 │   ├── diagnostics-rubric.md
@@ -98,7 +105,9 @@ trope-engine-korea/
 │   ├── product-packaging.md
 │   ├── reader-response-simulation.md
 │   ├── reader-reward-model.md
+│   ├── reference-derived-card-bank-3.md
 │   ├── reference-backed-card-bank-1.md
+│   ├── reference-synthesis-engine-2.md
 │   ├── scene-proof-bank.md
 │   ├── self-audit-prompts.md
 │   ├── successful-cliche-card-bank-2.md
@@ -123,6 +132,9 @@ trope-engine-korea/
 | `references/genre-cliche-bank-100-a.md` | 판타지, 헌터/게이트, 탑/시스템, 회귀, 재벌/현판 장르별 100종 클리셰 뱅크 |
 | `references/genre-cliche-bank-100-b.md` | 무협, 아카데미, 빙의/악역/엑스트라, 제작/지원직, 로맨스/로판 장르별 100종 클리셰 뱅크 |
 | `references/cliche-structure-assembly-rules.md` | 100종 리스트를 10카드 엔진, 6역할 성공 스택, 에피소드 루프로 구조화하는 규칙 |
+| `references/reference-synthesis-engine-2.md` | 다양한 클리셰/모티프/서사 레퍼런스를 한국형 웹소설 카드로 변환하는 2차 합성 엔진 |
+| `references/cliche-remix-operators.md` | 익숙한 클리셰를 증거물, 목격자, 비용, 기관, 소유권 등으로 변주하는 연산자 모음 |
+| `references/reference-derived-card-bank-3.md` | 기능 카드, 모티프 카드, 그래프 카드로 구성된 3차 레퍼런스 파생 카드 은행 |
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
 | `references/cliche-taxonomy-engine.md` | 클리셰를 압박, 기능, 모티프, 보상, 목격자, 비용 축으로 분해 |
 | `references/reference-backed-card-bank-1.md` | 레퍼런스 기반 1차 클리셰 카드 은행 |
@@ -149,6 +161,7 @@ trope-engine-korea/
 | 모드 | 하는 일 |
 | --- | --- |
 | `input assembly` | 애매한 키워드나 거친 아이디어를 장르 엔진으로 조립 |
+| `reference synthesis upgrade` | 다양한 외부 레퍼런스를 기능/모티프/그래프 카드로 변환해 스킬 엔진 고도화 |
 | `genre reference registration` | 웹소설 장르 조사값과 장르별 100종 클리셰 뱅크를 등록/참조 |
 | `trope pack` | 클리셰 카드, 보상, 변주, 첫 증명 장면 생성 |
 | `familiar-but-fresh premise` | 익숙한 장르 장치를 새 콘셉트로 변주 |
@@ -228,6 +241,26 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 
 각 항목은 단순 소재가 아니라 `identity`, `advantage`, `proof`, `reaction`, `cost`, `episode`, `antagonist`, `long-term`, `variation`, `hook` 역할로 태그되어 있습니다. 그래서 스킬은 100개를 그대로 나열하는 대신, 필요한 카드만 뽑아 1화 증명 장면과 3-5화 반복 루프로 조립할 수 있습니다.
 
+## 레퍼런스 합성 2차 고도화
+
+이번 버전은 다양한 레퍼런스를 다음 순서로 변환합니다.
+
+```text
+레퍼런스 신호 → 서사 기능 → 압박 원천 → 한국형 기관 → 증거물 → 독자 보상 → 갱신 비용
+```
+
+예를 들어 외부 레퍼런스의 “금기”, “시험”, “조력자”, “인정 표식”, “추격”, “귀환” 같은 기능은 그대로 쓰지 않고, 헌터 협회, 탑 관리자, 재벌 이사회, 문파 장문인, 아카데미 교수진, 사교계 평판 같은 한국형 웹소설 기관으로 옮겨 씁니다.
+
+새 리믹스 연산자는 이런 문제를 고치기 위해 들어갔습니다.
+
+| 문제 | 쓰는 연산자 예시 |
+| --- | --- |
+| 너무 익숙함 | metric swap, witness swap, ownership reveal |
+| 너무 쉬움 | cost injection, anti-free-power constraint |
+| 악역이 멍청함 | competent opposition, antagonist mirror |
+| 보상이 사적임 | public procedure, hidden audience |
+| 장기 엔진이 약함 | consequence ladder, motif relay |
+
 ## 레퍼런스 기반 업그레이드
 
 이 스킬은 클리셰를 단순히 많이 나열하지 않고, 다음 레퍼런스 계열을 **기능 단위**로 추상화해 사용합니다.
@@ -250,6 +283,8 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 - [The Thirty-Six Dramatic Situations](https://en.wikipedia.org/wiki/The_Thirty-Six_Dramatic_Situations)
 - [TropeTwist: Trope-based Narrative Structure Generation](https://arxiv.org/abs/2204.09672)
 - [TaleStream: Supporting Story Ideation with Trope Knowledge](https://arxiv.org/abs/2309.03790)
+- [Kishotenketsu / 기승전결 개요](https://en.wikipedia.org/wiki/Kish%C5%8Dtenketsu)
+- [웹소설에 나타난 회귀와 환생의 욕망코드](https://scholar.kyobobook.co.kr/article/detail/4010027519081)
 
 성공 클리셰 고도화에서 보조적으로 참고한 공개 장르/태그 자료:
 

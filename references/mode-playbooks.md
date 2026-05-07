@@ -17,6 +17,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "유명작 느낌" | originality safety | `originality-safety.md` | `variation-engine.md`, `scene-proof-bank.md` |
 | "요즘 잘 먹히는" | market reference | `market-research-protocol.md` | current web research, then stable references |
 | "장르 조사값/장르별 100종 클리셰 등록" | genre reference registration | `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md` | `cliche-structure-assembly-rules.md`, `external-cliche-reference-map.md` |
+| "클리셰 레퍼런스 참고 고도화 진행2" | reference synthesis upgrade | `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, `reference-derived-card-bank-3.md` | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md`, `scene-proof-bank.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -37,6 +38,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `webnovel-genre-survey-values.md` before the 100-item banks when the user asks for genre-wide research values.
 - Load only the relevant half of the 100-item bank when the user names a genre: A for fantasy/hunter/tower/regression/finance, B for martial arts/academy/possession/support/romance.
 - Load `cliche-structure-assembly-rules.md` whenever the user asks to structure or combine cliches from the banks.
+- Load `reference-synthesis-engine-2.md`, `cliche-remix-operators.md`, and `reference-derived-card-bank-3.md` for a second or deeper upgrade based on diverse trope/motif/story references.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -80,6 +82,26 @@ Avoid:
 - quoting or reproducing external trope page content;
 - adding cards that cannot be staged;
 - using external references without Korean webnovel localization.
+
+### Reference Synthesis Upgrade
+
+Use when the user asks for a continued or second upgrade from diverse cliche references.
+
+Steps:
+
+1. Identify the reference families being used: trope catalog, motif index, Propp-like function, dramatic situation, kishotenketsu/giseungjeongyeol, progression fantasy, Korean regression/reincarnation/possession, and trope-graph research.
+2. Extract each reference through the seven-step schema in `reference-synthesis-engine-2.md`.
+3. Select 6-10 cards from `reference-derived-card-bank-3.md`.
+4. Apply 1-3 operators from `cliche-remix-operators.md` to make familiar cards less stale.
+5. Connect selected cards as a graph: reward -> witness -> institution -> cost -> antagonist -> hook.
+6. Convert the strongest graph path into a first proof scene.
+7. Add copy-risk blocks: no named settings, no signature scene order, no unique rule system.
+
+Avoid:
+
+- treating reference names as output material;
+- applying too many twists until the genre promise disappears;
+- ending with abstract theory instead of cards, scenes, and loops.
 
 ### Genre Reference Registration
 

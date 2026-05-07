@@ -101,6 +101,25 @@ Fail signs:
 - opening sequence mirrors a reference;
 - unique rule systems remain recognizable.
 
+### Reference Synthesis Test
+
+Use when the output claims to be based on diverse cliche references.
+
+The synthesis passes if:
+
+- every reference is abstracted into function, pressure, proof object, witness, cost, and safe variation;
+- at least one selected card becomes a concrete first proof scene;
+- reference names are not used as decoration in the final concept;
+- remix operators preserve the expected genre reward;
+- the output includes a copy-risk block.
+
+Fail signs:
+
+- external references are only listed;
+- cards cannot be staged;
+- the result imitates a named work's scene order;
+- novelty removes the commercial genre pleasure.
+
 ## Acceptance Output
 
 Use:
@@ -113,6 +132,7 @@ Use:
 | Paid-trust |  |  |  |
 | 50-episode |  |  |  |
 | Originality |  |  |  |
+| Reference synthesis |  |  |  |
 
 Then add:
 
