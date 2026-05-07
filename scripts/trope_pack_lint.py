@@ -29,6 +29,7 @@ CHECKS = (
     Check("proof object", ("증거물", "proof_object", "visible proof", "눈에 보이는 증거"), 2),
     Check("witness reaction", ("목격자", "witness", "주변 반응", "대중 반응"), 2),
     Check("trope cards", ("클리셰 카드", "trope_stack", "approved_cards", "Trope cards"), 1),
+    Check("successful cliche loop", ("성공 클리셰", "정체성 클리셰", "사회 반응 클리셰", "갱신 클리셰", "성공 루프"), 2),
     Check("reward loop", ("반복 보상", "reward loop", "reward_ledger", "보상 루프"), 3),
     Check("cost or pressure", ("비용", "압박", "cost", "pressure", "새 압박"), 2),
     Check("escalation", ("1-50", "확장", "escalation", "적대 사다리"), 2),
@@ -82,6 +83,7 @@ def run_self_test() -> int:
     증거물: 구조 성공률 데이터와 길드 계약서.
     목격자: 협회 감사관과 경쟁 길드 스카우트.
     클리셰 카드: 저평가 지원직, 불가능한 감정, 길드 스카우트.
+    성공 클리셰: 정체성 클리셰는 F급 포터, 우위 클리셰는 감정, 사회 반응 클리셰는 스카우트 경쟁.
     반복 보상 루프: 감정 -> 제작/물류 개선 -> 생존률 상승 -> 계약/랭크 상승.
     새 압박: 대형 길드가 증거를 숨기려 한다.
     1-50화 확장: 팀 생존, 길드 의존, 시장 독점, 협회 규제.

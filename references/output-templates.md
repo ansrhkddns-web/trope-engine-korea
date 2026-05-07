@@ -22,6 +22,31 @@ Use for fast ideation.
 - **진부해질 위험**:
 - **다음 기획 단계**:
 
+## 성공 클리셰 루프 설계
+
+Use when the user asks for widely used, successful, proven, popular, or commercially reliable webnovel cliches.
+
+- **선택한 장르 프리셋**:
+- **핵심 독자 약속**:
+- **성공 원칙 한 줄**:
+- **성공 클리셰 6종 선택**:
+
+| 역할 | 선택한 클리셰 | 지급하는 보상 | 눈에 보이는 증거 | 목격자/반응 | 비용 또는 새 압박 |
+| --- | --- | --- | --- | --- | --- |
+| 정체성 클리셰 |  |  |  |  |  |
+| 우위 클리셰 |  |  |  |  |  |
+| 증명 클리셰 |  |  |  |  |  |
+| 사회 반응 클리셰 |  |  |  |  |  |
+| 갱신 클리셰 |  |  |  |  |  |
+| 장기 클리셰 |  |  |  |  |  |
+
+- **1화 증명 장면**:
+- **3-5화 반복 루프**:
+- **장기 확장 훅**:
+- **진부해질 위험**:
+- **변주 규칙**:
+- **복사 위험 방지 메모**:
+
 ## 레퍼런스 기반 클리셰 추출표
 
 Use when upgrading or expanding the engine from diverse cliche references.
@@ -308,6 +333,7 @@ Use with `diagnostics-rubric.md` for a scored review.
 | 주인공 우위 |  |  |  |
 | 첫 증명 |  |  |  |
 | 클리셰 사용 |  |  |  |
+| 성공 클리셰 루프 |  |  |  |
 | 보상 리듬 |  |  |  |
 | 기관 반응 |  |  |  |
 | 사회적 증거 |  |  |  |

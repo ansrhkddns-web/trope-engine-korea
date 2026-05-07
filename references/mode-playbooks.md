@@ -16,6 +16,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "독자 반응" | reader response | `reader-response-simulation.md` | `diagnostics-rubric.md`, `product-packaging.md` |
 | "유명작 느낌" | originality safety | `originality-safety.md` | `variation-engine.md`, `scene-proof-bank.md` |
 | "요즘 잘 먹히는" | market reference | `market-research-protocol.md` | current web research, then stable references |
+| "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
 ## Output Size Rules
@@ -32,6 +33,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `output-templates.md` only when the final structure matters.
 - Load `trope-engine-schema.md` only when continuity or reuse matters.
 - Load `market-research-protocol.md` only for current trends or platform-specific requests.
+- Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
 
@@ -74,6 +76,27 @@ Avoid:
 - quoting or reproducing external trope page content;
 - adding cards that cannot be staged;
 - using external references without Korean webnovel localization.
+
+### Successful Cliche Upgrade
+
+Use when the user asks to keep improving common, successful, or commercially reliable webnovel cliches.
+
+Steps:
+
+1. Pick the primary genre preset from `successful-cliche-card-bank-2.md`.
+2. Select 6 success-loop roles: identity, advantage, proof, social reaction, renewal, and long-term.
+3. For each selected cliche, name the reader reward, visible proof, witness, and cost.
+4. Convert the strongest cliche into a first proof scene.
+5. Build a 3-5 episode repetition loop that pays one reward each episode.
+6. Add anti-staleness rules from `successful-webnovel-cliche-patterns.md`.
+7. Add one freshness lever without breaking the familiar promise.
+
+Avoid:
+
+- treating popular cliches as raw lists without scene proof;
+- giving the protagonist free advantages with no cost or uncertainty;
+- using face-slap scenes with incompetent opposition;
+- copying named works, unique rules, or signature scenes.
 
 ### Full Concept Engine
 

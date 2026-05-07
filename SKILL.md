@@ -1,6 +1,6 @@
 ---
 name: trope-engine-korea
-description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter associations, towers, gates, dungeons, constellations, systems, status windows, regression with information advantage, chaebol finance, stocks, real estate, M&A, martial sects, demonic cults, orthodox factions, fortuitous encounters, academy rankers, possession, reincarnation, revenge, production/support classes, reference-backed cliche taxonomy, trope/motif/function synthesis, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality-safe reference abstraction, reader reaction simulation, production handoff, 1-50 episode escalation, paid-trust planning, trope freshness scoring, and serialization-ready trope packs, concept bibles, episode seeds, hooks, or trope variation plans.
+description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter associations, towers, gates, dungeons, constellations, systems, status windows, regression with information advantage, chaebol finance, stocks, real estate, M&A, martial sects, demonic cults, orthodox factions, fortuitous encounters, academy rankers, possession, reincarnation, revenge, production/support classes, high-frequency successful webnovel cliche loops, proven trope card presets, reference-backed cliche taxonomy, trope/motif/function synthesis, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality-safe reference abstraction, reader reaction simulation, production handoff, 1-50 episode escalation, paid-trust planning, trope freshness scoring, and serialization-ready trope packs, concept bibles, episode seeds, hooks, or trope variation plans.
 ---
 
 # Trope Engine Korea
@@ -24,6 +24,8 @@ Load only the reference needed for the task:
 - `references/external-cliche-reference-map.md`: synthesize external trope, motif, folklore, and story-ideation reference families into reusable design principles.
 - `references/cliche-taxonomy-engine.md`: decompose and rebuild cliches through pressure, function, motif, reward, witness, cost, and renewal axes.
 - `references/reference-backed-card-bank-1.md`: use the first reference-backed card bank with donor tests, recognition tokens, forbidden access, false heroes, taboo contracts, and other structural cards.
+- `references/successful-webnovel-cliche-patterns.md`: select high-frequency successful webnovel cliche loops and anti-staleness rules for "widely used", "popular", "successful", or "commercially proven" requests.
+- `references/successful-cliche-card-bank-2.md`: use the second proven cliche card bank with presets for hunter/gate, tower/system, regression/chaebol, martial arts/sect, academy, and possession/villain/extra.
 - `references/trope-engine-schema.md`: create stable reusable trope-engine specs for bibles, revisions, and continuation across turns.
 - `references/default-genre-settings.md`: choose default settings, promise, factions, reward loop, and common devices by genre.
 - `references/trope-card-library.md`: pick concrete cliche cards such as rank tests, hidden dungeons, guild scouting, stock arbitrage, martial arts fortuitous encounters, public reversals, and ending hooks.
@@ -52,6 +54,7 @@ Optional script:
 1. Identify the work mode:
    - Use `mode-playbooks.md` when several modes could fit.
    - `reference-backed upgrade`: use diverse cliche references to expand the cliche taxonomy or card bank.
+   - `successful cliche upgrade`: use high-frequency successful webnovel cliche loops and presets to make a concept more commercially recognizable.
    - `input assembly`: convert vague genre keywords or rough ideas into an actionable trope engine.
    - `genre defaults`: provide the default setting values for one or more genres.
    - `structured spec`: produce a reusable trope-engine spec or update an existing one.
@@ -114,6 +117,8 @@ Optional script:
    - Use 8-15 cards for a full concept or bible.
    - For each card, include why readers like it, where it appears, what reward it pays, and how to vary it.
    - Use `reference-backed-card-bank-1.md` when the user asks for more diverse references, broader cliche sources, or non-obvious structural cards.
+   - Use `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for widely used, proven, successful, popular, or commercially reliable webnovel cliches.
+   - For successful-cliche requests, include at least one identity cliche, advantage cliche, proof cliche, social reaction cliche, renewal cliche, and long-term cliche.
 
 8. Convert the most important cliche into a proof scene:
    - Use `scene-proof-bank.md`.
@@ -180,6 +185,7 @@ Optional script:
 - End production-oriented answers with an explicit handoff: what artifact should be built next and what must not be lost.
 - Prefer a smaller correct mode over a giant answer that mixes every capability.
 - Do not expose internal self-audit unless the user asks for the evaluation.
+- "Successful" means recognizable reward plus active advantage, visible proof, and renewed pressure; do not treat it as permission to copy a specific work.
 
 ## Output Expectations
 
@@ -188,6 +194,7 @@ For most requests, include:
 - Reader promise in one sentence
 - Genre default settings
 - Trope cards selected
+- Successful cliche loop or preset if useful
 - Reference-backed cliche function or motif if useful
 - Reward channels and visible proof
 - Freshness levers
@@ -217,6 +224,7 @@ Before finalizing, check:
 - Does the fresh variation create scenes instead of just terminology?
 - If genres are combined, does one primary engine clearly own the first click?
 - Can the first five episodes prove repeatability without relying on long explanations?
+- Does the pack use a recognizable success loop while adding a concrete cost, witness, or institutional consequence?
 - Do title/logline/tags/opening scene sell the same promise if packaging is included?
 - If a known reference influenced the request, has the output changed institution, proof object, action, and consequence?
 - If this will become a continuing project, did you preserve decisions in a stable spec or handoff packet?

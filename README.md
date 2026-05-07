@@ -2,12 +2,13 @@
 
 한국형 상업 웹소설의 장르 문법과 클리셰를 **익숙하지만 새롭게** 조립하기 위한 Codex 스킬입니다.
 
-`trope-engine-korea`는 헌터 협회, 게이트, 탑, 시스템, 성좌, 회귀, 재벌, 주식, 부동산, 기업 인수, 사문, 마교, 정파, 기연, 아카데미, 빙의, 지원직, 복수 같은 장르 장치를 단순 아이디어 목록이 아니라 **독자 보상, 1화 증명 장면, 상품 패키지, 장기 연재 엔진**으로 바꿔 줍니다.
+`trope-engine-korea`는 헌터 협회, 게이트, 탑, 시스템, 성좌, 회귀, 재벌, 주식, 부동산, 기업 인수, 사문, 마교, 정파, 기연, 아카데미, 빙의, 지원직, 복수 같은 장르 장치를 단순 아이디어 목록이 아니라 **독자 보상, 성공 클리셰 루프, 1화 증명 장면, 상품 패키지, 장기 연재 엔진**으로 바꿔 줍니다.
 
 ## 핵심 기능
 
 - 한국형 웹소설 장르 기본값 설계
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
+- 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
 - 익숙한 클리셰를 새롭게 보이게 하는 변주 설계
 - TV Tropes식 장치 분류, 민담 모티프/타입 인덱스, Propp/Polti식 서사 기능을 참고한 레퍼런스 기반 클리셰 분해
 - 1화에서 장르 재미를 증명하는 장면 설계
@@ -26,6 +27,10 @@ $trope-engine-korea로 헌터+재벌 회귀물 클리셰 팩 만들어줘.
 
 ```text
 $trope-engine-korea로 사문/마교/정파/기연 장치를 익숙하지만 새롭게 변주해줘.
+```
+
+```text
+$trope-engine-korea로 웹소설에서 많이 쓰이는 성공 클리셰 6개를 골라 헌터물 콘셉트로 고도화해줘.
 ```
 
 ```text
@@ -87,6 +92,8 @@ trope-engine-korea/
 │   ├── reference-backed-card-bank-1.md
 │   ├── scene-proof-bank.md
 │   ├── self-audit-prompts.md
+│   ├── successful-cliche-card-bank-2.md
+│   ├── successful-webnovel-cliche-patterns.md
 │   ├── trope-card-library.md
 │   ├── trope-combination-matrix.md
 │   ├── trope-engine-schema.md
@@ -104,6 +111,8 @@ trope-engine-korea/
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
 | `references/cliche-taxonomy-engine.md` | 클리셰를 압박, 기능, 모티프, 보상, 목격자, 비용 축으로 분해 |
 | `references/reference-backed-card-bank-1.md` | 레퍼런스 기반 1차 클리셰 카드 은행 |
+| `references/successful-webnovel-cliche-patterns.md` | 성공한 웹소설에서 자주 쓰이는 클리셰 루프와 진부화 방지 규칙 |
+| `references/successful-cliche-card-bank-2.md` | 헌터, 탑/시스템, 회귀/재벌, 무협, 아카데미, 빙의 계열 성공 클리셰 카드 은행 |
 | `references/trope-card-library.md` | 클리셰 카드 모음 |
 | `references/variation-engine.md` | 익숙한 장치를 새롭게 바꾸는 변주 규칙 |
 | `references/reader-reward-model.md` | 독자 보상, 보상 부채, 유료 전환 신뢰 |
@@ -134,6 +143,7 @@ trope-engine-korea/
 | `originality safety` | 유명작 참고 요소를 복사 위험 없이 일반화 |
 | `production handoff` | 다음 산출물로 넘길 작업 지시서 생성 |
 | `acceptance test` | 기획이 실제로 준비됐는지 테스트 |
+| `successful cliche upgrade` | 많이 쓰이고 성공하기 쉬운 클리셰를 6개 역할로 조립해 상업성을 강화 |
 | `reference-backed upgrade` | 다양한 클리셰 레퍼런스를 기능 단위로 추출해 카드/엔진을 확장 |
 
 ## 결과물 예시
@@ -166,11 +176,29 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 - 주인공의 우위가 행동을 만드는가?
 - 첫 보상이 다른 인물에게도 보이는가?
 - 클리셰가 독자 보상을 실제로 지급하는가?
+- 성공 클리셰가 단순 복제가 아니라 증거물, 목격자, 비용을 가진 루프로 작동하는가?
 - 신선한 변주가 이름 바꾸기가 아니라 장면 변화를 만드는가?
 - 제목, 로그라인, 태그, 1화가 같은 약속을 파는가?
 - 1-5화에서 반복 재미가 증명되는가?
 - 50화 이상 확장 가능한 적대 사다리가 있는가?
 - 유명작의 고유 설정, 이름, 장면 순서, 규칙을 베끼지 않았는가?
+
+## 성공 클리셰 고도화
+
+많이 쓰이는 클리셰는 그대로 베끼면 낡아 보이지만, **역할**을 나누면 안정적인 연재 엔진이 됩니다.
+
+이 스킬은 성공 클리셰를 다음 6개 역할로 조립합니다.
+
+| 역할 | 기능 |
+| --- | --- |
+| 정체성 클리셰 | 약자, 지원직, 망한 엑스트라, 숨겨진 후계자처럼 클릭 즉시 알아보이는 출발점 |
+| 우위 클리셰 | 회귀, 시스템, 감정, 미래 지식, 숨겨진 클래스처럼 행동을 만드는 힘 |
+| 증명 클리셰 | 랭크 테스트, 경매, 구조, 결투, 계약처럼 1화에서 보이는 결과 |
+| 사회 반응 클리셰 | 길드 스카우트, 라이벌 인정, 공개 사과, 군중 반전처럼 보상을 키우는 목격자 |
+| 갱신 클리셰 | 계약 함정, 숨은 소유권, 타임라인 변화, 기관의 통제처럼 다음 문제를 여는 장치 |
+| 장기 클리셰 | 두 번째 회귀자, 후원자 전쟁, 가짜 영웅, 독점 자원처럼 50화 이상 끌고 가는 축 |
+
+핵심 규칙은 간단합니다. **익숙한 약속, 행동 가능한 우위, 눈에 보이는 증명, 새 압박**이 모두 있어야 성공 클리셰가 반복 가능한 엔진이 됩니다.
 
 ## 레퍼런스 기반 업그레이드
 
@@ -195,11 +223,18 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 - [TropeTwist: Trope-based Narrative Structure Generation](https://arxiv.org/abs/2204.09672)
 - [TaleStream: Supporting Story Ideation with Trope Knowledge](https://arxiv.org/abs/2309.03790)
 
+성공 클리셰 고도화에서 보조적으로 참고한 공개 장르/태그 자료:
+
+- [WebNovel - Academy Stories](https://www.webnovel.com/tags/academy-novel)
+- [LitRPG Vault - LitRPG & Progression Fantasy tags](https://litrpgvault.com/)
+- [Royal Road Tracker - genres and popular tags](https://rrtrack.app/genres)
+- [Progression fantasy overview](https://en.wikipedia.org/wiki/Progression_fantasy)
+
 이 레퍼런스들은 스킬의 구조를 넓히기 위한 참고 자료입니다. 특정 문장, 장면, 설정, 이름을 복제하지 않고, 기능과 구조만 일반화합니다.
 
 ## Lint 스크립트
 
-`scripts/trope_pack_lint.py`는 저장된 마크다운 클리셰 팩에 필수 신호가 들어 있는지 검사합니다.
+`scripts/trope_pack_lint.py`는 저장된 마크다운 클리셰 팩에 필수 신호가 들어 있는지 검사합니다. 이번 버전부터 성공 클리셰 루프가 실제로 들어갔는지도 함께 확인합니다.
 
 자체 테스트:
 

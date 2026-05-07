@@ -13,6 +13,7 @@ Score each axis from 0 to 5.
 | Protagonist advantage | Passive trait or backstory. | Advantage helps sometimes. | Advantage creates action and choices. |
 | First proof | Explanation replaces proof. | Proof exists but lacks witness. | Scene visibly proves the concept. |
 | Cliche use | Generic or copied-feeling. | Familiar but low variation. | Familiar reward with fresh scene path. |
+| Successful cliche loop | Popular cliches are only listed. | Some common cliches work, but roles overlap. | Identity, advantage, proof, social reaction, renewal, and long-term hooks are all assigned. |
 | Reward cadence | Too much setup or withholding. | Some rewards, uneven timing. | Small and large rewards are paced. |
 | Institution reaction | World does not react. | A few characters react. | Institution, market, faction, or public reacts. |
 | Social proof | Private gains only. | Occasional witness. | Recognition/reaction amplifies rewards. |
