@@ -1,6 +1,6 @@
 ---
 name: trope-engine-korea
-description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter associations, towers, gates, dungeons, constellations, systems, status windows, regression with information advantage, chaebol finance, stocks, real estate, M&A, martial sects, demonic cults, orthodox factions, fortuitous encounters, academy rankers, possession, reincarnation, revenge, production/support classes, high-frequency successful webnovel cliche loops, proven trope card presets, reference-backed cliche taxonomy, trope/motif/function synthesis, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality-safe reference abstraction, reader reaction simulation, production handoff, 1-50 episode escalation, paid-trust planning, trope freshness scoring, and serialization-ready trope packs, concept bibles, episode seeds, hooks, or trope variation plans.
+description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system/constellation, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, production/support classes, webnovel genre survey values, 100-item genre cliche banks, cliche structure assembly, reference-backed taxonomy, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality safety, reader reaction simulation, production handoff, 1-50 episode escalation, paid-trust planning, and serialization-ready trope packs, concept bibles, episode seeds, hooks, or trope variation plans.
 ---
 
 # Trope Engine Korea
@@ -22,10 +22,14 @@ Load only the reference needed for the task:
 - `references/input-assembly-protocol.md`: interpret vague prompts, many genre keywords, rough premises, or "commercial/familiar but fresh" requests.
 - `references/mode-playbooks.md`: choose the right execution mode, reference set, output size, and final section for the request.
 - `references/external-cliche-reference-map.md`: synthesize external trope, motif, folklore, and story-ideation reference families into reusable design principles.
+- `references/webnovel-genre-survey-values.md`: initialize researched genre defaults and platform/tag signals for fantasy, hunter, tower/system, regression, finance, martial arts, academy, possession, support/profession, and romance/romance fantasy engines.
 - `references/cliche-taxonomy-engine.md`: decompose and rebuild cliches through pressure, function, motif, reward, witness, cost, and renewal axes.
 - `references/reference-backed-card-bank-1.md`: use the first reference-backed card bank with donor tests, recognition tokens, forbidden access, false heroes, taboo contracts, and other structural cards.
 - `references/successful-webnovel-cliche-patterns.md`: select high-frequency successful webnovel cliche loops and anti-staleness rules for "widely used", "popular", "successful", or "commercially proven" requests.
 - `references/successful-cliche-card-bank-2.md`: use the second proven cliche card bank with presets for hunter/gate, tower/system, regression/chaebol, martial arts/sect, academy, and possession/villain/extra.
+- `references/genre-cliche-bank-100-a.md`: use 100-item banks for fantasy/progression, hunter/gate, tower/system, regression, and modern finance cliches.
+- `references/genre-cliche-bank-100-b.md`: use 100-item banks for martial arts/murim, academy, possession/villain/extra, production/support/profession, and romance/romance-fantasy cliches.
+- `references/cliche-structure-assembly-rules.md`: structure large cliche lists into 10-card engines, 6-role success stacks, episode loops, and cross-genre combinations.
 - `references/trope-engine-schema.md`: create stable reusable trope-engine specs for bibles, revisions, and continuation across turns.
 - `references/default-genre-settings.md`: choose default settings, promise, factions, reward loop, and common devices by genre.
 - `references/trope-card-library.md`: pick concrete cliche cards such as rank tests, hidden dungeons, guild scouting, stock arbitrage, martial arts fortuitous encounters, public reversals, and ending hooks.
@@ -48,12 +52,14 @@ Load only the reference needed for the task:
 Optional script:
 
 - `scripts/trope_pack_lint.py`: check a saved markdown trope pack for missing required planning signals. Use when the user provides a file or asks to audit completeness, not for every normal reply.
+- `scripts/genre_bank_count.py`: verify genre cliche bank files contain the expected 100 cliche seeds per genre section.
 
 ## Workflow
 
 1. Identify the work mode:
    - Use `mode-playbooks.md` when several modes could fit.
    - `reference-backed upgrade`: use diverse cliche references to expand the cliche taxonomy or card bank.
+   - `genre reference registration`: register genre survey defaults and large 100-item cliche banks for later reference.
    - `successful cliche upgrade`: use high-frequency successful webnovel cliche loops and presets to make a concept more commercially recognizable.
    - `input assembly`: convert vague genre keywords or rough ideas into an actionable trope engine.
    - `genre defaults`: provide the default setting values for one or more genres.
@@ -118,6 +124,7 @@ Optional script:
    - For each card, include why readers like it, where it appears, what reward it pays, and how to vary it.
    - Use `reference-backed-card-bank-1.md` when the user asks for more diverse references, broader cliche sources, or non-obvious structural cards.
    - Use `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for widely used, proven, successful, popular, or commercially reliable webnovel cliches.
+   - Use `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md`, and `cliche-structure-assembly-rules.md` when the user asks to register genre research values, build genre-specific 100-cliche lists, or structure cliches by genre.
    - For successful-cliche requests, include at least one identity cliche, advantage cliche, proof cliche, social reaction cliche, renewal cliche, and long-term cliche.
 
 8. Convert the most important cliche into a proof scene:
@@ -193,7 +200,9 @@ For most requests, include:
 
 - Reader promise in one sentence
 - Genre default settings
+- Genre survey values if useful
 - Trope cards selected
+- 100-item genre bank references if useful
 - Successful cliche loop or preset if useful
 - Reference-backed cliche function or motif if useful
 - Reward channels and visible proof
@@ -220,6 +229,7 @@ Before finalizing, check:
 - Is the first reward visible to other characters?
 - Is there a repeatable ladder for 50+ episodes?
 - Does each trope pay one of the reader rewards: status, money, power, revenge, knowledge, safety, relationship, or recognition?
+- If using a genre bank, did the selected cliches cover identity, advantage, proof, reaction, cost, antagonist, long-term, variation, and hook roles?
 - Is every major reward visible through an object, witness, institution, or changed access?
 - Does the fresh variation create scenes instead of just terminology?
 - If genres are combined, does one primary engine clearly own the first click?

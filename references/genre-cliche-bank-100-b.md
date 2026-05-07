@@ -1,0 +1,520 @@
+# Genre Cliche Bank 100 B
+
+Use this file as reference values for five high-frequency webnovel engines: martial arts/murim, academy, possession/reincarnation/villain/extra, production/support/profession, and romance/romance fantasy relationship engines. Each genre has exactly 100 cliche seeds.
+
+Format: `ID | cliche seed | role=<engine role> | reward=<reader reward>`
+
+## G06 Martial Arts / Murim / Sect
+
+- MUR-001 | 폐맥 판정받은 외문 제자 | role=identity | reward=status
+- MUR-002 | 멸문한 사문의 마지막 생존자 | role=identity | reward=revenge
+- MUR-003 | 천마의 기억을 가진 소년 | role=identity | reward=power
+- MUR-004 | 정파에서 버림받은 의술 제자 | role=identity | reward=recognition
+- MUR-005 | 마교 하급 교도의 비밀 임무 | role=identity | reward=autonomy
+- MUR-006 | 검을 들 수 없는 검가 후계자 | role=identity | reward=status
+- MUR-007 | 독에 중독된 표국 잡역부 | role=identity | reward=safety
+- MUR-008 | 은거 고수의 실패한 제자 | role=identity | reward=competence
+- MUR-009 | 사파 객잔의 장부 담당 | role=identity | reward=knowledge
+- MUR-010 | 무공 대신 상술을 익힌 문파원 | role=identity | reward=money
+- MUR-011 | 끊긴 혈도를 우회하는 심법 | role=advantage | reward=power
+- MUR-012 | 낡은 비급의 오역을 바로잡음 | role=advantage | reward=knowledge
+- MUR-013 | 독을 약으로 바꾸는 체질 | role=advantage | reward=safety
+- MUR-014 | 전생 결투 경험 기억 | role=advantage | reward=competence
+- MUR-015 | 상대 초식의 숨은 의도 감지 | role=advantage | reward=knowledge
+- MUR-016 | 마공 부작용을 계약으로 제어 | role=advantage | reward=autonomy
+- MUR-017 | 표국 정보망으로 강호 흐름 파악 | role=advantage | reward=knowledge
+- MUR-018 | 기연 위치 대신 기연 조건을 기억 | role=advantage | reward=power
+- MUR-019 | 의술 기록으로 무공 약점 분석 | role=advantage | reward=competence
+- MUR-020 | 명예 규칙의 허점 해석 | role=advantage | reward=justice
+- MUR-021 | 입문 시험의 숨은 도덕 기준 통과 | role=proof | reward=recognition
+- MUR-022 | 폐맥으로 금지 심법 첫 성공 | role=proof | reward=power
+- MUR-023 | 독살 누명을 의술로 반박 | role=proof | reward=justice
+- MUR-024 | 하급 초식으로 내문 제자 격파 | role=proof | reward=status
+- MUR-025 | 비급 첫 장의 진짜 순서 공개 | role=proof | reward=knowledge
+- MUR-026 | 표국 호송 중 습격 루트 예측 | role=proof | reward=safety
+- MUR-027 | 장문인 앞에서 사문 명예 회복 | role=proof | reward=revenge
+- MUR-028 | 객잔 장부로 사파 음모 노출 | role=proof | reward=justice
+- MUR-029 | 마공을 쓰고도 광기를 피함 | role=proof | reward=autonomy
+- MUR-030 | 무림맹 회의에서 결투법 반전 | role=proof | reward=status
+- MUR-031 | 은거 고수의 토큰 수여 | role=reaction | reward=recognition
+- MUR-032 | 장문인이 공개 재시험 명령 | role=reaction | reward=status
+- MUR-033 | 라이벌 문파가 혼인/동맹 제안 | role=reaction | reward=scale
+- MUR-034 | 마교 첩자가 능력을 보고 | role=reaction | reward=tension
+- MUR-035 | 표국 상단이 호송권을 위임 | role=reaction | reward=money
+- MUR-036 | 정파 원로가 이단 혐의 제기 | role=reaction | reward=conflict
+- MUR-037 | 사제들이 몰래 수련법을 따름 | role=reaction | reward=relationship
+- MUR-038 | 강호 소문이 별호를 만들어냄 | role=reaction | reward=fame
+- MUR-039 | 의방이 치료법 독점을 요구 | role=reaction | reward=money
+- MUR-040 | 황실 감찰이 문파를 조사 | role=reaction | reward=scale
+- MUR-041 | 금지 심법 사용으로 사문 재판 | role=cost | reward=tension
+- MUR-042 | 기연의 원주인이 혈채를 요구 | role=cost | reward=conflict
+- MUR-043 | 독 면역이 마교 연루 의심을 부름 | role=cost | reward=pressure
+- MUR-044 | 비급 해석 공개로 문파 권위 붕괴 | role=cost | reward=scale
+- MUR-045 | 결투 승리 후 보호해야 할 제자 증가 | role=cost | reward=responsibility
+- MUR-046 | 표국 정보망 사용이 상단 빚으로 남음 | role=cost | reward=money
+- MUR-047 | 마공 제어가 감정 둔화 유발 | role=cost | reward=emotion
+- MUR-048 | 명예 규칙 허점 이용으로 평판 악화 | role=cost | reward=tension
+- MUR-049 | 은거 고수의 토큰이 과거 원한 호출 | role=cost | reward=mystery
+- MUR-050 | 황실 조사로 무림 자치권 위기 | role=cost | reward=scale
+- MUR-051 | 내문 승급전의 숨은 가산점 | role=episode | reward=status
+- MUR-052 | 비무대회에서 일부러 패배 후 총점 승리 | role=episode | reward=competence
+- MUR-053 | 의방 경매의 약재 오판 | role=episode | reward=money
+- MUR-054 | 표국 호송 중 가짜 의뢰인 | role=episode | reward=mystery
+- MUR-055 | 사형제 서열전의 공개 반전 | role=episode | reward=recognition
+- MUR-056 | 독공 치료와 살인 누명 동시 해결 | role=episode | reward=justice
+- MUR-057 | 금지 동굴의 진짜 시험 | role=episode | reward=power
+- MUR-058 | 무림맹 회의의 발언권 쟁탈 | role=episode | reward=status
+- MUR-059 | 마교 잠입 임무와 정체성 갈등 | role=episode | reward=tension
+- MUR-060 | 은혜 입은 마을의 보호 요청 | role=episode | reward=relationship
+- MUR-061 | 비급을 조작한 사숙 | role=antagonist | reward=revenge
+- MUR-062 | 명예를 이용해 착취하는 정파 원로 | role=antagonist | reward=justice
+- MUR-063 | 주인공 기연을 먼저 아는 회귀 무인 | role=antagonist | reward=tension
+- MUR-064 | 마공 부작용을 퍼뜨리는 교주 후보 | role=antagonist | reward=power
+- MUR-065 | 의술 기록을 숨긴 의방주 | role=antagonist | reward=safety
+- MUR-066 | 표국 장부를 조작한 상단주 | role=antagonist | reward=money
+- MUR-067 | 별호를 훔친 가짜 협객 | role=antagonist | reward=recognition
+- MUR-068 | 황실과 결탁한 무림맹 간부 | role=antagonist | reward=scale
+- MUR-069 | 제자를 재료로 쓰는 은거 고수 | role=antagonist | reward=revenge
+- MUR-070 | 정사마를 모두 속인 예언자 | role=antagonist | reward=mystery
+- MUR-071 | 사문 재건 | role=long-term | reward=authority
+- MUR-072 | 표국-문파 연합 상권 장악 | role=long-term | reward=money
+- MUR-073 | 정파/마교 전쟁 중재 | role=long-term | reward=scale
+- MUR-074 | 금지 심법의 안전한 표준화 | role=long-term | reward=power
+- MUR-075 | 의술과 무공 통합 체계 | role=long-term | reward=safety
+- MUR-076 | 무림맹 법 개정 | role=long-term | reward=justice
+- MUR-077 | 사제 네트워크 확장 | role=long-term | reward=relationship
+- MUR-078 | 황실과 무림의 권한 재조정 | role=long-term | reward=scale
+- MUR-079 | 고대 비급 원본 추적 | role=long-term | reward=mystery
+- MUR-080 | 천하제일인 대신 천하표준 만들기 | role=long-term | reward=authority
+- MUR-081 | 비급을 특허 분쟁처럼 다루기 | role=variation | reward=justice
+- MUR-082 | 문파 서열을 기업 조직처럼 운영 | role=variation | reward=competence
+- MUR-083 | 비무대회를 아카데미 평가로 변환 | role=variation | reward=status
+- MUR-084 | 내공을 보험 위험도로 측정 | role=variation | reward=safety
+- MUR-085 | 표국 물류를 게이트 공략처럼 설계 | role=variation | reward=money
+- MUR-086 | 마공 계약을 성좌 후원처럼 처리 | role=variation | reward=power
+- MUR-087 | 사문 명예를 브랜드 평판으로 사용 | role=variation | reward=fame
+- MUR-088 | 독살 사건을 법의학 추리로 구성 | role=variation | reward=justice
+- MUR-089 | 기연을 부동산 소유권 분쟁으로 전개 | role=variation | reward=money
+- MUR-090 | 장문인 선출을 주주총회처럼 연출 | role=variation | reward=authority
+- MUR-091 | 비무 승리 직후 사문 추방장 | role=hook | reward=tension
+- MUR-092 | 토큰 뒷면에 마교 문양 발견 | role=hook | reward=mystery
+- MUR-093 | 치료한 환자가 원수 가문 후계자 | role=hook | reward=conflict
+- MUR-094 | 비급 마지막 장이 비어 있음 | role=hook | reward=knowledge
+- MUR-095 | 무림맹 판정이 승리가 아닌 위험등급 | role=hook | reward=pressure
+- MUR-096 | 장문인이 주인공을 미끼로 임명 | role=hook | reward=tension
+- MUR-097 | 표국 호송품이 살아 있는 증인 | role=hook | reward=shock
+- MUR-098 | 과거 천마가 남긴 같은 필체 | role=hook | reward=mystery
+- MUR-099 | 은거 고수가 주인공 전생을 언급 | role=hook | reward=shock
+- MUR-100 | 황실 칙서가 문파를 해산 명령 | role=hook | reward=scale
+
+## G07 Academy / Ranking / Training
+
+- ACA-001 | 꼴찌 입학생의 숨은 과목 | role=identity | reward=status
+- ACA-002 | 퇴학 예정 장학생 | role=identity | reward=safety
+- ACA-003 | 악명 높은 반의 유일한 전학생 | role=identity | reward=recognition
+- ACA-004 | 랭킹 밖 특별전형 입학자 | role=identity | reward=mystery
+- ACA-005 | 미래 교장을 아는 회귀생 | role=identity | reward=knowledge
+- ACA-006 | 지원직 전형으로 들어온 약자 | role=identity | reward=status
+- ACA-007 | 귀족/재벌 학생들 사이의 평민 | role=identity | reward=justice
+- ACA-008 | 원작에서 죽는 조연 학생 | role=identity | reward=safety
+- ACA-009 | 선생에게 버림받은 실험반 학생 | role=identity | reward=revenge
+- ACA-010 | 랭킹 1위와 같은 방 배정 | role=identity | reward=relationship
+- ACA-011 | 시험 문제보다 채점 기준 기억 | role=advantage | reward=status
+- ACA-012 | 상대 학생 약점과 미래 성향 파악 | role=advantage | reward=knowledge
+- ACA-013 | 팀 과제의 숨은 조건 감지 | role=advantage | reward=competence
+- ACA-014 | 지원 스킬의 데이터화 | role=advantage | reward=recognition
+- ACA-015 | 학교 규정 독소 조항 해석 | role=advantage | reward=autonomy
+- ACA-016 | 교수 연구 노트의 오류 수정 | role=advantage | reward=recognition
+- ACA-017 | 랭킹 알고리즘의 편향 확인 | role=advantage | reward=justice
+- ACA-018 | 미래 대회 맵 구조 기억 | role=advantage | reward=power
+- ACA-019 | 동아리 예산 흐름 추적 | role=advantage | reward=money
+- ACA-020 | 학생 감정/신뢰 변화 감지 | role=advantage | reward=relationship
+- ACA-021 | 입학 실기에서 숨은 구조 점수 획득 | role=proof | reward=status
+- ACA-022 | 꼴찌 팀을 생존률 1위로 만듦 | role=proof | reward=recognition
+- ACA-023 | 교수 질문의 전제 오류 지적 | role=proof | reward=knowledge
+- ACA-024 | 랭킹 1위와 무승부가 아닌 과제 승리 | role=proof | reward=status
+- ACA-025 | 퇴학 심사에서 규정 반전 | role=proof | reward=justice
+- ACA-026 | 동아리 폐부 위기를 성과로 뒤집음 | role=proof | reward=relationship
+- ACA-027 | 모의 던전에서 전투 없이 클리어 | role=proof | reward=competence
+- ACA-028 | 학교 방송에서 누명 해명 | role=proof | reward=fame
+- ACA-029 | 미래 재난 훈련을 실제처럼 대비 | role=proof | reward=safety
+- ACA-030 | 스폰서 평가에서 최저 등급의 가치 증명 | role=proof | reward=money
+- ACA-031 | 담임이 비공개 추천서 작성 | role=reaction | reward=recognition
+- ACA-032 | 라이벌이 재대결을 공식 신청 | role=reaction | reward=status
+- ACA-033 | 학생회가 감시 명목으로 접근 | role=reaction | reward=tension
+- ACA-034 | 스폰서가 조건부 후원 제안 | role=reaction | reward=money
+- ACA-035 | 학부모/가문이 평판전을 시작 | role=reaction | reward=conflict
+- ACA-036 | 팀원이 처음으로 지시를 따름 | role=reaction | reward=relationship
+- ACA-037 | 교수회의에서 점수 조정 논쟁 | role=reaction | reward=justice
+- ACA-038 | 학교 커뮤니티 여론 반전 | role=reaction | reward=fame
+- ACA-039 | 선배 랭커가 훈련장 사용권 양보 | role=reaction | reward=status
+- ACA-040 | 외부 길드가 조기 계약 제시 | role=reaction | reward=autonomy
+- ACA-041 | 시험 승리로 더 위험한 반 배정 | role=cost | reward=pressure
+- ACA-042 | 규정 반전이 교수 권위 손상 | role=cost | reward=conflict
+- ACA-043 | 팀원 구제가 개인 랭킹 손해 | role=cost | reward=moral
+- ACA-044 | 후원 제안에 미래 의무 조항 | role=cost | reward=money
+- ACA-045 | 학교 커뮤니티 유명세로 표적화 | role=cost | reward=tension
+- ACA-046 | 랭킹 알고리즘 폭로로 재시험 명령 | role=cost | reward=pressure
+- ACA-047 | 라이벌 인정이 기존 친구의 질투 유발 | role=cost | reward=emotion
+- ACA-048 | 모의 던전 성공이 실제 임무 배정 | role=cost | reward=safety
+- ACA-049 | 숨은 과목 성과가 금지 연구 의심 | role=cost | reward=mystery
+- ACA-050 | 조기 계약 거절로 장학금 보류 | role=cost | reward=autonomy
+- ACA-051 | 반 대항전의 숨은 구조 점수 | role=episode | reward=status
+- ACA-052 | 동아리 예산 감사 | role=episode | reward=money
+- ACA-053 | 기숙사 배정권 쟁탈 | role=episode | reward=relationship
+- ACA-054 | 교수 연구 보조 면접 | role=episode | reward=recognition
+- ACA-055 | 모의 게이트 팀 프로젝트 | role=episode | reward=competence
+- ACA-056 | 학생회 징계 청문회 | role=episode | reward=justice
+- ACA-057 | 학교 축제 공개 시연 | role=episode | reward=fame
+- ACA-058 | 라이벌과 강제 페어 실습 | role=episode | reward=relationship
+- ACA-059 | 스폰서 초청 평가회 | role=episode | reward=money
+- ACA-060 | 현장 실습 중 실제 사고 | role=episode | reward=safety
+- ACA-061 | 점수를 조작하는 교수 | role=antagonist | reward=justice
+- ACA-062 | 학생회 권력을 사유화한 회장 | role=antagonist | reward=status
+- ACA-063 | 미래 지식을 가진 다른 학생 | role=antagonist | reward=tension
+- ACA-064 | 팀원을 트로피로 모으는 랭커 | role=antagonist | reward=relationship
+- ACA-065 | 지원직을 깎아내리는 스폰서 | role=antagonist | reward=recognition
+- ACA-066 | 퇴학 심사를 조작한 가문 | role=antagonist | reward=revenge
+- ACA-067 | 실험반을 위험하게 쓰는 연구자 | role=antagonist | reward=safety
+- ACA-068 | 학교 커뮤니티 여론 조작자 | role=antagonist | reward=fame
+- ACA-069 | 대회 맵을 미리 산 경쟁 학교 | role=antagonist | reward=justice
+- ACA-070 | 원작 주인공 자리를 지키려는 학생 | role=antagonist | reward=conflict
+- ACA-071 | 꼴찌반을 최강 팀으로 재편 | role=long-term | reward=relationship
+- ACA-072 | 랭킹 알고리즘 개혁 | role=long-term | reward=justice
+- ACA-073 | 학교 대표팀 진출 | role=long-term | reward=status
+- ACA-074 | 스폰서 독립 펀드 구축 | role=long-term | reward=money
+- ACA-075 | 교수진 비밀 연구 추적 | role=long-term | reward=mystery
+- ACA-076 | 졸업 전 길드/회사 창업 | role=long-term | reward=autonomy
+- ACA-077 | inter-academy 대회 우승 로드 | role=long-term | reward=fame
+- ACA-078 | 학생 구조 시스템 표준화 | role=long-term | reward=safety
+- ACA-079 | 원작/미래 대재난 예방 | role=long-term | reward=scale
+- ACA-080 | 학교 자체가 탑/던전임을 폭로 | role=long-term | reward=mystery
+- ACA-081 | 시험을 기업 채용 프로세스로 변환 | role=variation | reward=autonomy
+- ACA-082 | 랭킹을 주식시장처럼 실시간 변동 | role=variation | reward=status
+- ACA-083 | 교수 추천서를 성좌 후원처럼 처리 | role=variation | reward=recognition
+- ACA-084 | 기숙사를 문파 파벌처럼 운영 | role=variation | reward=relationship
+- ACA-085 | 동아리 예산을 재벌 계열사 경영처럼 전개 | role=variation | reward=money
+- ACA-086 | 실기 시험을 재난 구조 평가로 설계 | role=variation | reward=safety
+- ACA-087 | 라이벌전을 법정 공방처럼 심사 | role=variation | reward=justice
+- ACA-088 | 학생 커뮤니티를 여론전 무대로 사용 | role=variation | reward=fame
+- ACA-089 | 학교 규정을 시스템 퀘스트처럼 해석 | role=variation | reward=knowledge
+- ACA-090 | 팀 과제를 가족 정치처럼 구성 | role=variation | reward=conflict
+- ACA-091 | 시험 만점 직후 퇴학 통지 | role=hook | reward=tension
+- ACA-092 | 교수 메모에 주인공 미래 이름 | role=hook | reward=mystery
+- ACA-093 | 랭킹 보드가 주인공 점수를 숨김 | role=hook | reward=shock
+- ACA-094 | 라이벌이 비밀 동맹을 제안 | role=hook | reward=relationship
+- ACA-095 | 스폰서 계약서에 졸업 후 강제 조항 | role=hook | reward=pressure
+- ACA-096 | 모의 던전 보스가 실제로 사망 기록 보유 | role=hook | reward=mystery
+- ACA-097 | 학생회가 주인공을 감사위원으로 지명 | role=hook | reward=authority
+- ACA-098 | 원작 사망 이벤트 날짜가 앞당겨짐 | role=hook | reward=safety
+- ACA-099 | 학교 축제 초대장에 적의 문장 | role=hook | reward=conflict
+- ACA-100 | 교장이 탑 관리자와 통화 | role=hook | reward=scale
+
+## G08 Possession / Reincarnation / Villain / Extra
+
+- POS-001 | 소설 속 죽는 엑스트라 빙의 | role=identity | reward=safety
+- POS-002 | 악녀로 몰리는 공녀 | role=identity | reward=justice
+- POS-003 | 게임 속 튜토리얼 보스의 몸 | role=identity | reward=autonomy
+- POS-004 | 원작 주인공을 배신하는 조연 | role=identity | reward=redemption
+- POS-005 | 처형 전날 깨어난 악역 | role=identity | reward=safety
+- POS-006 | 흑막 가문의 막내 하인 | role=identity | reward=mystery
+- POS-007 | 파혼당하는 장면의 당사자 | role=identity | reward=status
+- POS-008 | 원작에서 잊힌 병약한 형제 | role=identity | reward=relationship
+- POS-009 | 멸망 루트만 아는 플레이어 | role=identity | reward=knowledge
+- POS-010 | 주인공 파티의 짐꾼 역할 | role=identity | reward=recognition
+- POS-011 | 원작 사건 순서 기억 | role=advantage | reward=knowledge
+- POS-012 | 호감도/플래그 변화 감지 | role=advantage | reward=relationship
+- POS-013 | 숨은 아이템 위치 기억 | role=advantage | reward=power
+- POS-014 | 악역의 기존 권한 활용 | role=advantage | reward=authority
+- POS-015 | 원작 인물의 트라우마 이해 | role=advantage | reward=relationship
+- POS-016 | 게임 시스템의 공략 조건 지식 | role=advantage | reward=competence
+- POS-017 | 소문/평판의 퍼지는 경로 파악 | role=advantage | reward=fame
+- POS-018 | 가문 계약과 상속 규칙 해석 | role=advantage | reward=autonomy
+- POS-019 | 죽음 플래그의 발동 조건 추리 | role=advantage | reward=safety
+- POS-020 | 원작과 다른 기억 공백 감지 | role=advantage | reward=mystery
+- POS-021 | 예정된 굴욕 장면 거부 | role=proof | reward=autonomy
+- POS-022 | 처형 증거를 공개 재판에서 반전 | role=proof | reward=justice
+- POS-023 | 원작 주인공보다 먼저 피해자 구조 | role=proof | reward=relationship
+- POS-024 | 숨은 아이템을 다른 방식으로 획득 | role=proof | reward=power
+- POS-025 | 파혼 선언을 계약 해방으로 전환 | role=proof | reward=status
+- POS-026 | 악역 권한으로 부패 하인 처벌 | role=proof | reward=authority
+- POS-027 | 죽음 플래그를 법적 증거로 회피 | role=proof | reward=safety
+- POS-028 | 원작 이벤트 장소를 바꿔 사고 예방 | role=proof | reward=knowledge
+- POS-029 | 호감도 대신 신뢰 계약 체결 | role=proof | reward=relationship
+- POS-030 | 게임 보스 패턴을 외교 협상으로 해결 | role=proof | reward=competence
+- POS-031 | 가족이 처음으로 방어적 반응 | role=reaction | reward=relationship
+- POS-032 | 원작 주인공이 계획 변경을 감지 | role=reaction | reward=tension
+- POS-033 | 사교계가 악녀 평판을 재검토 | role=reaction | reward=fame
+- POS-034 | 남주/여주 후보가 계약을 제안 | role=reaction | reward=relationship
+- POS-035 | 가문 회계 담당이 권한을 인정 | role=reaction | reward=authority
+- POS-036 | 하인이 주인공 편으로 증언 | role=reaction | reward=justice
+- POS-037 | 시스템이 원작 이탈 경고 | role=reaction | reward=pressure
+- POS-038 | 흑막이 예상보다 빨리 접촉 | role=reaction | reward=mystery
+- POS-039 | 원작 팬덤 같은 주변 소문 폭발 | role=reaction | reward=fame
+- POS-040 | 다른 빙의자가 신호를 보냄 | role=reaction | reward=shock
+- POS-041 | 플래그 회피가 다른 인물 사망 위험 생성 | role=cost | reward=moral
+- POS-042 | 평판 회복이 원작 주인공의 입지 약화 | role=cost | reward=conflict
+- POS-043 | 숨은 아이템 획득 후 원소유자 등장 | role=cost | reward=tension
+- POS-044 | 악역 권한 사용으로 과거 죄 책임 | role=cost | reward=justice
+- POS-045 | 계약 해방이 경제적 후원 상실 | role=cost | reward=money
+- POS-046 | 시스템 경고 누적으로 강제 이벤트 | role=cost | reward=pressure
+- POS-047 | 가족과 가까워질수록 원작 기억 흔들림 | role=cost | reward=emotion
+- POS-048 | 다른 빙의자의 개입으로 정보 가치 하락 | role=cost | reward=tension
+- POS-049 | 죽음 플래그 회피가 흑막 관심 유발 | role=cost | reward=mystery
+- POS-050 | 원작 인물을 살려 적대 세력 변화 | role=cost | reward=scale
+- POS-051 | 파혼식 공개 반전 | role=episode | reward=status
+- POS-052 | 가문 회계 감사 | role=episode | reward=authority
+- POS-053 | 사교계 첫 무도회 여론전 | role=episode | reward=fame
+- POS-054 | 원작 구조 이벤트 선점 | role=episode | reward=relationship
+- POS-055 | 악역 전용 방의 숨은 문서 | role=episode | reward=mystery
+- POS-056 | 처형 증인의 보호 | role=episode | reward=justice
+- POS-057 | 게임 보스와 협상 | role=episode | reward=competence
+- POS-058 | 병약한 형제 치료 루트 | role=episode | reward=safety
+- POS-059 | 하인 파벌 정리 | role=episode | reward=authority
+- POS-060 | 원작 축제 사고 예방 | role=episode | reward=relationship
+- POS-061 | 원작 주인공을 조종하는 흑막 | role=antagonist | reward=mystery
+- POS-062 | 같은 작품을 아는 다른 빙의자 | role=antagonist | reward=tension
+- POS-063 | 악역의 과거 죄를 이용하는 가족 | role=antagonist | reward=justice
+- POS-064 | 죽음 플래그를 강제하는 시스템 | role=antagonist | reward=autonomy
+- POS-065 | 평판을 조작하는 사교계 중심인물 | role=antagonist | reward=fame
+- POS-066 | 숨은 아이템 원소유자 | role=antagonist | reward=conflict
+- POS-067 | 원작 남주/여주 자리를 지키려는 인물 | role=antagonist | reward=relationship
+- POS-068 | 처형을 통해 이득 보는 권력자 | role=antagonist | reward=revenge
+- POS-069 | 가문 재산을 빼돌리는 집사 | role=antagonist | reward=money
+- POS-070 | 세계가 원작을 복원하려는 의지 | role=antagonist | reward=scale
+- POS-071 | 악역 가문 경영 재건 | role=long-term | reward=authority
+- POS-072 | 원작 플롯 이탈 기록 | role=long-term | reward=knowledge
+- POS-073 | 죽음 플래그 지도 완성 | role=long-term | reward=safety
+- POS-074 | 선택받지 못한 조연 연합 | role=long-term | reward=relationship
+- POS-075 | 사교계 평판 시스템 장악 | role=long-term | reward=fame
+- POS-076 | 게임 시스템과 협상 | role=long-term | reward=autonomy
+- POS-077 | 원작 주인공과 공존 루트 | role=long-term | reward=relationship
+- POS-078 | 가문/왕국 후계전 개입 | role=long-term | reward=scale
+- POS-079 | 다른 빙의자 네트워크 | role=long-term | reward=mystery
+- POS-080 | 세계 원작자의 흔적 추적 | role=long-term | reward=scale
+- POS-081 | 호감도를 계약 신뢰도로 변환 | role=variation | reward=relationship
+- POS-082 | 악역 평판 회복을 기업 PR처럼 처리 | role=variation | reward=fame
+- POS-083 | 죽음 플래그를 보험 리스크로 계산 | role=variation | reward=safety
+- POS-084 | 사교계 이벤트를 법정 증거전으로 구성 | role=variation | reward=justice
+- POS-085 | 원작 루트를 투자 포트폴리오처럼 관리 | role=variation | reward=knowledge
+- POS-086 | 가문 하인을 길드 조직처럼 재편 | role=variation | reward=authority
+- POS-087 | 파혼 계약을 M&A 해방으로 사용 | role=variation | reward=autonomy
+- POS-088 | 숨은 아이템을 특허/소유권 분쟁화 | role=variation | reward=money
+- POS-089 | 원작 주인공 파티를 아카데미 팀처럼 평가 | role=variation | reward=competence
+- POS-090 | 세계 복원력을 시스템 퀘스트로 가시화 | role=variation | reward=mystery
+- POS-091 | 회피한 처형일에 새 초대장 도착 | role=hook | reward=tension
+- POS-092 | 원작에 없던 인물이 이름을 부름 | role=hook | reward=shock
+- POS-093 | 호감도 창이 신뢰가 아닌 공포로 표시 | role=hook | reward=mystery
+- POS-094 | 파혼 계약서 뒷면의 왕실 조항 | role=hook | reward=authority
+- POS-095 | 구한 조연이 미래 흑막의 열쇠 | role=hook | reward=mystery
+- POS-096 | 다른 빙의자가 원작 결말을 부정 | role=hook | reward=tension
+- POS-097 | 시스템이 악역 복귀 보상을 제시 | role=hook | reward=autonomy
+- POS-098 | 사교계 소문에 현실 세계 표현 등장 | role=hook | reward=shock
+- POS-099 | 원작 주인공이 죽음 플래그를 넘김 | role=hook | reward=conflict
+- POS-100 | 세계가 다음 챕터 제목을 공개 | role=hook | reward=next-click
+
+## G09 Production / Support / Profession
+
+- SUP-001 | F급 포터의 생존 매뉴얼 | role=identity | reward=status
+- SUP-002 | 실패한 감정사의 두 번째 시장 | role=identity | reward=money
+- SUP-003 | 전투 못 하는 제작직 각성자 | role=identity | reward=recognition
+- SUP-004 | 환자를 잃은 회귀 의사 | role=identity | reward=redemption
+- SUP-005 | 길드 물류팀 계약직 | role=identity | reward=competence
+- SUP-006 | 버려진 요리 스킬 보유자 | role=identity | reward=relationship
+- SUP-007 | 특허를 빼앗긴 장인 | role=identity | reward=revenge
+- SUP-008 | 실패한 매니저의 스타 육성 | role=identity | reward=fame
+- SUP-009 | 농사 스킬만 받은 생존자 | role=identity | reward=safety
+- SUP-010 | 법률 지식으로 던전을 보는 변호사 | role=identity | reward=justice
+- SUP-011 | 재료의 미래 등급 감정 | role=advantage | reward=money
+- SUP-012 | 제작 실패 원인 로그 확인 | role=advantage | reward=competence
+- SUP-013 | 회복보다 예방을 보는 의료 감각 | role=advantage | reward=safety
+- SUP-014 | 물류 동선 최적화 능력 | role=advantage | reward=competence
+- SUP-015 | 음식 버프의 숨은 조합 | role=advantage | reward=relationship
+- SUP-016 | 특허/소유권 조항 해석 | role=advantage | reward=autonomy
+- SUP-017 | 사람의 잠재력과 소모율 감지 | role=advantage | reward=knowledge
+- SUP-018 | 농작물/부산물 변이 예측 | role=advantage | reward=money
+- SUP-019 | 계약 불공정성을 수치화 | role=advantage | reward=justice
+- SUP-020 | 장비 내구도 사망 위험 예측 | role=advantage | reward=safety
+- SUP-021 | 실패한 레이드 생존률을 준비로 반전 | role=proof | reward=recognition
+- SUP-022 | 폐급 재료로 고급 장비 제작 | role=proof | reward=money
+- SUP-023 | 치료 불가 부상을 안정화 | role=proof | reward=safety
+- SUP-024 | 물류 재배치로 보스전 시간을 단축 | role=proof | reward=competence
+- SUP-025 | 식사 한 끼로 팀 상태 회복 | role=proof | reward=relationship
+- SUP-026 | 특허 도용 계약을 공개 반박 | role=proof | reward=justice
+- SUP-027 | 무명 연습생의 데뷔 가능성 증명 | role=proof | reward=fame
+- SUP-028 | 농사 스킬로 안전지대 식량 해결 | role=proof | reward=safety
+- SUP-029 | 계약서 한 줄로 착취 구조 차단 | role=proof | reward=autonomy
+- SUP-030 | 장비 점검으로 참사 예방 | role=proof | reward=safety
+- SUP-031 | 전투팀이 보조직 지휘를 요청 | role=reaction | reward=status
+- SUP-032 | 아이템 시장 가격 폭등 | role=reaction | reward=money
+- SUP-033 | 환자 가족의 공개 증언 | role=reaction | reward=recognition
+- SUP-034 | 길드장이 물류 권한 위임 | role=reaction | reward=authority
+- SUP-035 | 팀원이 식사/치료를 먼저 찾음 | role=reaction | reward=relationship
+- SUP-036 | 특허청/협회가 조사 착수 | role=reaction | reward=justice
+- SUP-037 | 방송/팬덤이 매니저 역량 주목 | role=reaction | reward=fame
+- SUP-038 | 식량 독립으로 공동체 신뢰 상승 | role=reaction | reward=safety
+- SUP-039 | 경쟁사가 계약 조건을 따라 함 | role=reaction | reward=money
+- SUP-040 | 상위 랭커가 개인 담당 제안 | role=reaction | reward=status
+- SUP-041 | 제작법 공개 요구 | role=cost | reward=pressure
+- SUP-042 | 지원직 가치 상승으로 보호 의무 발생 | role=cost | reward=responsibility
+- SUP-043 | 의료 성공이 불법 시술 의심 유발 | role=cost | reward=tension
+- SUP-044 | 물류 개선이 기존 브로커 수익 침해 | role=cost | reward=conflict
+- SUP-045 | 음식 버프가 중독/의존 논란 | role=cost | reward=moral
+- SUP-046 | 특허 승리가 더 큰 소송 호출 | role=cost | reward=justice
+- SUP-047 | 스타 육성이 계약 분쟁 유발 | role=cost | reward=relationship
+- SUP-048 | 식량 생산지가 약탈 표적 | role=cost | reward=safety
+- SUP-049 | 계약 개선으로 길드 비용 상승 | role=cost | reward=money
+- SUP-050 | 장비 경고 무시한 사망자 책임 공방 | role=cost | reward=pressure
+- SUP-051 | 아이템 제작 경매 | role=episode | reward=money
+- SUP-052 | 길드 물류 감사 | role=episode | reward=competence
+- SUP-053 | 응급 치료 타이머 | role=episode | reward=safety
+- SUP-054 | 팀 식사 후 실전 성능 검증 | role=episode | reward=relationship
+- SUP-055 | 특허 도용 공개 시연 | role=episode | reward=justice
+- SUP-056 | 무명 인재 오디션 | role=episode | reward=fame
+- SUP-057 | 안전지대 농장 방어 | role=episode | reward=safety
+- SUP-058 | 불공정 계약 집단 소송 | role=episode | reward=autonomy
+- SUP-059 | 장비 리콜 위기 | role=episode | reward=competence
+- SUP-060 | 보조직 랭킹 신설 | role=episode | reward=status
+- SUP-061 | 제작법을 훔치는 대형 길드 | role=antagonist | reward=justice
+- SUP-062 | 지원직을 소모품으로 보는 랭커 | role=antagonist | reward=revenge
+- SUP-063 | 치료 데이터를 독점하려는 병원장 | role=antagonist | reward=safety
+- SUP-064 | 물류 브로커 카르텔 | role=antagonist | reward=money
+- SUP-065 | 음식 버프를 금지하려는 협회 | role=antagonist | reward=autonomy
+- SUP-066 | 특허권을 선점한 기업 | role=antagonist | reward=money
+- SUP-067 | 소속 연예인을 착취하는 기획사 | role=antagonist | reward=justice
+- SUP-068 | 안전지대 식량을 장악한 무장 세력 | role=antagonist | reward=safety
+- SUP-069 | 계약 개선을 방해하는 내부 간부 | role=antagonist | reward=conflict
+- SUP-070 | 장비 결함을 숨긴 제조사 | role=antagonist | reward=justice
+- SUP-071 | 제작 공방/브랜드 설립 | role=long-term | reward=money
+- SUP-072 | 지원직 협동조합 창설 | role=long-term | reward=autonomy
+- SUP-073 | 의료 표준 프로토콜 구축 | role=long-term | reward=safety
+- SUP-074 | 길드 물류망 장악 | role=long-term | reward=authority
+- SUP-075 | 음식/회복 네트워크 팬덤화 | role=long-term | reward=relationship
+- SUP-076 | 특허 포트폴리오 방어전 | role=long-term | reward=money
+- SUP-077 | 연예/스포츠/헌터 인재 육성 시스템 | role=long-term | reward=fame
+- SUP-078 | 식량 독립 도시 건설 | role=long-term | reward=safety
+- SUP-079 | 표준 계약 개정 | role=long-term | reward=justice
+- SUP-080 | 장비 안전 인증 기관 설립 | role=long-term | reward=authority
+- SUP-081 | 제작 레시피를 비급처럼 숨기기 | role=variation | reward=knowledge
+- SUP-082 | 물류표를 던전 지도처럼 사용 | role=variation | reward=competence
+- SUP-083 | 의료 차트를 상태창처럼 연출 | role=variation | reward=safety
+- SUP-084 | 음식 버프를 관계 신뢰도로 연결 | role=variation | reward=relationship
+- SUP-085 | 특허 소송을 무협 문파전처럼 전개 | role=variation | reward=justice
+- SUP-086 | 매니저물을 헌터 길드 운영물로 변환 | role=variation | reward=fame
+- SUP-087 | 농사 스킬을 부동산/영지물로 확장 | role=variation | reward=money
+- SUP-088 | 계약 검토를 시스템 퀘스트처럼 사용 | role=variation | reward=autonomy
+- SUP-089 | 장비 안전 등급을 랭킹전으로 공개 | role=variation | reward=status
+- SUP-090 | 지원직 평가를 보험료와 연결 | role=variation | reward=money
+- SUP-091 | 제작 성공 직후 원재료 공급 중단 | role=hook | reward=tension
+- SUP-092 | 치료한 환자가 적대 길드 핵심 인물 | role=hook | reward=conflict
+- SUP-093 | 물류 데이터에 사망 예정 루트 표시 | role=hook | reward=mystery
+- SUP-094 | 음식 버프가 특정 기억을 되살림 | role=hook | reward=shock
+- SUP-095 | 특허 원본에 주인공 미래 서명 | role=hook | reward=mystery
+- SUP-096 | 무명 인재가 미래 재난의 원인 | role=hook | reward=tension
+- SUP-097 | 농장 지하에서 게이트 핵 발견 | role=hook | reward=scale
+- SUP-098 | 표준 계약 개정 직후 협회 소환 | role=hook | reward=authority
+- SUP-099 | 장비 리콜 리스트에 주인공 팀 포함 | role=hook | reward=safety
+- SUP-100 | 지원직 랭킹 1위가 존재하지 않는 사람 | role=hook | reward=mystery
+
+## G10 Romance / Romance Fantasy / Relationship
+
+- ROM-001 | 파혼당한 공녀의 계약 재작성 | role=identity | reward=autonomy
+- ROM-002 | 후회남을 버리는 두 번째 삶 | role=identity | reward=revenge
+- ROM-003 | 악녀 소문 속 실제 피해자 | role=identity | reward=justice
+- ROM-004 | 정략혼 대신 동맹을 선택한 후계자 | role=identity | reward=status
+- ROM-005 | 아이를 지키는 회귀 보호자 | role=identity | reward=safety
+- ROM-006 | 가난한 귀족가의 실무형 딸 | role=identity | reward=competence
+- ROM-007 | 계약 결혼의 조항을 아는 법률가 | role=identity | reward=autonomy
+- ROM-008 | 황실 스캔들의 희생양 | role=identity | reward=justice
+- ROM-009 | 원작에서 버려지는 조연 배우자 | role=identity | reward=relationship
+- ROM-010 | 사교계에서 지워진 이름 | role=identity | reward=fame
+- ROM-011 | 소문 경로를 읽는 감각 | role=advantage | reward=fame
+- ROM-012 | 계약서 감정/협상 능력 | role=advantage | reward=autonomy
+- ROM-013 | 상대의 후회 조건 기억 | role=advantage | reward=revenge
+- ROM-014 | 가문 재정 구조 파악 | role=advantage | reward=money
+- ROM-015 | 아이/가족의 미래 위험 기억 | role=advantage | reward=safety
+- ROM-016 | 사교계 예절의 정치적 의미 이해 | role=advantage | reward=status
+- ROM-017 | 감정선 대신 신뢰 행동을 읽음 | role=advantage | reward=relationship
+- ROM-018 | 약혼/상속 법의 허점 해석 | role=advantage | reward=justice
+- ROM-019 | 드레스/보석/초대장의 숨은 신호 파악 | role=advantage | reward=knowledge
+- ROM-020 | 원작 로맨스 루트 이탈 감지 | role=advantage | reward=mystery
+- ROM-021 | 공개 파혼식에서 위자료와 자유 확보 | role=proof | reward=autonomy
+- ROM-022 | 후회남의 거짓 증언 반박 | role=proof | reward=justice
+- ROM-023 | 계약 결혼을 상호 이익 동맹으로 증명 | role=proof | reward=relationship
+- ROM-024 | 사교계 모욕을 초대권 역전으로 반격 | role=proof | reward=status
+- ROM-025 | 아이의 상속권을 문서로 지킴 | role=proof | reward=safety
+- ROM-026 | 가문 장부를 바로잡아 실무 능력 증명 | role=proof | reward=competence
+- ROM-027 | 스캔들 기사를 후원 발표로 뒤집음 | role=proof | reward=fame
+- ROM-028 | 약혼 반지의 원소유권 공개 | role=proof | reward=mystery
+- ROM-029 | 무도회에서 보호가 아닌 협상 선택 | role=proof | reward=autonomy
+- ROM-030 | 원작 루트 상대를 의도적으로 거절 | role=proof | reward=relationship
+- ROM-031 | 사교계가 소문을 다시 계산 | role=reaction | reward=fame
+- ROM-032 | 계약 상대가 주도권을 인정 | role=reaction | reward=relationship
+- ROM-033 | 가문 회의에서 발언권 획득 | role=reaction | reward=status
+- ROM-034 | 후회남이 공개 사과를 강요받음 | role=reaction | reward=revenge
+- ROM-035 | 아이/가족이 처음으로 신뢰 표현 | role=reaction | reward=relationship
+- ROM-036 | 황실이 중재 명목으로 접근 | role=reaction | reward=scale
+- ROM-037 | 하녀/집사가 증언자로 전환 | role=reaction | reward=justice
+- ROM-038 | 재정 후원자가 조건부 투자 | role=reaction | reward=money
+- ROM-039 | 사교계 라이벌이 동맹 제안 | role=reaction | reward=status
+- ROM-040 | 원작 상대가 루트 붕괴를 눈치챔 | role=reaction | reward=tension
+- ROM-041 | 자유를 얻은 대가로 보호막 상실 | role=cost | reward=tension
+- ROM-042 | 공개 사과가 더 큰 스캔들로 번짐 | role=cost | reward=fame
+- ROM-043 | 계약 결혼 조항이 감정선을 제한 | role=cost | reward=relationship
+- ROM-044 | 상속권 방어가 친족 전쟁 유발 | role=cost | reward=conflict
+- ROM-045 | 가문 재정 회복이 정략 제안 증가 | role=cost | reward=pressure
+- ROM-046 | 소문 반격이 무고한 사람을 위험에 빠뜨림 | role=cost | reward=moral
+- ROM-047 | 보호받지 않겠다는 선택이 실제 위기 초래 | role=cost | reward=safety
+- ROM-048 | 후원 투자가 가문 독립성을 훼손 | role=cost | reward=money
+- ROM-049 | 원작 루트 이탈로 새로운 집착 발생 | role=cost | reward=tension
+- ROM-050 | 황실 중재가 정치적 소유권으로 변함 | role=cost | reward=scale
+- ROM-051 | 공개 파혼/약혼식 | role=episode | reward=status
+- ROM-052 | 무도회 여론전 | role=episode | reward=fame
+- ROM-053 | 가문 장부 감사 | role=episode | reward=money
+- ROM-054 | 계약 결혼 조항 협상 | role=episode | reward=autonomy
+- ROM-055 | 아이/가족 보호 재판 | role=episode | reward=safety
+- ROM-056 | 하녀 증언 확보 | role=episode | reward=justice
+- ROM-057 | 라이벌과 공동 후원 행사 | role=episode | reward=relationship
+- ROM-058 | 드레스/보석의 정치적 신호전 | role=episode | reward=status
+- ROM-059 | 후회남 공개 사과 트랩 | role=episode | reward=revenge
+- ROM-060 | 원작 데이트 이벤트 이탈 | role=episode | reward=autonomy
+- ROM-061 | 후회하면서도 통제하려는 전 약혼자 | role=antagonist | reward=revenge
+- ROM-062 | 소문을 설계한 사교계 라이벌 | role=antagonist | reward=fame
+- ROM-063 | 상속권을 빼앗으려는 친족 | role=antagonist | reward=justice
+- ROM-064 | 계약 결혼을 권력 장치로 쓰는 상대 | role=antagonist | reward=relationship
+- ROM-065 | 아이를 정치 도구로 삼는 가문 | role=antagonist | reward=safety
+- ROM-066 | 재정을 숨긴 집사/후견인 | role=antagonist | reward=money
+- ROM-067 | 황실 스캔들을 은폐하는 권력자 | role=antagonist | reward=scale
+- ROM-068 | 원작 루트를 복원하려는 주인공 후보 | role=antagonist | reward=tension
+- ROM-069 | 후원자를 가장한 채권자 | role=antagonist | reward=autonomy
+- ROM-070 | 사랑을 명분으로 소유하려는 보호자 | role=antagonist | reward=relationship
+- ROM-071 | 가문 재건과 독립 영지 확보 | role=long-term | reward=autonomy
+- ROM-072 | 사교계 평판 네트워크 장악 | role=long-term | reward=fame
+- ROM-073 | 계약 결혼의 진짜 동맹화 | role=long-term | reward=relationship
+- ROM-074 | 상속/후견 법 개정 | role=long-term | reward=justice
+- ROM-075 | 아이/가족 보호 공동체 | role=long-term | reward=safety
+- ROM-076 | 가문 사업 독립 | role=long-term | reward=money
+- ROM-077 | 황실 정치 균형자 | role=long-term | reward=scale
+- ROM-078 | 후회남 서사의 공개 청산 | role=long-term | reward=revenge
+- ROM-079 | 원작 루트 전체 재작성 | role=long-term | reward=autonomy
+- ROM-080 | 관계보다 권리부터 세우는 새 질서 | role=long-term | reward=status
+- ROM-081 | 계약 결혼을 기업 합병처럼 설계 | role=variation | reward=money
+- ROM-082 | 후회 서사를 법정 증거전으로 처리 | role=variation | reward=justice
+- ROM-083 | 사교계 평판을 랭킹 보드처럼 시각화 | role=variation | reward=fame
+- ROM-084 | 드레스 코드를 암호/정보전으로 사용 | role=variation | reward=knowledge
+- ROM-085 | 육아/가족 보호를 재난 구조물처럼 설계 | role=variation | reward=safety
+- ROM-086 | 약혼 관계를 성좌 후원 계약처럼 비틀기 | role=variation | reward=relationship
+- ROM-087 | 가문 재정을 영지 경영물로 확장 | role=variation | reward=money
+- ROM-088 | 로맨스 루트를 아카데미 팀 배정처럼 운영 | role=variation | reward=relationship
+- ROM-089 | 사교계 추문을 미스터리 수사로 전개 | role=variation | reward=justice
+- ROM-090 | 황실 중재를 주주총회처럼 연출 | role=variation | reward=status
+- ROM-091 | 파혼 성공 직후 더 오래된 혼약서 발견 | role=hook | reward=shock
+- ROM-092 | 계약 상대가 같은 회귀 기억 보유 | role=hook | reward=mystery
+- ROM-093 | 아이가 미래 사건을 먼저 말함 | role=hook | reward=tension
+- ROM-094 | 후회남 사과문에 협박 암호 | role=hook | reward=mystery
+- ROM-095 | 무도회 초대장 발신자가 사망자 | role=hook | reward=shock
+- ROM-096 | 가문 장부에 주인공 이름이 없음 | role=hook | reward=mystery
+- ROM-097 | 황실이 계약 결혼을 국법으로 인정 | role=hook | reward=scale
+- ROM-098 | 원작 주인공이 주인공에게 도움 요청 | role=hook | reward=relationship
+- ROM-099 | 사교계 평판이 갑자기 시스템처럼 표시 | role=hook | reward=shock
+- ROM-100 | 자유를 얻은 날 새 왕위 계승권 통지 | role=hook | reward=next-click

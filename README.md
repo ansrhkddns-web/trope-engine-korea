@@ -7,6 +7,8 @@
 ## 핵심 기능
 
 - 한국형 웹소설 장르 기본값 설계
+- 웹소설 장르 조사값 등록: 판타지, 헌터, 탑/시스템, 회귀, 재벌/현판, 무협, 아카데미, 빙의, 제작/지원직, 로맨스/로판
+- 장르별 100종 클리셰 레퍼런스 뱅크 제공
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
 - 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
 - 익숙한 클리셰를 새롭게 보이게 하는 변주 설계
@@ -31,6 +33,10 @@ $trope-engine-korea로 사문/마교/정파/기연 장치를 익숙하지만 새
 
 ```text
 $trope-engine-korea로 웹소설에서 많이 쓰이는 성공 클리셰 6개를 골라 헌터물 콘셉트로 고도화해줘.
+```
+
+```text
+$trope-engine-korea로 장르별 100종 클리셰 뱅크를 참고해서 회귀+재벌물을 구조화해줘.
 ```
 
 ```text
@@ -75,11 +81,14 @@ trope-engine-korea/
 ├── references/
 │   ├── acceptance-tests.md
 │   ├── cliche-taxonomy-engine.md
+│   ├── cliche-structure-assembly-rules.md
 │   ├── default-genre-settings.md
 │   ├── diagnostics-rubric.md
 │   ├── escalation-ladders.md
 │   ├── external-cliche-reference-map.md
 │   ├── failure-patterns.md
+│   ├── genre-cliche-bank-100-a.md
+│   ├── genre-cliche-bank-100-b.md
 │   ├── input-assembly-protocol.md
 │   ├── market-research-protocol.md
 │   ├── mode-playbooks.md
@@ -97,8 +106,10 @@ trope-engine-korea/
 │   ├── trope-card-library.md
 │   ├── trope-combination-matrix.md
 │   ├── trope-engine-schema.md
-│   └── variation-engine.md
+│   ├── variation-engine.md
+│   └── webnovel-genre-survey-values.md
 └── scripts/
+    ├── genre_bank_count.py
     └── trope_pack_lint.py
 ```
 
@@ -108,6 +119,10 @@ trope-engine-korea/
 | --- | --- |
 | `SKILL.md` | Codex가 실제로 읽는 스킬 본문과 작업 흐름 |
 | `references/default-genre-settings.md` | 장르별 기본 설정값과 독자 약속 |
+| `references/webnovel-genre-survey-values.md` | 웹소설 장르별 플랫폼/태그 신호, 독자 보상, 세계 엔진, 첫 증명 장면 조사값 |
+| `references/genre-cliche-bank-100-a.md` | 판타지, 헌터/게이트, 탑/시스템, 회귀, 재벌/현판 장르별 100종 클리셰 뱅크 |
+| `references/genre-cliche-bank-100-b.md` | 무협, 아카데미, 빙의/악역/엑스트라, 제작/지원직, 로맨스/로판 장르별 100종 클리셰 뱅크 |
+| `references/cliche-structure-assembly-rules.md` | 100종 리스트를 10카드 엔진, 6역할 성공 스택, 에피소드 루프로 구조화하는 규칙 |
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
 | `references/cliche-taxonomy-engine.md` | 클리셰를 압박, 기능, 모티프, 보상, 목격자, 비용 축으로 분해 |
 | `references/reference-backed-card-bank-1.md` | 레퍼런스 기반 1차 클리셰 카드 은행 |
@@ -125,6 +140,7 @@ trope-engine-korea/
 | `references/originality-safety.md` | 유명작 참고 시 복사 위험을 피하는 일반화 규칙 |
 | `references/production-handoff.md` | 작품 바이블, 로드맵, 에피소드 브리프로 넘기는 인계 규칙 |
 | `scripts/trope_pack_lint.py` | 저장된 결과물의 필수 요소 누락 검사 |
+| `scripts/genre_bank_count.py` | 장르별 클리셰 뱅크가 장르당 100종씩 들어 있는지 검사 |
 
 ## 작업 모드
 
@@ -133,6 +149,7 @@ trope-engine-korea/
 | 모드 | 하는 일 |
 | --- | --- |
 | `input assembly` | 애매한 키워드나 거친 아이디어를 장르 엔진으로 조립 |
+| `genre reference registration` | 웹소설 장르 조사값과 장르별 100종 클리셰 뱅크를 등록/참조 |
 | `trope pack` | 클리셰 카드, 보상, 변주, 첫 증명 장면 생성 |
 | `familiar-but-fresh premise` | 익숙한 장르 장치를 새 콘셉트로 변주 |
 | `proof scene` | 추상적인 클리셰를 1화 장면으로 변환 |
@@ -199,6 +216,17 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 | 장기 클리셰 | 두 번째 회귀자, 후원자 전쟁, 가짜 영웅, 독점 자원처럼 50화 이상 끌고 가는 축 |
 
 핵심 규칙은 간단합니다. **익숙한 약속, 행동 가능한 우위, 눈에 보이는 증명, 새 압박**이 모두 있어야 성공 클리셰가 반복 가능한 엔진이 됩니다.
+
+## 장르별 100종 클리셰 뱅크
+
+이번 버전에는 장르별로 100종씩, 총 1,000개의 클리셰 참조값을 등록했습니다.
+
+| 파일 | 포함 장르 |
+| --- | --- |
+| `genre-cliche-bank-100-a.md` | 판타지/성장형, 헌터/게이트, 탑/시스템/성좌, 회귀/미래지식, 현판/재벌/금융 |
+| `genre-cliche-bank-100-b.md` | 무협/사문/마교, 아카데미/랭킹, 빙의/악역/엑스트라, 제작/지원직/전문직, 로맨스/로판 |
+
+각 항목은 단순 소재가 아니라 `identity`, `advantage`, `proof`, `reaction`, `cost`, `episode`, `antagonist`, `long-term`, `variation`, `hook` 역할로 태그되어 있습니다. 그래서 스킬은 100개를 그대로 나열하는 대신, 필요한 카드만 뽑아 1화 증명 장면과 3-5화 반복 루프로 조립할 수 있습니다.
 
 ## 레퍼런스 기반 업그레이드
 
@@ -294,7 +322,13 @@ lint 스크립트 자체 검증:
 python scripts/trope_pack_lint.py --self-test
 ```
 
-이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`는 Python 표준 라이브러리만 사용합니다.
+장르별 100종 뱅크 개수 검증:
+
+```bash
+python scripts/genre_bank_count.py references/genre-cliche-bank-100-a.md references/genre-cliche-bank-100-b.md
+```
+
+이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`와 `genre_bank_count.py`는 Python 표준 라이브러리만 사용합니다.
 
 ## 라이선스
 

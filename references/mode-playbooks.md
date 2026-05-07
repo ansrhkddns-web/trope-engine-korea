@@ -16,6 +16,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "독자 반응" | reader response | `reader-response-simulation.md` | `diagnostics-rubric.md`, `product-packaging.md` |
 | "유명작 느낌" | originality safety | `originality-safety.md` | `variation-engine.md`, `scene-proof-bank.md` |
 | "요즘 잘 먹히는" | market reference | `market-research-protocol.md` | current web research, then stable references |
+| "장르 조사값/장르별 100종 클리셰 등록" | genre reference registration | `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md` | `cliche-structure-assembly-rules.md`, `external-cliche-reference-map.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -33,6 +34,9 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `output-templates.md` only when the final structure matters.
 - Load `trope-engine-schema.md` only when continuity or reuse matters.
 - Load `market-research-protocol.md` only for current trends or platform-specific requests.
+- Load `webnovel-genre-survey-values.md` before the 100-item banks when the user asks for genre-wide research values.
+- Load only the relevant half of the 100-item bank when the user names a genre: A for fantasy/hunter/tower/regression/finance, B for martial arts/academy/possession/support/romance.
+- Load `cliche-structure-assembly-rules.md` whenever the user asks to structure or combine cliches from the banks.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -76,6 +80,25 @@ Avoid:
 - quoting or reproducing external trope page content;
 - adding cards that cannot be staged;
 - using external references without Korean webnovel localization.
+
+### Genre Reference Registration
+
+Use when the user asks to research/register genre defaults, build genre-specific cliche reference values, or create 100 cliches per genre.
+
+Steps:
+
+1. Use `webnovel-genre-survey-values.md` to select the genre coverage set.
+2. If current platform trend accuracy is requested, run live research first with `market-research-protocol.md`; otherwise use the registered survey values as stable defaults.
+3. Use `genre-cliche-bank-100-a.md` and `genre-cliche-bank-100-b.md` as the registered cliche seed banks.
+4. Verify each requested genre has 100 items with `scripts/genre_bank_count.py` when editing the banks.
+5. Use `cliche-structure-assembly-rules.md` to convert lists into role stacks, episode loops, and cross-genre engines.
+6. When producing output, do not print all 100 items unless the user explicitly asks; summarize coverage and sample the most useful cliches.
+
+Avoid:
+
+- presenting a raw 100-item list as a finished trope engine;
+- mixing live rankings with stable defaults without saying which is which;
+- creating exact work-alike plots from reference sources.
 
 ### Successful Cliche Upgrade
 

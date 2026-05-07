@@ -1,0 +1,520 @@
+# Genre Cliche Bank 100 A
+
+Use this file as reference values for five high-frequency webnovel engines: fantasy/progression, hunter/gate, tower/system, regression, and modern finance. Each genre has exactly 100 cliche seeds.
+
+Format: `ID | cliche seed | role=<engine role> | reward=<reader reward>`
+
+## G01 Fantasy / Progression
+
+- FPG-001 | 몰락 가문의 마지막 견습생 | role=identity | reward=status
+- FPG-002 | 마력 없는 아이의 다른 감각 | role=identity | reward=recognition
+- FPG-003 | 금지된 혈통의 늦은 발현 | role=identity | reward=power
+- FPG-004 | 버려진 변경 영지의 후계자 | role=identity | reward=autonomy
+- FPG-005 | 전쟁고아 출신 길드 잡역부 | role=identity | reward=status
+- FPG-006 | 저주받은 왕자의 생존기 | role=identity | reward=safety
+- FPG-007 | 폐급 소환사의 유일한 계약 | role=identity | reward=relationship
+- FPG-008 | 실패한 마법학교 퇴학생 | role=identity | reward=recognition
+- FPG-009 | 늙은 대장장이의 마지막 제자 | role=identity | reward=competence
+- FPG-010 | 악명 높은 용병단의 막내 | role=identity | reward=status
+- FPG-011 | 마법식을 숫자로 읽는 눈 | role=advantage | reward=knowledge
+- FPG-012 | 고대어 자동 해독 능력 | role=advantage | reward=knowledge
+- FPG-013 | 실패 주문을 안정화하는 손 | role=advantage | reward=power
+- FPG-014 | 몬스터 습성을 예측하는 기록 | role=advantage | reward=safety
+- FPG-015 | 죽은 영웅의 미완성 수첩 | role=advantage | reward=knowledge
+- FPG-016 | 한 번 본 기술을 구조로 기억 | role=advantage | reward=competence
+- FPG-017 | 버려진 신전과만 통하는 감각 | role=advantage | reward=discovery
+- FPG-018 | 마력 대신 계약을 쓰는 방식 | role=advantage | reward=autonomy
+- FPG-019 | 낮은 등급 주문의 극한 최적화 | role=advantage | reward=power
+- FPG-020 | 왕국 지도를 미래처럼 읽는 정보망 | role=advantage | reward=knowledge
+- FPG-021 | 길드 입문 시험의 숨은 목적 | role=proof | reward=recognition
+- FPG-022 | 초급 주문으로 상급 결계를 해제 | role=proof | reward=power
+- FPG-023 | 버려진 유적의 첫 봉인 해제 | role=proof | reward=discovery
+- FPG-024 | 변경 마을 방어전의 기여도 역전 | role=proof | reward=status
+- FPG-025 | 마법 실패 사고를 현장에서 수습 | role=proof | reward=safety
+- FPG-026 | 아무도 못 읽은 예언문 재해석 | role=proof | reward=knowledge
+- FPG-027 | 귀족 사냥대보다 먼저 약점 발견 | role=proof | reward=competence
+- FPG-028 | 하급 재료로 상급 포션 완성 | role=proof | reward=money
+- FPG-029 | 훈련용 던전의 진짜 보스 조건 | role=proof | reward=power
+- FPG-030 | 왕립 심문에서 마법 증거 반전 | role=proof | reward=revenge
+- FPG-031 | 왕립 마탑 교수의 조용한 추천서 | role=reaction | reward=recognition
+- FPG-032 | 길드 접수원의 태도 변화 | role=reaction | reward=status
+- FPG-033 | 라이벌 파티의 영입 제안 | role=reaction | reward=choice
+- FPG-034 | 변경 영주가 방어권을 위임 | role=reaction | reward=authority
+- FPG-035 | 왕실 감찰관의 비공개 조사 | role=reaction | reward=tension
+- FPG-036 | 신전 사제가 위험한 성흔을 목격 | role=reaction | reward=mystery
+- FPG-037 | 용병단장이 막내를 전면에 세움 | role=reaction | reward=status
+- FPG-038 | 평민들이 먼저 영웅담을 퍼뜨림 | role=reaction | reward=fame
+- FPG-039 | 귀족 후원자가 조건부 계약 제안 | role=reaction | reward=money
+- FPG-040 | 적국 첩자가 재능을 보고함 | role=reaction | reward=threat
+- FPG-041 | 봉인 해제 대가로 남은 수명 차감 | role=cost | reward=tension
+- FPG-042 | 고대어 해독 후 저주가 이름을 기억 | role=cost | reward=mystery
+- FPG-043 | 낮은 주문 최적화가 마탑 특허 침해 | role=cost | reward=conflict
+- FPG-044 | 영웅 수첩의 소유권 분쟁 | role=cost | reward=tension
+- FPG-045 | 계약 마법이 왕국법 밖에서 작동 | role=cost | reward=autonomy
+- FPG-046 | 첫 승리로 변경 세금이 상승 | role=cost | reward=pressure
+- FPG-047 | 신전이 능력을 이단으로 분류 | role=cost | reward=conflict
+- FPG-048 | 구한 마을이 보호를 요구 | role=cost | reward=responsibility
+- FPG-049 | 유적 보상이 전쟁의 명분이 됨 | role=cost | reward=scale
+- FPG-050 | 마력 최적화가 몸을 소모 | role=cost | reward=tension
+- FPG-051 | 왕립 토너먼트의 숨은 점수 | role=episode | reward=status
+- FPG-052 | 마법 재료 경매의 오판 | role=episode | reward=money
+- FPG-053 | 공작가 호위 의뢰의 진짜 표적 | role=episode | reward=mystery
+- FPG-054 | 변경 성벽의 결계 누수 | role=episode | reward=safety
+- FPG-055 | 길드 파티 배정의 악의적 함정 | role=episode | reward=revenge
+- FPG-056 | 신전 순례길의 시험 | role=episode | reward=recognition
+- FPG-057 | 왕실 무도회에서 주문 증명 | role=episode | reward=status
+- FPG-058 | 마수 부산물의 숨은 용도 | role=episode | reward=money
+- FPG-059 | 마탑 논문 발표회 역전 | role=episode | reward=recognition
+- FPG-060 | 폐광 아래의 고대 실험실 | role=episode | reward=discovery
+- FPG-061 | 같은 예언을 믿는 가짜 영웅 | role=antagonist | reward=conflict
+- FPG-062 | 주인공 주문을 훔친 귀족 제자 | role=antagonist | reward=revenge
+- FPG-063 | 변경을 버리려는 왕실 관료 | role=antagonist | reward=justice
+- FPG-064 | 저주를 거래하는 마탑 연구자 | role=antagonist | reward=mystery
+- FPG-065 | 성흔을 독점하려는 신전 | role=antagonist | reward=autonomy
+- FPG-066 | 유적 소유권을 조작한 상단 | role=antagonist | reward=money
+- FPG-067 | 고대 영웅의 이름을 사칭한 자 | role=antagonist | reward=recognition
+- FPG-068 | 왕국 방어 실패를 숨기는 장군 | role=antagonist | reward=justice
+- FPG-069 | 제자들을 재료로 쓰는 스승 | role=antagonist | reward=revenge
+- FPG-070 | 다른 세계 법칙을 아는 침입자 | role=antagonist | reward=scale
+- FPG-071 | 영지 방어권 획득 | role=long-term | reward=authority
+- FPG-072 | 마법 특허와 공방 설립 | role=long-term | reward=money
+- FPG-073 | 잃어버린 왕국 지도 완성 | role=long-term | reward=discovery
+- FPG-074 | 변경 연합의 신뢰 확보 | role=long-term | reward=relationship
+- FPG-075 | 신전과 마탑 사이 중재권 | role=long-term | reward=status
+- FPG-076 | 고대 봉인 네트워크 관리 | role=long-term | reward=power
+- FPG-077 | 독자적인 용병단 창설 | role=long-term | reward=autonomy
+- FPG-078 | 왕위 계승전의 기술 변수 | role=long-term | reward=scale
+- FPG-079 | 마수 생태계 복원 사업 | role=long-term | reward=safety
+- FPG-080 | 세계 법칙 개정의 열쇠 | role=long-term | reward=scale
+- FPG-081 | 마법을 법정 증거로 쓰기 | role=variation | reward=justice
+- FPG-082 | 유적 탐사를 부동산 개발로 연결 | role=variation | reward=money
+- FPG-083 | 주문 최적화를 스포츠처럼 중계 | role=variation | reward=fame
+- FPG-084 | 왕국 세금을 마법 비용으로 계산 | role=variation | reward=competence
+- FPG-085 | 마탑 연구를 기업 특허전으로 변환 | role=variation | reward=money
+- FPG-086 | 신탁을 계약 조항으로 해석 | role=variation | reward=knowledge
+- FPG-087 | 길드 평판을 보험 등급으로 사용 | role=variation | reward=status
+- FPG-088 | 던전 부산물을 의료 산업에 투입 | role=variation | reward=safety
+- FPG-089 | 마법학교를 취업 시장으로 설계 | role=variation | reward=autonomy
+- FPG-090 | 영웅담을 여론전으로 다루기 | role=variation | reward=fame
+- FPG-091 | 첫 주문 성공 직후 더 큰 봉인 반응 | role=hook | reward=next-click
+- FPG-092 | 추천서에 적힌 금지된 이름 | role=hook | reward=mystery
+- FPG-093 | 경매장에서 나타난 원소유자 | role=hook | reward=tension
+- FPG-094 | 왕실 소환장이 승리 직후 도착 | role=hook | reward=scale
+- FPG-095 | 구한 마을에서 두 번째 성흔 발견 | role=hook | reward=discovery
+- FPG-096 | 랭크 상승 대신 위험 등급 부여 | role=hook | reward=tension
+- FPG-097 | 유적 보상이 적국 언어로 작동 | role=hook | reward=mystery
+- FPG-098 | 라이벌이 같은 수첩의 다른 권 보유 | role=hook | reward=conflict
+- FPG-099 | 시스템 없는 세계에 첫 메시지 출현 | role=hook | reward=shock
+- FPG-100 | 신전 기록에서 주인공 이름 삭제 | role=hook | reward=mystery
+
+## G02 Hunter / Gate / Raid
+
+- HUN-001 | F급 판정받은 생존 전문가 | role=identity | reward=status
+- HUN-002 | 각성 못 한 게이트 안내원 | role=identity | reward=recognition
+- HUN-003 | 포터 계약직의 마지막 현장 | role=identity | reward=revenge
+- HUN-004 | 폐급 힐러의 이상한 회복률 | role=identity | reward=safety
+- HUN-005 | 몬스터 부산물 처리반 신입 | role=identity | reward=money
+- HUN-006 | 사고 게이트 생존자 낙인 | role=identity | reward=recognition
+- HUN-007 | 협회 기록에서 누락된 각성자 | role=identity | reward=mystery
+- HUN-008 | 길드에서 쫓겨난 보조직 | role=identity | reward=autonomy
+- HUN-009 | 던전 청소부의 진짜 감각 | role=identity | reward=competence
+- HUN-010 | 국가 재난 현장의 민간 구조자 | role=identity | reward=justice
+- HUN-011 | 게이트 등급을 다르게 보는 눈 | role=advantage | reward=knowledge
+- HUN-012 | 몬스터 패턴 사망 회귀 기억 | role=advantage | reward=safety
+- HUN-013 | 드롭 아이템 진가 감정 | role=advantage | reward=money
+- HUN-014 | 던전 부산물 제작식 기억 | role=advantage | reward=competence
+- HUN-015 | 게이트 붕괴 시간을 듣는 능력 | role=advantage | reward=safety
+- HUN-016 | 레이드 기여도 알고리즘 해석 | role=advantage | reward=status
+- HUN-017 | 협회 규정의 허점 파악 | role=advantage | reward=autonomy
+- HUN-018 | 몬스터 언어 단편 해독 | role=advantage | reward=knowledge
+- HUN-019 | 저등급 스킬의 조건부 폭발 | role=advantage | reward=power
+- HUN-020 | 사망자 로그를 보는 상태창 | role=advantage | reward=mystery
+- HUN-021 | 랭크 측정기의 카테고리 오류 | role=proof | reward=recognition
+- HUN-022 | E급 게이트에서 A급 패턴 예측 | role=proof | reward=safety
+- HUN-023 | 구조율 데이터로 포터 가치 증명 | role=proof | reward=status
+- HUN-024 | 폐기 부산물로 생존 장비 제작 | role=proof | reward=money
+- HUN-025 | 길드 사냥팀의 전멸을 방지 | role=proof | reward=relationship
+- HUN-026 | 보스방보다 대피로를 먼저 발견 | role=proof | reward=safety
+- HUN-027 | 불법 레이드 계약을 현장 반전 | role=proof | reward=justice
+- HUN-028 | 드롭 아이템 소유권을 규정으로 확보 | role=proof | reward=autonomy
+- HUN-029 | 협회 감사 앞에서 기여도 재산정 | role=proof | reward=status
+- HUN-030 | 방송 중 구조 장면으로 여론 역전 | role=proof | reward=fame
+- HUN-031 | 대형 길드의 스카우트 경쟁 | role=reaction | reward=status
+- HUN-032 | 협회가 재검정을 명령 | role=reaction | reward=recognition
+- HUN-033 | 생존자 가족의 공개 증언 | role=reaction | reward=justice
+- HUN-034 | 보험사가 주인공 데이터를 매입 | role=reaction | reward=money
+- HUN-035 | 경쟁 길드가 증거 은폐 시도 | role=reaction | reward=conflict
+- HUN-036 | 언론이 폐급 논란을 기사화 | role=reaction | reward=fame
+- HUN-037 | 정부 재난청의 비공개 호출 | role=reaction | reward=scale
+- HUN-038 | 아이템 시장 가격 급등 | role=reaction | reward=money
+- HUN-039 | 레이드 브로커가 계약을 수정 | role=reaction | reward=autonomy
+- HUN-040 | 상위 헌터가 빚을 인정 | role=reaction | reward=relationship
+- HUN-041 | 구조 성공이 게이트 소유권 분쟁 유발 | role=cost | reward=tension
+- HUN-042 | 드롭 아이템에 이전 소유자 표식 | role=cost | reward=mystery
+- HUN-043 | 재검정 결과가 위험 등급으로 분류 | role=cost | reward=pressure
+- HUN-044 | 생존율 데이터가 길드 영업비밀 침해 | role=cost | reward=conflict
+- HUN-045 | 게이트 붕괴 예측 실패 시 법적 책임 | role=cost | reward=tension
+- HUN-046 | 구조한 사람이 미래의 적 | role=cost | reward=mystery
+- HUN-047 | 포터 가치 상승으로 내부 시기 발생 | role=cost | reward=conflict
+- HUN-048 | 협회 규정 악용자 명단에 등재 | role=cost | reward=pressure
+- HUN-049 | 몬스터 언어 해독이 감염 의심을 부름 | role=cost | reward=tension
+- HUN-050 | 방송 명성 때문에 다음 게이트 배정 | role=cost | reward=scale
+- HUN-051 | 저등급 게이트의 숨은 채굴권 | role=episode | reward=money
+- HUN-052 | 레이드 입찰 서류 조작 적발 | role=episode | reward=justice
+- HUN-053 | 길드 인턴 생존 훈련 | role=episode | reward=relationship
+- HUN-054 | 게이트 주변 부동산 급등 | role=episode | reward=money
+- HUN-055 | 몬스터 부산물 특허 경쟁 | role=episode | reward=autonomy
+- HUN-056 | 협회 청문회 공개 증언 | role=episode | reward=status
+- HUN-057 | 아이템 경매장에서 감정 반전 | role=episode | reward=money
+- HUN-058 | 실종자 구조 타이머 | role=episode | reward=safety
+- HUN-059 | 게이트 브레이크 전야 대피 작전 | role=episode | reward=fame
+- HUN-060 | 길드 랭킹전의 기여도 함정 | role=episode | reward=status
+- HUN-061 | 주인공 데이터를 훔치는 분석팀 | role=antagonist | reward=conflict
+- HUN-062 | 구조보다 드롭을 우선하는 길드장 | role=antagonist | reward=justice
+- HUN-063 | 게이트 위험도를 낮춰 발표한 관료 | role=antagonist | reward=revenge
+- HUN-064 | 같은 회귀 정보를 가진 헌터 | role=antagonist | reward=tension
+- HUN-065 | 포터 계약으로 착취하는 브로커 | role=antagonist | reward=justice
+- HUN-066 | 몬스터 부산물 독점 상인 | role=antagonist | reward=money
+- HUN-067 | 협회 내부의 순위 조작자 | role=antagonist | reward=status
+- HUN-068 | 구조 영상을 왜곡하는 방송사 | role=antagonist | reward=fame
+- HUN-069 | 게이트를 일부러 방치한 투자자 | role=antagonist | reward=justice
+- HUN-070 | 시스템 메시지를 조작하는 후원자 | role=antagonist | reward=mystery
+- HUN-071 | 생존 데이터 기반 길드 창업 | role=long-term | reward=autonomy
+- HUN-072 | 부산물 공급망 독점 | role=long-term | reward=money
+- HUN-073 | 국가 재난 등급 재편 | role=long-term | reward=authority
+- HUN-074 | 게이트 보험 표준 장악 | role=long-term | reward=status
+- HUN-075 | 구조 전문 레이드팀 구축 | role=long-term | reward=relationship
+- HUN-076 | 국제 게이트 협약 참여 | role=long-term | reward=scale
+- HUN-077 | 몬스터 언어 외교 루트 | role=long-term | reward=knowledge
+- HUN-078 | 시스템 기여도 공식 개정 | role=long-term | reward=authority
+- HUN-079 | 게이트 토지 권리 분쟁 해결 | role=long-term | reward=money
+- HUN-080 | 브레이크 원인 추적 | role=long-term | reward=mystery
+- HUN-081 | 레이드를 산업재해 조사처럼 설계 | role=variation | reward=justice
+- HUN-082 | 게이트 공략을 물류 최적화로 전환 | role=variation | reward=competence
+- HUN-083 | 헌터 랭크를 신용등급으로 사용 | role=variation | reward=status
+- HUN-084 | 몬스터 부산물을 의약품 허가와 연결 | role=variation | reward=safety
+- HUN-085 | 길드 스카우트를 스포츠 드래프트처럼 처리 | role=variation | reward=fame
+- HUN-086 | 드롭 아이템을 선물시장으로 거래 | role=variation | reward=money
+- HUN-087 | 게이트 대피권을 정치 이슈로 만들기 | role=variation | reward=scale
+- HUN-088 | 각성 검사를 입시처럼 설계 | role=variation | reward=status
+- HUN-089 | 레이드 실패를 법정 증거로 재구성 | role=variation | reward=justice
+- HUN-090 | 협회 감사를 예능 중계처럼 폭발 | role=variation | reward=fame
+- HUN-091 | 랭크업 직후 소환된 긴급 게이트 | role=hook | reward=next-click
+- HUN-092 | 구조한 생존자의 숨은 신분 | role=hook | reward=mystery
+- HUN-093 | 드롭 아이템에 찍힌 국가 기밀 코드 | role=hook | reward=scale
+- HUN-094 | 길드 계약서의 독소 조항 발견 | role=hook | reward=tension
+- HUN-095 | 게이트 붕괴 예측과 실제 시간 불일치 | role=hook | reward=mystery
+- HUN-096 | 협회 재검정 결과 비공개 처리 | role=hook | reward=conflict
+- HUN-097 | 부산물 가격 폭등 직전 매수자 등장 | role=hook | reward=money
+- HUN-098 | 방송 댓글이 다음 레이드 표적 공개 | role=hook | reward=fame
+- HUN-099 | 몬스터가 주인공 이름을 부름 | role=hook | reward=shock
+- HUN-100 | 세계 최초 미등록 게이트 소유권 통지 | role=hook | reward=scale
+
+## G03 Tower / System / Constellation
+
+- TSC-001 | 튜토리얼에 갇혔던 생존자 | role=identity | reward=status
+- TSC-002 | 상태창이 열리지 않는 플레이어 | role=identity | reward=mystery
+- TSC-003 | 성좌에게 버림받은 계약자 | role=identity | reward=autonomy
+- TSC-004 | 최하층 상인의 숨은 기록 | role=identity | reward=money
+- TSC-005 | 회차를 기억하는 튜토리얼 사망자 | role=identity | reward=knowledge
+- TSC-006 | 랭킹 밖에 있는 클리어러 | role=identity | reward=recognition
+- TSC-007 | 패널티만 받는 시스템 오류자 | role=identity | reward=revenge
+- TSC-008 | 후원자 없는 무소속 도전자 | role=identity | reward=autonomy
+- TSC-009 | 관리자 로그를 줍는 청소 담당 | role=identity | reward=knowledge
+- TSC-010 | 숨은 직업 대신 숨은 의무를 받은 자 | role=identity | reward=tension
+- TSC-011 | 히든 조건을 문장 구조로 읽음 | role=advantage | reward=knowledge
+- TSC-012 | 실패 퀘스트 보상만 회수 | role=advantage | reward=money
+- TSC-013 | 성좌 계약 조항 감별 | role=advantage | reward=autonomy
+- TSC-014 | 패널티를 버프로 바꾸는 조건 | role=advantage | reward=power
+- TSC-015 | 랭킹 로그의 삭제 기록 확인 | role=advantage | reward=mystery
+- TSC-016 | 튜토리얼 상점을 역산 | role=advantage | reward=competence
+- TSC-017 | 후원 메시지의 거짓말 판별 | role=advantage | reward=knowledge
+- TSC-018 | 층별 시장 가격 미래 기억 | role=advantage | reward=money
+- TSC-019 | 시스템 언어의 예외 조항 해석 | role=advantage | reward=autonomy
+- TSC-020 | 죽은 클리어러의 루트 재생 | role=advantage | reward=safety
+- TSC-021 | 튜토리얼 첫 보상 숨은 선택지 | role=proof | reward=power
+- TSC-022 | 불가능 퀘스트의 비전투 클리어 | role=proof | reward=recognition
+- TSC-023 | 성좌 계약을 거절해 더 큰 관심 획득 | role=proof | reward=status
+- TSC-024 | 랭킹 보드에 없는 별도 점수 등장 | role=proof | reward=mystery
+- TSC-025 | 패널티 타이머를 이용한 보스 격파 | role=proof | reward=power
+- TSC-026 | 후원 코인을 시장에서 역매수 | role=proof | reward=money
+- TSC-027 | 관리자 공지를 법적 증거로 사용 | role=proof | reward=justice
+- TSC-028 | 층 클리어 대신 주민 구원 조건 달성 | role=proof | reward=relationship
+- TSC-029 | 상태창 거짓 수치를 공개 실험 | role=proof | reward=knowledge
+- TSC-030 | 사망 루트를 생존 루트로 변환 | role=proof | reward=safety
+- TSC-031 | 하급 성좌들의 동시 후원 요청 | role=reaction | reward=status
+- TSC-032 | 관리자 채널의 비공개 경고 | role=reaction | reward=tension
+- TSC-033 | 랭커가 튜토리얼 기록을 구매 | role=reaction | reward=money
+- TSC-034 | 시청자형 성좌 댓글 폭발 | role=reaction | reward=fame
+- TSC-035 | 층 주민들이 이름을 기억 | role=reaction | reward=relationship
+- TSC-036 | 경쟁 클랜의 납치성 영입 | role=reaction | reward=conflict
+- TSC-037 | 시스템이 업적명을 검열 | role=reaction | reward=mystery
+- TSC-038 | 후원자 교단이 현실에서 접근 | role=reaction | reward=scale
+- TSC-039 | 시장 상인이 가격표를 바꿈 | role=reaction | reward=money
+- TSC-040 | 랭킹 1위가 도전장을 보냄 | role=reaction | reward=status
+- TSC-041 | 히든 보상에 원소유자 성좌의 청구권 | role=cost | reward=tension
+- TSC-042 | 퀘스트 거절권 사용 후 평판 하락 | role=cost | reward=conflict
+- TSC-043 | 패널티 변환이 수명 차감 | role=cost | reward=tension
+- TSC-044 | 후원 계약 거절로 층 편의 박탈 | role=cost | reward=pressure
+- TSC-045 | 관리자 경고 누적으로 계정 삭제 위기 | role=cost | reward=safety
+- TSC-046 | 주민 구원이 클리어 시간 손실 | role=cost | reward=moral
+- TSC-047 | 시장 가격 조작 의심으로 거래 정지 | role=cost | reward=money
+- TSC-048 | 랭킹 누락이 암살 의뢰를 유발 | role=cost | reward=threat
+- TSC-049 | 상태창 거짓말 폭로로 시스템 신뢰 붕괴 | role=cost | reward=scale
+- TSC-050 | 죽은 클리어러 루트가 원혼을 호출 | role=cost | reward=mystery
+- TSC-051 | 층별 경매장의 숨은 통행권 | role=episode | reward=money
+- TSC-052 | 후원자 토론회 공개 거절 | role=episode | reward=autonomy
+- TSC-053 | 제한 시간 구조 퀘스트 | role=episode | reward=safety
+- TSC-054 | 클랜 가입 시험의 규칙 허점 | role=episode | reward=status
+- TSC-055 | 상점 가격 폭락 전 매입 | role=episode | reward=money
+- TSC-056 | 관리자 재판에 소환 | role=episode | reward=justice
+- TSC-057 | 성좌 이름 맞히기 의식 | role=episode | reward=knowledge
+- TSC-058 | 다음 층 입장권을 둘러싼 결투 | role=episode | reward=power
+- TSC-059 | 방송 금지 구역의 구조 임무 | role=episode | reward=fame
+- TSC-060 | 히든 클래스 대신 히든 세금 발견 | role=episode | reward=autonomy
+- TSC-061 | 같은 튜토리얼 기억을 가진 경쟁자 | role=antagonist | reward=tension
+- TSC-062 | 후원자를 갈아타며 성장한 랭커 | role=antagonist | reward=conflict
+- TSC-063 | 시스템 오류자를 사냥하는 관리자 | role=antagonist | reward=safety
+- TSC-064 | 히든 조건을 독점 판매하는 클랜 | role=antagonist | reward=money
+- TSC-065 | 성좌 계약으로 몸을 빼앗긴 대리인 | role=antagonist | reward=mystery
+- TSC-066 | 주민 구원을 방해하는 효율주의자 | role=antagonist | reward=moral
+- TSC-067 | 랭킹을 조작하는 관리자 후보 | role=antagonist | reward=justice
+- TSC-068 | 후원 댓글로 여론을 왜곡하는 성좌 | role=antagonist | reward=fame
+- TSC-069 | 층 시장을 독점한 상단 | role=antagonist | reward=money
+- TSC-070 | 최종층에서 돌아온 거짓 예언자 | role=antagonist | reward=scale
+- TSC-071 | 무소속 클리어러 연합 창설 | role=long-term | reward=autonomy
+- TSC-072 | 층별 시장의 가격 표준 장악 | role=long-term | reward=money
+- TSC-073 | 성좌 계약법 개정 | role=long-term | reward=authority
+- TSC-074 | 관리자 로그 전체 복구 | role=long-term | reward=knowledge
+- TSC-075 | 튜토리얼 생존자 보호소 운영 | role=long-term | reward=relationship
+- TSC-076 | 시스템 오류자 네트워크 구축 | role=long-term | reward=scale
+- TSC-077 | 후원 경제 독립 루트 | role=long-term | reward=autonomy
+- TSC-078 | 최종층 조건의 재정의 | role=long-term | reward=scale
+- TSC-079 | 층 주민과 현실 연결 통로 | role=long-term | reward=mystery
+- TSC-080 | 성좌 없는 신화 만들기 | role=long-term | reward=recognition
+- TSC-081 | 성좌 후원을 벤처 투자처럼 설계 | role=variation | reward=money
+- TSC-082 | 퀘스트를 법정 계약으로 해석 | role=variation | reward=justice
+- TSC-083 | 랭킹전을 오디션 프로그램처럼 중계 | role=variation | reward=fame
+- TSC-084 | 층 클리어를 도시 행정 문제로 변환 | role=variation | reward=competence
+- TSC-085 | 상태창을 신용평가 모델로 사용 | role=variation | reward=status
+- TSC-086 | 튜토리얼 보상을 복지 정책으로 바꿈 | role=variation | reward=safety
+- TSC-087 | 시스템 버그를 판례처럼 축적 | role=variation | reward=knowledge
+- TSC-088 | 후원자 댓글을 종교 정치로 변환 | role=variation | reward=scale
+- TSC-089 | 층 시장을 주식시장처럼 운영 | role=variation | reward=money
+- TSC-090 | 클리어 조건을 윤리 시험으로 비틀기 | role=variation | reward=moral
+- TSC-091 | 클리어 직후 다음 층이 아니라 재판장 열림 | role=hook | reward=shock
+- TSC-092 | 후원 거절한 성좌가 현실 이름을 부름 | role=hook | reward=mystery
+- TSC-093 | 히든 보상 설명에 삭제된 문장 | role=hook | reward=knowledge
+- TSC-094 | 랭킹 보드에 사망자 이름 재등장 | role=hook | reward=mystery
+- TSC-095 | 시스템 메시지가 주인공에게 존댓말 사용 | role=hook | reward=shock
+- TSC-096 | 층 주민이 현실 주소를 건넴 | role=hook | reward=scale
+- TSC-097 | 성좌 계약서에 미래 서명 발견 | role=hook | reward=tension
+- TSC-098 | 관리자 채널에 주인공 편이 존재 | role=hook | reward=mystery
+- TSC-099 | 패널티 타이머가 현실 재난과 동기화 | role=hook | reward=scale
+- TSC-100 | 최종층 보상이 첫 층에 매장 | role=hook | reward=next-click
+
+## G04 Regression / Future Knowledge
+
+- REG-001 | 멸망 후 혼자 돌아온 생존자 | role=identity | reward=revenge
+- REG-002 | 실패한 천재의 두 번째 입학 | role=identity | reward=status
+- REG-003 | 가족을 잃은 투자자의 회귀 | role=identity | reward=money
+- REG-004 | 배드엔딩을 본 파티 서포터 | role=identity | reward=safety
+- REG-005 | 버림받은 후계자의 과거 귀환 | role=identity | reward=revenge
+- REG-006 | 미래 영웅을 죽였던 죄인 | role=identity | reward=redemption
+- REG-007 | 멸망 원인을 모르는 회귀자 | role=identity | reward=mystery
+- REG-008 | 회귀했지만 일부 기억이 비어 있음 | role=identity | reward=tension
+- REG-009 | 성공한 미래를 버리고 온 사람 | role=identity | reward=moral
+- REG-010 | 같은 날만 반복하는 루프 탈출자 | role=identity | reward=autonomy
+- REG-011 | 재난 날짜 목록 | role=advantage | reward=knowledge
+- REG-012 | 미래 주가와 토지 정보 | role=advantage | reward=money
+- REG-013 | 숨은 인재의 현재 약점 기억 | role=advantage | reward=relationship
+- REG-014 | 던전 공략 순서 기억 | role=advantage | reward=power
+- REG-015 | 배신자 명단과 증거 위치 | role=advantage | reward=revenge
+- REG-016 | 시험 문제보다 출제 의도 기억 | role=advantage | reward=status
+- REG-017 | 미래 병의 치료 단서 | role=advantage | reward=safety
+- REG-018 | 사라질 기술의 원천 특허 | role=advantage | reward=money
+- REG-019 | 원래 죽을 사람들의 사망 조건 | role=advantage | reward=safety
+- REG-020 | 회귀 전 실패 로그 | role=advantage | reward=competence
+- REG-021 | 사고 하루 전 대피 성공 | role=proof | reward=safety
+- REG-022 | 폭등 전 폐지 주식 매수 | role=proof | reward=money
+- REG-023 | 미래 라이벌을 먼저 구출 | role=proof | reward=relationship
+- REG-024 | 배신자의 첫 거짓말 노출 | role=proof | reward=revenge
+- REG-025 | 숨은 던전 최초 클리어 | role=proof | reward=power
+- REG-026 | 입학 시험의 진짜 기준 충족 | role=proof | reward=status
+- REG-027 | 미래 뉴스와 다른 결과 유도 | role=proof | reward=autonomy
+- REG-028 | 죽을 아이를 살려 타임라인 변화 | role=proof | reward=moral
+- REG-029 | 실패한 계약을 유리하게 재작성 | role=proof | reward=money
+- REG-030 | 과거의 자신이 남긴 단서 발견 | role=proof | reward=mystery
+- REG-031 | 미래 인재가 충성 대신 협상 요구 | role=reaction | reward=relationship
+- REG-032 | 시장이 주인공 매수 패턴을 추적 | role=reaction | reward=tension
+- REG-033 | 가족이 갑작스런 변화 의심 | role=reaction | reward=conflict
+- REG-034 | 협회가 예측 능력 등록 요구 | role=reaction | reward=authority
+- REG-035 | 언론이 예언자 프레임 씌움 | role=reaction | reward=fame
+- REG-036 | 구한 사람이 기억 조각을 봄 | role=reaction | reward=mystery
+- REG-037 | 미래 적이 일정 변경 | role=reaction | reward=tension
+- REG-038 | 투자자가 내부자 거래 의심 | role=reaction | reward=conflict
+- REG-039 | 스승이 불가능한 경험을 눈치챔 | role=reaction | reward=recognition
+- REG-040 | 다른 회귀자가 먼저 접촉 | role=reaction | reward=shock
+- REG-041 | 미래가 바뀌어 기억 신뢰도 하락 | role=cost | reward=tension
+- REG-042 | 돈은 벌었지만 증명할 근거 부족 | role=cost | reward=pressure
+- REG-043 | 구출한 인재가 원래 적보다 위험 | role=cost | reward=mystery
+- REG-044 | 사망 회피가 다른 사람의 위기를 앞당김 | role=cost | reward=moral
+- REG-045 | 회귀 지식 사용 때마다 기억 손실 | role=cost | reward=tension
+- REG-046 | 배신자를 미리 치면 법적 역공 | role=cost | reward=justice
+- REG-047 | 과거 가족 관계가 예상과 다름 | role=cost | reward=emotion
+- REG-048 | 미래 특허 선점이 원발명자와 충돌 | role=cost | reward=conflict
+- REG-049 | 루프 탈출 조건을 잘못 추정 | role=cost | reward=mystery
+- REG-050 | 예언자 명성이 적의 표적이 됨 | role=cost | reward=threat
+- REG-051 | 첫 투자 수익 공개 | role=episode | reward=money
+- REG-052 | 미래 동료의 현재 사건 해결 | role=episode | reward=relationship
+- REG-053 | 배드엔딩 원인 중 하나 제거 | role=episode | reward=revenge
+- REG-054 | 재난 전야 물자 확보 | role=episode | reward=safety
+- REG-055 | 회귀 전 실패했던 시험 재도전 | role=episode | reward=status
+- REG-056 | 미래 적의 어린 시절 선택 | role=episode | reward=moral
+- REG-057 | 잊힌 날짜를 추리로 복원 | role=episode | reward=knowledge
+- REG-058 | 타임라인 변경으로 신상품 등장 | role=episode | reward=money
+- REG-059 | 원래 죽은 사람의 증언 확보 | role=episode | reward=justice
+- REG-060 | 루프 당일 마지막 10분 실험 | role=episode | reward=autonomy
+- REG-061 | 두 번째 회귀자 | role=antagonist | reward=tension
+- REG-062 | 미래를 더 많이 아는 예언자 | role=antagonist | reward=mystery
+- REG-063 | 주인공 개입을 이용하는 투자자 | role=antagonist | reward=money
+- REG-064 | 구원받고도 배신하는 미래 동료 | role=antagonist | reward=emotion
+- REG-065 | 멸망을 앞당기는 효율주의자 | role=antagonist | reward=conflict
+- REG-066 | 배드엔딩을 원한 원흉 | role=antagonist | reward=revenge
+- REG-067 | 기억 조작 능력을 가진 적 | role=antagonist | reward=mystery
+- REG-068 | 회귀자를 사냥하는 기관 | role=antagonist | reward=safety
+- REG-069 | 원래 영웅의 자리를 빼앗긴 인물 | role=antagonist | reward=status
+- REG-070 | 미래 지식 시장을 독점한 집단 | role=antagonist | reward=money
+- REG-071 | 미래 인재 네트워크 구축 | role=long-term | reward=relationship
+- REG-072 | 재난 예방 기업 설립 | role=long-term | reward=money
+- REG-073 | 멸망 원인 추적 지도 | role=long-term | reward=mystery
+- REG-074 | 타임라인 변화 기록소 | role=long-term | reward=knowledge
+- REG-075 | 가족/길드/회사 구조 개편 | role=long-term | reward=authority
+- REG-076 | 미래 기술 특허 포트폴리오 | role=long-term | reward=money
+- REG-077 | 생존자 도시 건설 | role=long-term | reward=safety
+- REG-078 | 두 번째 회귀자와 정보 전쟁 | role=long-term | reward=tension
+- REG-079 | 멸망 대신 새로운 위기 생성 | role=long-term | reward=scale
+- REG-080 | 회귀 시스템 자체와 협상 | role=long-term | reward=autonomy
+- REG-081 | 회귀를 금융 감사처럼 다루기 | role=variation | reward=justice
+- REG-082 | 미래 지식에 증거 책임 부과 | role=variation | reward=competence
+- REG-083 | 타임라인 변화를 주식 차트처럼 시각화 | role=variation | reward=knowledge
+- REG-084 | 회귀자를 보험 상품 위험군으로 분류 | role=variation | reward=status
+- REG-085 | 미래 인재 영입을 스포츠 드래프트화 | role=variation | reward=relationship
+- REG-086 | 재난 예방을 도시 행정물로 전개 | role=variation | reward=safety
+- REG-087 | 배신자 처벌을 공개 절차로 설계 | role=variation | reward=revenge
+- REG-088 | 기억 공백을 미스터리 추리로 처리 | role=variation | reward=mystery
+- REG-089 | 루프 당일을 법정 공방으로 구성 | role=variation | reward=justice
+- REG-090 | 미래 지식 사용권을 계약으로 제한 | role=variation | reward=autonomy
+- REG-091 | 바꾼 미래에서 온 메시지 | role=hook | reward=mystery
+- REG-092 | 구한 사람이 원래 죽은 날짜를 말함 | role=hook | reward=shock
+- REG-093 | 주가가 기억과 다르게 움직임 | role=hook | reward=tension
+- REG-094 | 미래 적이 먼저 사과문 발표 | role=hook | reward=mystery
+- REG-095 | 회귀 전 자신이 남긴 녹음 | role=hook | reward=knowledge
+- REG-096 | 두 번째 회귀자가 같은 자산 매수 | role=hook | reward=conflict
+- REG-097 | 사망 회피 직후 새 사망 플래그 | role=hook | reward=next-click
+- REG-098 | 회귀 시점 이전의 기억 발견 | role=hook | reward=scale
+- REG-099 | 미래 영웅이 주인공을 의심 | role=hook | reward=relationship
+- REG-100 | 멸망 날짜가 앞당겨짐 | role=hook | reward=scale
+
+## G05 Modern Fantasy / Chaebol / Finance
+
+- FIN-001 | 버림받은 재벌가 막내 | role=identity | reward=status
+- FIN-002 | 파산 직전 스타트업 대표 | role=identity | reward=money
+- FIN-003 | 회장실 비서 출신 회귀자 | role=identity | reward=knowledge
+- FIN-004 | 지방 부동산 중개인의 미래 기억 | role=identity | reward=money
+- FIN-005 | 실패한 펀드매니저의 2회차 | role=identity | reward=revenge
+- FIN-006 | 숨겨진 혼외자 후계자 | role=identity | reward=status
+- FIN-007 | 기술은 있지만 자본 없는 연구자 | role=identity | reward=autonomy
+- FIN-008 | 해고당한 기업 사냥꾼 | role=identity | reward=revenge
+- FIN-009 | 망한 연예기획사 매니저 | role=identity | reward=recognition
+- FIN-010 | 재난 산업을 아는 보험 설계사 | role=identity | reward=competence
+- FIN-011 | 미래 공시와 인수 시점 기억 | role=advantage | reward=money
+- FIN-012 | 가족 비자금 장부 위치 파악 | role=advantage | reward=revenge
+- FIN-013 | 특허의 진짜 시장성 감정 | role=advantage | reward=money
+- FIN-014 | 토지 개발 계획 사전 인지 | role=advantage | reward=money
+- FIN-015 | 이사회 규정과 의결권 해석 | role=advantage | reward=authority
+- FIN-016 | 기술 실패 원인 재현 가능 | role=advantage | reward=competence
+- FIN-017 | 언론 프레임의 작동 방식 이해 | role=advantage | reward=fame
+- FIN-018 | 위기 산업의 보험 리스크 계산 | role=advantage | reward=money
+- FIN-019 | 사람의 호감도/신뢰도 수치화 | role=advantage | reward=relationship
+- FIN-020 | 계약서 독소 조항 자동 탐지 | role=advantage | reward=autonomy
+- FIN-021 | 헐값 부지의 개발 발표 | role=proof | reward=money
+- FIN-022 | 소형 계열사 흑자 전환 | role=proof | reward=competence
+- FIN-023 | 이사회 조롱을 의결권으로 반전 | role=proof | reward=status
+- FIN-024 | 특허 데모 실패 현장 수습 | role=proof | reward=recognition
+- FIN-025 | 내부자 거래 누명을 자료로 반박 | role=proof | reward=justice
+- FIN-026 | 위기 주식 공매도 역전 | role=proof | reward=money
+- FIN-027 | 인수 포기된 회사를 핵심 자산화 | role=proof | reward=authority
+- FIN-028 | 재난 보험료 산정으로 시장 충격 | role=proof | reward=competence
+- FIN-029 | 가족 스캔들 공개 전 선제 대응 | role=proof | reward=revenge
+- FIN-030 | 작은 계약의 숨은 독점권 공개 | role=proof | reward=money
+- FIN-031 | 회장이 비공개 면담 호출 | role=reaction | reward=status
+- FIN-032 | 경쟁 펀드가 투자 패턴 추적 | role=reaction | reward=tension
+- FIN-033 | 언론이 천재 투자자 프레임 형성 | role=reaction | reward=fame
+- FIN-034 | 가족회의에서 발언권 획득 | role=reaction | reward=authority
+- FIN-035 | 은행이 담보 조건을 바꿈 | role=reaction | reward=money
+- FIN-036 | 검찰/감사팀이 자료 출처 의심 | role=reaction | reward=pressure
+- FIN-037 | 스타트업 창업자가 지분 대신 조건 요구 | role=reaction | reward=relationship
+- FIN-038 | 주주들이 공개 지지 선언 | role=reaction | reward=status
+- FIN-039 | 정략혼/계약 관계 제안 | role=reaction | reward=scale
+- FIN-040 | 해외 자본이 접촉 | role=reaction | reward=money
+- FIN-041 | 미래 정보 사용이 시장을 바꿈 | role=cost | reward=tension
+- FIN-042 | 지분 확보가 가족 전쟁 선포로 해석 | role=cost | reward=conflict
+- FIN-043 | 특허 선점이 원발명자 윤리 문제 발생 | role=cost | reward=moral
+- FIN-044 | 부동산 매입으로 지역민 반발 | role=cost | reward=justice
+- FIN-045 | 언론 명성이 사생활 공격 유발 | role=cost | reward=pressure
+- FIN-046 | 이사회 승리 대가로 계열사 책임 | role=cost | reward=authority
+- FIN-047 | 투자 수익이 세무조사 유발 | role=cost | reward=tension
+- FIN-048 | 계약 독점권이 규제 대상 | role=cost | reward=conflict
+- FIN-049 | 스캔들 방어가 다른 비밀 노출 | role=cost | reward=mystery
+- FIN-050 | 해외 자본 동맹이 정치 리스크 유발 | role=cost | reward=scale
+- FIN-051 | 주주총회 공개 반전 | role=episode | reward=status
+- FIN-052 | 부동산 경매장 낙찰전 | role=episode | reward=money
+- FIN-053 | 스타트업 데모데이 구조 | role=episode | reward=recognition
+- FIN-054 | 언론 인터뷰에서 프레임 역전 | role=episode | reward=fame
+- FIN-055 | 계열사 회생 프로젝트 | role=episode | reward=competence
+- FIN-056 | 계약서 한 줄로 인수전 승리 | role=episode | reward=autonomy
+- FIN-057 | 가족 식사 자리의 공개 굴욕 반격 | role=episode | reward=revenge
+- FIN-058 | 특허 소송 임시처분 | role=episode | reward=justice
+- FIN-059 | 재난 보험 상품 출시 | role=episode | reward=money
+- FIN-060 | 경쟁사 M&A 함정 간파 | role=episode | reward=competence
+- FIN-061 | 지분을 가로채려는 형제 | role=antagonist | reward=revenge
+- FIN-062 | 허위 기사로 시장을 흔드는 언론사 | role=antagonist | reward=fame
+- FIN-063 | 회장의 신임을 독점한 전문경영인 | role=antagonist | reward=status
+- FIN-064 | 특허를 훔친 대기업 연구소 | role=antagonist | reward=justice
+- FIN-065 | 미래 정보를 역이용하는 투자자 | role=antagonist | reward=money
+- FIN-066 | 개발 정보를 은폐한 관료 | role=antagonist | reward=justice
+- FIN-067 | 계약 결혼으로 지분을 노리는 가문 | role=antagonist | reward=conflict
+- FIN-068 | 내부고발자를 제거하려는 감사팀장 | role=antagonist | reward=safety
+- FIN-069 | 해외 펀드의 적대적 인수 | role=antagonist | reward=scale
+- FIN-070 | 가족 비밀을 가진 운전기사/비서 | role=antagonist | reward=mystery
+- FIN-071 | 지주회사 장악 로드맵 | role=long-term | reward=authority
+- FIN-072 | 게이트/재난 보험 시장 독점 | role=long-term | reward=money
+- FIN-073 | 특허 포트폴리오 제국 | role=long-term | reward=money
+- FIN-074 | 가족 경영 구조 개편 | role=long-term | reward=justice
+- FIN-075 | 글로벌 자본과의 동맹 | role=long-term | reward=scale
+- FIN-076 | 사회적 기업 이미지와 실제 권력 | role=long-term | reward=fame
+- FIN-077 | 스타트업 연합 구축 | role=long-term | reward=relationship
+- FIN-078 | 부동산 개발권 정치전 | role=long-term | reward=scale
+- FIN-079 | 경제 위기 전 국가급 대응 | role=long-term | reward=safety
+- FIN-080 | 회귀 정보의 원천 추적 | role=long-term | reward=mystery
+- FIN-081 | 이사회 장면을 결투처럼 설계 | role=variation | reward=status
+- FIN-082 | 주식을 던전 아이템처럼 등급화 | role=variation | reward=money
+- FIN-083 | 가족 계보를 퀘스트 트리처럼 운용 | role=variation | reward=knowledge
+- FIN-084 | 계약 결혼을 M&A 방어 전략으로 사용 | role=variation | reward=autonomy
+- FIN-085 | 부동산 개발을 게이트 안전 구역으로 연결 | role=variation | reward=safety
+- FIN-086 | 특허권을 무공 비급 소유권처럼 다툼 | role=variation | reward=authority
+- FIN-087 | 재벌 후계전을 아카데미 랭킹처럼 공개 | role=variation | reward=fame
+- FIN-088 | 투자 실패를 사망 플래그처럼 처리 | role=variation | reward=tension
+- FIN-089 | 회장실 비밀문서를 유적 지도처럼 활용 | role=variation | reward=mystery
+- FIN-090 | 주주 여론을 성좌 후원처럼 연출 | role=variation | reward=status
+- FIN-091 | 낙찰 직후 정부 발표가 취소 | role=hook | reward=tension
+- FIN-092 | 주인공보다 먼저 매수한 정체불명 계좌 | role=hook | reward=mystery
+- FIN-093 | 계약서 원본에 숨은 상속 조항 | role=hook | reward=shock
+- FIN-094 | 회장이 남긴 비공개 유언 영상 | role=hook | reward=mystery
+- FIN-095 | 특허 시연 성공 직후 사망 사고 | role=hook | reward=pressure
+- FIN-096 | 주총 승리 후 검찰 소환장 | role=hook | reward=conflict
+- FIN-097 | 개발 예정지 아래 게이트 반응 | role=hook | reward=scale
+- FIN-098 | 가족 스캔들에 주인공 이름 추가 | role=hook | reward=tension
+- FIN-099 | 해외 펀드가 미래 사건을 알고 있음 | role=hook | reward=shock
+- FIN-100 | 인수한 회사의 진짜 소유주 등장 | role=hook | reward=next-click
