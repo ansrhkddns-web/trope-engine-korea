@@ -1,4 +1,4 @@
 interface:
   display_name: "Trope Engine Korea"
   short_description: "Korean trope spec and quality engine"
-  default_prompt: "Use $trope-engine-korea to build a Korean webnovel trope spec with proof scenes, reader rewards, packaging, acceptance tests, and production handoff."
+  default_prompt: "Use $trope-engine-korea to build a reference-backed Korean webnovel trope spec with proof scenes, reader rewards, packaging, acceptance tests, and production handoff."

@@ -1,6 +1,6 @@
 ---
 name: trope-engine-korea
-description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter associations, towers, gates, dungeons, constellations, systems, status windows, regression with information advantage, chaebol finance, stocks, real estate, M&A, martial sects, demonic cults, orthodox factions, fortuitous encounters, academy rankers, possession, reincarnation, revenge, production/support classes, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality-safe reference abstraction, reader reaction simulation, production handoff, 1-50 episode escalation, paid-trust planning, trope freshness scoring, and serialization-ready trope packs, concept bibles, episode seeds, hooks, or trope variation plans.
+description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter associations, towers, gates, dungeons, constellations, systems, status windows, regression with information advantage, chaebol finance, stocks, real estate, M&A, martial sects, demonic cults, orthodox factions, fortuitous encounters, academy rankers, possession, reincarnation, revenge, production/support classes, reference-backed cliche taxonomy, trope/motif/function synthesis, reader reward loops, first-episode proof scenes, title/logline/tag packaging, originality-safe reference abstraction, reader reaction simulation, production handoff, 1-50 episode escalation, paid-trust planning, trope freshness scoring, and serialization-ready trope packs, concept bibles, episode seeds, hooks, or trope variation plans.
 ---
 
 # Trope Engine Korea
@@ -21,6 +21,9 @@ Load only the reference needed for the task:
 
 - `references/input-assembly-protocol.md`: interpret vague prompts, many genre keywords, rough premises, or "commercial/familiar but fresh" requests.
 - `references/mode-playbooks.md`: choose the right execution mode, reference set, output size, and final section for the request.
+- `references/external-cliche-reference-map.md`: synthesize external trope, motif, folklore, and story-ideation reference families into reusable design principles.
+- `references/cliche-taxonomy-engine.md`: decompose and rebuild cliches through pressure, function, motif, reward, witness, cost, and renewal axes.
+- `references/reference-backed-card-bank-1.md`: use the first reference-backed card bank with donor tests, recognition tokens, forbidden access, false heroes, taboo contracts, and other structural cards.
 - `references/trope-engine-schema.md`: create stable reusable trope-engine specs for bibles, revisions, and continuation across turns.
 - `references/default-genre-settings.md`: choose default settings, promise, factions, reward loop, and common devices by genre.
 - `references/trope-card-library.md`: pick concrete cliche cards such as rank tests, hidden dungeons, guild scouting, stock arbitrage, martial arts fortuitous encounters, public reversals, and ending hooks.
@@ -48,6 +51,7 @@ Optional script:
 
 1. Identify the work mode:
    - Use `mode-playbooks.md` when several modes could fit.
+   - `reference-backed upgrade`: use diverse cliche references to expand the cliche taxonomy or card bank.
    - `input assembly`: convert vague genre keywords or rough ideas into an actionable trope engine.
    - `genre defaults`: provide the default setting values for one or more genres.
    - `structured spec`: produce a reusable trope-engine spec or update an existing one.
@@ -103,11 +107,13 @@ Optional script:
    - Define the obstacle ladder: personal enemy -> organization -> region -> nation/world/heavenly order.
    - Define the serial hook objects: message, rank, contract, witness, price, name, door, bid, mandate, debt, duel, system window, prophecy.
    - Use `trope-engine-schema.md` for reusable bibles or multi-turn project work.
+   - Use `cliche-taxonomy-engine.md` when a cliche must be decomposed or translated across genres.
 
 7. Select cliche cards:
    - Use 3-7 cards for a quick pack.
    - Use 8-15 cards for a full concept or bible.
    - For each card, include why readers like it, where it appears, what reward it pays, and how to vary it.
+   - Use `reference-backed-card-bank-1.md` when the user asks for more diverse references, broader cliche sources, or non-obvious structural cards.
 
 8. Convert the most important cliche into a proof scene:
    - Use `scene-proof-bank.md`.
@@ -169,6 +175,7 @@ Optional script:
 - Treat the first proof scene as the engine test. If it cannot be staged, the trope is still too abstract.
 - Product packaging must not promise a reward the opening cannot prove.
 - When using references, transform the desired pleasure rather than echoing signature names, rules, or scene sequences.
+- When using external trope/motif references, extract function, pressure, motif, proof, and cost; never copy page-specific examples as output.
 - Keep reusable project outputs in a stable schema when the user may continue the same concept later.
 - End production-oriented answers with an explicit handoff: what artifact should be built next and what must not be lost.
 - Prefer a smaller correct mode over a giant answer that mixes every capability.
@@ -181,6 +188,7 @@ For most requests, include:
 - Reader promise in one sentence
 - Genre default settings
 - Trope cards selected
+- Reference-backed cliche function or motif if useful
 - Reward channels and visible proof
 - Freshness levers
 - First proof scene

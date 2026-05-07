@@ -22,6 +22,25 @@ Use for fast ideation.
 - **진부해질 위험**:
 - **다음 기획 단계**:
 
+## 레퍼런스 기반 클리셰 추출표
+
+Use when upgrading or expanding the engine from diverse cliche references.
+
+| 레퍼런스 계열 | 추출한 기능 | 한국형 웹소설 변환 | 증거물 | 목격자 | 비용/압박 |
+| --- | --- | --- | --- | --- | --- |
+| Trope catalog |  |  |  |  |  |
+| Motif index |  |  |  |  |  |
+| Propp-like function |  |  |  |  |  |
+| Dramatic situation |  |  |  |  |  |
+| Korean webnovel practice |  |  |  |  |  |
+
+Then add:
+
+- **새로 추가할 카드**:
+- **기존 카드와 합칠 카드**:
+- **금지/제한할 복사 위험**:
+- **1화 증명 장면으로 바꿀 카드**:
+
 ## 입력 조립 결과
 
 Use when the user's request is vague or keyword-heavy.

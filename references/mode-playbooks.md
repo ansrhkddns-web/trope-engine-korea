@@ -16,6 +16,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "독자 반응" | reader response | `reader-response-simulation.md` | `diagnostics-rubric.md`, `product-packaging.md` |
 | "유명작 느낌" | originality safety | `originality-safety.md` | `variation-engine.md`, `scene-proof-bank.md` |
 | "요즘 잘 먹히는" | market reference | `market-research-protocol.md` | current web research, then stable references |
+| "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
 ## Output Size Rules
 
@@ -54,6 +55,25 @@ Avoid:
 - long market explanation;
 - 50-episode roadmap unless requested;
 - too many named institutions.
+
+### Reference-Backed Upgrade
+
+Use when the user asks to improve the engine using many cliche references.
+
+Steps:
+
+1. Identify reference families: trope catalog, motif index, plot function, dramatic situation, Korean webnovel practice.
+2. Extract functions, not names.
+3. Convert each function into cliche taxonomy fields.
+4. Add or select cards from the reference-backed card bank.
+5. Connect cards to proof scenes and reward loops.
+6. Record source-inspired principles without copying examples.
+
+Avoid:
+
+- quoting or reproducing external trope page content;
+- adding cards that cannot be staged;
+- using external references without Korean webnovel localization.
 
 ### Full Concept Engine
 
