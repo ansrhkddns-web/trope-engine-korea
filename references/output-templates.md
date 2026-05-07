@@ -1,0 +1,409 @@
+# Output Templates
+
+Use these templates in Korean unless the user asks for another language. Keep the headings practical and easy for a writer/planner to reuse.
+
+## 빠른 클리셰 팩
+
+Use for fast ideation.
+
+- **장르 조합**:
+- **독자 약속**:
+- **기본 설정값**:
+- **주인공 우위**:
+- **첫 증명 장면**:
+- **선택한 클리셰 카드**:
+  - 카드:
+  - 왜 먹히는가:
+  - 지급하는 보상:
+  - 신선한 변주:
+  - 에피소드 사용법:
+- **반복 보상 루프**:
+- **장기 확장 방향**:
+- **진부해질 위험**:
+- **다음 기획 단계**:
+
+## 입력 조립 결과
+
+Use when the user's request is vague or keyword-heavy.
+
+- **제가 잡은 방향**:
+- **전제/가정**:
+- **메인 장르**:
+- **보조 장르**:
+- **나중에 넣을 맛**:
+- **독자 약속**:
+- **주인공 우위**:
+- **첫 증명 장면**:
+- **핵심 보상 루프**:
+- **우선 사용할 클리셰 카드**:
+- **지금은 빼야 할 요소**:
+- **다음 작업 지시**:
+
+## 장르 기본값 프로필
+
+Use when the user asks for basic setting defaults.
+
+| 축 | 기본값 |
+| --- | --- |
+| 독자 약속 |  |
+| 세계 엔진 |  |
+| 지위 상승 사다리 |  |
+| 주인공 우위 |  |
+| 반응하는 기관 |  |
+| 첫 증명 장면 |  |
+| 반복 보상 |  |
+| 주요 적대 축 |  |
+| 장기 확장 |  |
+| 신선함을 줄 축 |  |
+| 피할 것 |  |
+
+## 익숙하지만 새롭게 만든 콘셉트
+
+Use when turning cliches into a concept.
+
+- **한 줄 콘셉트**:
+- **익숙한 핵심 장치**:
+- **새로운 각도**:
+- **독자가 바로 알아보는 이유**:
+- **특정 작품 복사가 아닌 이유**:
+- **주인공**:
+- **오프닝 상황**:
+- **1화 증명 장면**:
+- **1화 엔딩 훅**:
+- **1-5화 보상 계획**:
+- **50화 이상 버틸 엔진**:
+- **제목 방향**:
+- **위험과 보완**:
+
+## 클리셰 조합 보드
+
+Use when mixing genres.
+
+| 구성 요소 | 메인 장르가 담당 | 보조 장르가 보강 | 장면으로 증명하는 법 |
+| --- | --- | --- | --- |
+| 핵심 약속 |  |  |  |
+| 주인공 우위 |  |  |  |
+| 반응 기관 |  |  |  |
+| 보상 루프 |  |  |  |
+| 적대 사다리 |  |  |  |
+| 대중/주변 반응 |  |  |  |
+| 장기 미스터리 |  |  |  |
+
+Then add:
+
+- **가장 좋은 조합 규칙**:
+- **장르끼리 충돌하는 지점**:
+- **충돌 해결법**:
+- **클릭을 부르는 에피소드 씨앗 3개**:
+
+## 에피소드 씨앗 묶음
+
+Use when the user wants usable episodes from the trope engine.
+
+For each episode seed:
+
+- **에피소드 기능**:
+- **시작 압박**:
+- **사용한 클리셰 카드**:
+- **주인공의 행동**:
+- **눈에 보이는 보상**:
+- **주변/대중 반응**:
+- **새 비용 또는 새 압박**:
+- **엔딩 훅 오브젝트**:
+- **다음 화 클릭 질문**:
+
+## 1화 증명 장면
+
+Use when a cliche needs to become a concrete opening scene.
+
+- **장면의 기능**:
+- **시작 압박**:
+- **주인공의 선택/행동**:
+- **사용되는 우위**:
+- **증거물**:
+- **목격자**:
+- **보상**:
+- **새 비용/압박**:
+- **엔딩 훅**:
+- **다음 화 클릭 질문**:
+- **피해야 할 설명**:
+
+## 상품 패키지
+
+Use with title, intro, tag, and first-5-episode packaging.
+
+- **제목 후보 10개**:
+- **가장 추천하는 제목**:
+- **한 줄 로그라인**:
+- **소개글 짧은 버전**:
+- **소개글 긴 버전**:
+- **추천 태그**:
+- **제목이 약속하는 보상**:
+- **1화에서 증명해야 할 장면**:
+- **1-5화 패키지 흐름**:
+
+| 화 | 패키지 역할 | 보여줄 증거 | 엔딩 압박 |
+| --- | --- | --- | --- |
+| 1화 |  |  |  |
+| 2화 |  |  |  |
+| 3화 |  |  |  |
+| 4화 |  |  |  |
+| 5화 |  |  |  |
+
+- **패키지 불일치 위험**:
+- **수정 제안**:
+
+## 보상 엔진 설계
+
+Use when the user asks why a concept will keep readers clicking.
+
+- **핵심 독자 약속**:
+- **주 보상 채널 2-4개**:
+- **각 보상의 눈에 보이는 증거**:
+- **1화 소보상**:
+- **첫 대보상**:
+- **반복 보상 루프**:
+- **보상 부채 목록**:
+
+| 열린 약속 | 보상 유형 | 갚는 증거 | 목격자 | 갚을 시점 | 부채 위험 |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+- **유료 전환 신뢰 장치**:
+- **보상 실패 위험과 보완**:
+
+## 표준 트로프 엔진 스펙
+
+Use with `trope-engine-schema.md` when the result should be reusable.
+
+```yaml
+project_signal:
+  title_direction:
+  one_line_promise:
+  target_reward:
+genre_stack:
+  primary:
+  support:
+  delayed_flavors:
+reader_contract:
+  reward_channels:
+  visible_proof:
+  first_small_payoff:
+  first_large_payoff:
+protagonist_engine:
+  starting_wound:
+  unfair_advantage:
+  active_method:
+  limitation_or_cost:
+world_engine:
+  repeated_incident_rule:
+  scarcity_or_pressure:
+institution_map:
+  measuring_body:
+  market_or_public:
+  enemy_institution:
+trope_stack:
+  approved_cards:
+  restricted_cards:
+first_proof_scene:
+  pressure:
+  action:
+  proof_object:
+  witness:
+  reward:
+  cost_or_hook:
+reward_ledger:
+  opened:
+  paid:
+  debt:
+escalation_ladder:
+  episodes_1_5:
+  episodes_6_25:
+  episodes_26_50:
+  after_50:
+product_package:
+  title_candidates:
+  logline:
+  tags:
+originality_safety:
+  copy_risk:
+  transformed_elements:
+production_handoff:
+  next_artifact:
+  next_questions:
+```
+
+## 1-50화 확장 사다리
+
+Use when the user wants a durable serialization engine.
+
+| 구간 | 기능 | 지급할 보상 | 새 압박 | 기관 반응 |
+| --- | --- | --- | --- | --- |
+| 1화 |  |  |  |  |
+| 2-5화 |  |  |  |  |
+| 6-10화 |  |  |  |  |
+| 11-25화 |  |  |  |  |
+| 26-50화 |  |  |  |  |
+
+Then add:
+
+- **적대 사다리**:
+- **첫 대형 보상**:
+- **50화 이후 확장 가능성**:
+- **중간 이탈 위험**:
+- **보완 지시**:
+
+## 진단과 수정 처방
+
+Use when the user provides an idea, outline, or existing bible.
+
+| 점검 항목 | 통과/약함 | 메모 |
+| --- | --- | --- |
+| 장르가 초반에 바로 보이는가 |  |  |
+| 독자 약속이 선명한가 |  |  |
+| 주인공 우위가 행동을 만드는가 |  |  |
+| 첫 증명 장면이 눈에 보이는가 |  |  |
+| 보상 루프가 반복 가능한가 |  |  |
+| 기관/주변 인물이 반응하는가 |  |  |
+| 신선한 변주가 장면을 만드는가 |  |  |
+| 50화 이상 확장 가능한가 |  |  |
+
+Then add:
+
+- **가장 강한 부분**:
+- **가장 약한 클리셰 사용**:
+- **진부해질 위험**:
+- **구체적 보완책**:
+- **교체할 클리셰 카드**:
+- **수정한 첫 증명 장면**:
+- **다음 작업 지시**:
+
+## 고도화 진단표
+
+Use with `diagnostics-rubric.md` for a scored review.
+
+| 축 | 점수(0-5) | 문제 | 수정 처방 |
+| --- | --- | --- | --- |
+| 장르 인식 |  |  |  |
+| 독자 약속 |  |  |  |
+| 주인공 우위 |  |  |  |
+| 첫 증명 |  |  |  |
+| 클리셰 사용 |  |  |  |
+| 보상 리듬 |  |  |  |
+| 기관 반응 |  |  |  |
+| 사회적 증거 |  |  |  |
+| 비용/결과 |  |  |  |
+| 장기 엔진 |  |  |  |
+| 신선함 |  |  |  |
+| 고유성 안전 |  |  |  |
+
+Then add:
+
+- **판정**:
+- **가장 먼저 고칠 것**:
+- **살릴 강점**:
+- **수정 후 첫 3화 방향**:
+- **사용/금지 클리셰**:
+
+## 독자 반응 시뮬레이션
+
+Use when checking click/retention risk.
+
+- **독자가 좋아할 지점**:
+- **불만이 나올 지점**:
+- **댓글이 달릴 만한 질문**:
+- **이탈 위험 구간**:
+- **혼란 위험**:
+- **보상 부족 위험**:
+- **유료 전환 신뢰 위험**:
+- **수정 우선순위**:
+
+## 수용성 테스트
+
+Use with `acceptance-tests.md` when deciding readiness.
+
+| 테스트 | 통과/수정/재구축 | 이유 | 수정 |
+| --- | --- | --- | --- |
+| 10초 이해 |  |  |  |
+| 첫 장면 증명 |  |  |  |
+| 1-5화 반복성 |  |  |  |
+| 유료 전환 신뢰 |  |  |  |
+| 50화 확장성 |  |  |  |
+| 고유성 안전 |  |  |  |
+
+Then add:
+
+- **최종 판정**:
+- **가장 중요한 수리 1개**:
+- **다음 산출물**:
+
+## 실패 패턴 수리표
+
+Use when the plan feels generic or overloaded.
+
+| 실패 패턴 | 증상 | 왜 문제인가 | 수리법 |
+| --- | --- | --- | --- |
+| 키워드 과적 |  |  |  |
+| 설정 선행 |  |  |  |
+| 수동적 주인공 |  |  |  |
+| 사적 보상 |  |  |  |
+| 공짜 이득 |  |  |  |
+| 가짜 신선함 |  |  |  |
+| 긴 굴욕 |  |  |  |
+| 멍청한 기관 |  |  |  |
+| 복사 그림자 |  |  |  |
+| 장기 엔진 부재 |  |  |  |
+
+Then add:
+
+- **가장 먼저 고칠 실패 패턴**:
+- **수정한 한 줄 엔진**:
+- **수정 후 첫 증명 장면**:
+
+## 고유성 안전 변환
+
+Use when the user references an existing work or asks for something "like" a known property.
+
+- **원하는 독자 쾌감**:
+- **일반화한 장르 기능**:
+- **복사 위험 요소**:
+- **바꿀 요소**:
+  - 기관:
+  - 증거물:
+  - 주인공 행동:
+  - 비용/결과:
+  - 장면 순서:
+- **새 콘셉트**:
+- **새 1화 증명 장면**:
+- **안전성 메모**:
+
+## 생산 인계 패킷
+
+Use when moving from trope design to planning or drafting.
+
+- **현재 산출물**:
+- **다음 산출물**:
+- **절대 잃으면 안 되는 독자 약속**:
+- **첫 증명 장면**:
+- **보상 장부**:
+- **사용 승인 클리셰**:
+- **금지/제한 클리셰**:
+- **연속성 앵커**:
+- **쓰지 말아야 할 장면/설명**:
+- **다음 3개 작업**:
+
+## 바이블 삽입용 정리
+
+Use when adding the engine into a larger project bible.
+
+- **장르 엔진 이름**:
+- **핵심 약속**:
+- **반복 사건을 만드는 세계 규칙**:
+- **힘/돈/지위 상승 사다리**:
+- **주요 기관**:
+- **사용 승인된 클리셰 카드**:
+- **금지 또는 제한할 클리셰 카드**:
+- **신선함 유지 규칙**:
+- **보상 부채 관리 규칙**:
+- **장기 아크 확장 방향**:
+- **연속성 메모**:
