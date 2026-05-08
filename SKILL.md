@@ -1,6 +1,6 @@
 ---
 name: trope-engine-korea
-description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, ranking, calibrating, deploying, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, support classes, genre survey values, 100-item cliche banks, reference routing, reference synthesis, triangulation, graph stress tests, remix operators, compiled trope engines, cliche selection optimization, ranked trope portfolios, reader feedback calibration, cliche fatigue repair, paid-trust checks, serial arc deployment, reward debt ledgers, hook cadence, proof scenes, title/logline/tag packaging, production handoff, 1-50 escalation, trope packs, bibles, episode seeds, hooks, or trope variation plans.
+description: Korean webnovel trope and genre-grammar engine. Use when designing, combining, diagnosing, packaging, linting, ranking, calibrating, deploying, auditing, or refreshing familiar-but-fresh cliches for commercial Korean serial fiction, including hunter/gate, tower/system, regression, chaebol finance, martial arts, academy, possession, romance fantasy, revenge, support classes, genre survey values, 100-item cliche banks, reference routing, reference synthesis, triangulation, graph stress tests, remix operators, compiled trope engines, cliche selection optimization, ranked trope portfolios, reader feedback calibration, cliche fatigue repair, paid-trust checks, serial arc deployment, reward debt ledgers, hook cadence, quality regression, narrative coherence audits, proof scenes, title/logline/tag packaging, production handoff, 1-50 escalation, trope packs, bibles, episode seeds, hooks, or trope variation plans.
 ---
 
 # Trope Engine Korea
@@ -30,6 +30,8 @@ Load only the reference needed for the task:
 - `references/cliche-fatigue-repair-loop-6.md`: repair stale, repetitive, too-easy, or hook-heavy cliche loops by rotating proof, witness, cost, institution, reward, antagonist competence, and payoff order.
 - `references/serial-arc-deployment-planner-7.md`: deploy a reader-tested trope engine across 1, 1-5, 6-25, 26-50, and 50+ episode horizons with episode jobs, cliche placement, hook cadence, feedback checkpoints, and continuity anchors.
 - `references/reward-debt-ledger-7.md`: track opened and paid reader promises such as proof, revenge, power, money/status, knowledge, relationship, safety, and justice debts across serial arcs.
+- `references/cliche-quality-regression-suite-9.md`: run cross-phase quality gates for source abstraction, promise, proof, graph, portfolio, feedback, serial deployment, reward debt, packaging, and originality regressions.
+- `references/narrative-coherence-audit-9.md`: audit temporal, causal, motivational, institutional, reward, scale, reader-memory, and packaging coherence for trope engines and serial plans.
 - `references/reference-synthesis-engine-2.md`: convert diverse cliche, motif, trope, folklore, web fiction, progression, and Korean regression/reincarnation references into safe Korean webnovel cliche machinery.
 - `references/reference-triangulation-protocol-3.md`: verify reference-derived cliches through recognition, structure, localization, serial durability, originality safety, and remixability before using them in stable engines.
 - `references/cliche-graph-stress-tests.md`: stress-test cliche graphs for required nodes, causal edges, proof visibility, agency, cost integrity, witness authority, payoff density, scale ladder, and paid-trust hooks.
@@ -71,6 +73,7 @@ Optional script:
 - `scripts/cliche_portfolio_lint.py`: check a saved phase-5 cliche portfolio for brief, source families, candidate pool, scoring axes, selected slots, balance, proof scene, episode loop, copy risk, and repair signals.
 - `scripts/cliche_feedback_lint.py`: check a saved phase-6 reader feedback or fatigue-repair artifact for reader cohorts, feedback axes, positive comments, complaints, episode map, paid trust, repair, copy-shadow, and verdict signals.
 - `scripts/cliche_serial_lint.py`: check a saved phase-7 serial deployment artifact for selected engine, deployment horizon, episode jobs, cliche schedule, reward debt, hook cadence, causal continuity, feedback checkpoints, and validation signals.
+- `scripts/cliche_quality_lint.py`: check a saved phase-9 quality regression or narrative coherence artifact for gate scores, severity, cross-phase preservation, coherence, reward debt, originality, patch list, and verdict signals.
 
 ## Workflow
 
@@ -83,6 +86,7 @@ Optional script:
    - `reference selection optimize`: score candidate cliches and assemble a balanced ranked portfolio for the current brief.
    - `reader feedback calibrate`: simulate reader response, fatigue, paid-trust risk, and repair the weakest cliche loop.
    - `serial arc deploy`: place selected cliche cards into an episode/arc deployment plan with reward debt and hook cadence.
+   - `quality regression audit`: run release-style quality gates and narrative coherence checks across prior engine phases.
    - `genre reference registration`: register genre survey defaults and large 100-item cliche banks for later reference.
    - `successful cliche upgrade`: use high-frequency successful webnovel cliche loops and presets to make a concept more commercially recognizable.
    - `input assembly`: convert vague genre keywords or rough ideas into an actionable trope engine.
@@ -153,6 +157,7 @@ Optional script:
    - Use `cliche-selection-optimizer-5.md` and `trope-portfolio-builder-5.md` when the user asks for phase 5, cliche ranking, best-card selection, portfolio balancing, candidate repair, or stronger selection logic.
    - Use `reader-feedback-calibrator-6.md` and `cliche-fatigue-repair-loop-6.md` when the user asks for phase 6, reader-response calibration, cliche fatigue repair, likely comments, retention risk, paid-trust checks, or episode-level repair.
    - Use `serial-arc-deployment-planner-7.md` and `reward-debt-ledger-7.md` when the user asks for phase 7, serial deployment, episode operation, arc placement, reward scheduling, hook cadence, reward debt, or 1-50 episode cliche deployment.
+   - Use `cliche-quality-regression-suite-9.md` and `narrative-coherence-audit-9.md` when the user asks for phase 9, quality regression, release gate, narrative coherence, output QA, cross-phase preservation, or post-deployment audit.
    - Use `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for widely used, proven, successful, popular, or commercially reliable webnovel cliches.
    - Use `webnovel-genre-survey-values.md`, `genre-cliche-bank-100-a.md`, `genre-cliche-bank-100-b.md`, and `cliche-structure-assembly-rules.md` when the user asks to register genre research values, build genre-specific 100-cliche lists, or structure cliches by genre.
    - For successful-cliche requests, include at least one identity cliche, advantage cliche, proof cliche, social reaction cliche, renewal cliche, and long-term cliche.
@@ -196,6 +201,7 @@ Optional script:
    - If the user provides a ranked cliche portfolio, phase-5 selection output, or asks to validate card selection, run `scripts/cliche_portfolio_lint.py <path>` or pipe text with `-`.
    - If the user provides a reader feedback, fatigue repair, or phase-6 calibration artifact, run `scripts/cliche_feedback_lint.py <path>` or pipe text with `-`.
    - If the user provides a serial deployment plan, reward debt ledger, hook cadence plan, or phase-7 artifact, run `scripts/cliche_serial_lint.py <path>` or pipe text with `-`.
+   - If the user provides a quality regression audit, narrative coherence audit, release gate report, or phase-9 artifact, run `scripts/cliche_quality_lint.py <path>` or pipe text with `-`.
    - Treat lint as a missing-section check, not a literary quality judgment.
 
 15. Produce a usable output:
@@ -246,6 +252,7 @@ For most requests, include:
 - Ranked cliche portfolio, candidate score, or selection balance if useful
 - Reader feedback calibration, fatigue repair, or paid-trust risk if useful
 - Serial arc deployment, reward debt ledger, hook cadence, or episode operation plan if useful
+- Quality regression gate, narrative coherence audit, severity list, or patch list if useful
 - Reward channels and visible proof
 - Freshness levers
 - First proof scene
@@ -276,6 +283,7 @@ Before finalizing, check:
 - If using phase-5 selection, does the final portfolio cover identity, advantage, proof, witness, cost, renewal, institution, and long-term hook without redundant proof objects?
 - If using phase-6 feedback, did the output predict likely praise, likely complaints, fatigue risk, paid-trust risk, and the first concrete repair?
 - If using phase-7 deployment, does each episode or segment have one job, one reward paid, one hook/cost opened, and tracked reward debt?
+- If using phase-9 audit, did the output check source abstraction, promise, proof, graph, portfolio, feedback, serial deployment, reward debt, packaging, originality, and coherence regressions?
 - Is every major reward visible through an object, witness, institution, or changed access?
 - Does the fresh variation create scenes instead of just terminology?
 - If genres are combined, does one primary engine clearly own the first click?

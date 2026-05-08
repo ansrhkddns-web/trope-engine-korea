@@ -307,6 +307,62 @@ Use with `serial-arc-deployment-planner-7.md` and `reward-debt-ledger-7.md`.
 - **첫 번째 수리 지점**:
 - **다음 산출물**:
 
+## 품질 회귀검사 9차 고도화
+
+Use with `cliche-quality-regression-suite-9.md` and `narrative-coherence-audit-9.md`.
+
+- **검사 대상**:
+- **사용한 레퍼런스 계열**:
+- **릴리즈 게이트 점수**:
+
+| 게이트 | 점수(0-5) | 문제 | 심각도 | 수리 |
+| --- | ---: | --- | --- | --- |
+| source |  |  |  |  |
+| promise |  |  |  |  |
+| proof |  |  |  |  |
+| graph |  |  |  |  |
+| portfolio |  |  |  |  |
+| feedback |  |  |  |  |
+| serial |  |  |  |  |
+| debt |  |  |  |  |
+| packaging |  |  |  |  |
+| originality |  |  |  |  |
+
+- **서사 일관성 감사**:
+
+| 층위 | 통과/수정/재구축 | 추론 공백 | 수리 |
+| --- | --- | --- | --- |
+| temporal |  |  |  |
+| causal |  |  |  |
+| motivational |  |  |  |
+| institutional |  |  |  |
+| reward |  |  |  |
+| scale |  |  |  |
+| reader-memory |  |  |  |
+| packaging |  |  |  |
+
+- **크로스 페이즈 회귀 점검**:
+
+| 이전 단계 | 보존 여부 | 회귀 징후 | 수리 |
+| --- | --- | --- | --- |
+| phase 2 synthesis |  |  |  |
+| phase 3 graph |  |  |  |
+| phase 4 compiler |  |  |  |
+| phase 5 portfolio |  |  |  |
+| phase 6 feedback |  |  |  |
+| phase 7 deployment |  |  |  |
+
+- **심각도 목록**:
+- **패치 리스트**:
+  - issue_id:
+  - target:
+  - action:
+  - preserved_promise:
+  - retest:
+- **릴리즈 판정**:
+- **검증 명령**:
+- **다음 산출물**:
+
 ## 입력 조립 결과
 
 Use when the user's request is vague or keyword-heavy.
@@ -665,6 +721,7 @@ Use with `acceptance-tests.md` when deciding readiness.
 | 클리셰 포트폴리오 |  |  |  |
 | 독자 피드백 |  |  |  |
 | 연재 배치 |  |  |  |
+| 품질 회귀검사 |  |  |  |
 
 Then add:
 

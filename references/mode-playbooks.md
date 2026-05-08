@@ -23,6 +23,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "클리셰 레퍼런스 참고 고도화 진행5" | reference selection optimize | `cliche-selection-optimizer-5.md`, `trope-portfolio-builder-5.md` | `reference-routing-matrix-4.md`, `trope-engine-compiler-4.md`, `acceptance-tests.md` |
 | "클리셰 레퍼런스 참고 고도화 진행6" | reader feedback calibrate | `reader-feedback-calibrator-6.md`, `cliche-fatigue-repair-loop-6.md` | `reader-response-simulation.md`, `acceptance-tests.md`, `failure-patterns.md` |
 | "클리셰 레퍼런스 참고 고도화 진행7" | serial arc deploy | `serial-arc-deployment-planner-7.md`, `reward-debt-ledger-7.md` | `reader-feedback-calibrator-6.md`, `escalation-ladders.md`, `production-handoff.md` |
+| "클리셰 레퍼런스 참고 고도화 진행9" | quality regression audit | `cliche-quality-regression-suite-9.md`, `narrative-coherence-audit-9.md` | previous phase artifact, `acceptance-tests.md`, relevant lint scripts |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -49,6 +50,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `cliche-selection-optimizer-5.md` and `trope-portfolio-builder-5.md` when the user asks for phase 5, candidate ranking, best cliche selection, portfolio balance, score-based repair, or reducing redundant cliche stacks.
 - Load `reader-feedback-calibrator-6.md` and `cliche-fatigue-repair-loop-6.md` when the user asks for phase 6, reader comments, retention risk, fatigue repair, paid-trust risk, or episode-level response calibration.
 - Load `serial-arc-deployment-planner-7.md` and `reward-debt-ledger-7.md` when the user asks for phase 7, serial deployment, episode operation, 1-50 placement, reward scheduling, reward debt, hook cadence, or converting a tested engine into an arc plan.
+- Load `cliche-quality-regression-suite-9.md` and `narrative-coherence-audit-9.md` when the user asks for phase 9, quality regression, release gate, narrative coherence, cross-phase preservation, or post-deployment QA.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -212,6 +214,27 @@ Avoid:
 - using the same cliffhanger type every episode;
 - letting scale expansion change the core reader reward;
 - treating reader comments as orders to rewrite the genre promise.
+
+### Quality Regression Audit
+
+Use when the user asks for phase 9, release readiness, narrative coherence, post-deployment QA, or a final upgrade pass over an existing trope engine.
+
+Steps:
+
+1. Scope the artifact being audited: source cards, compiled engine, selected portfolio, reader feedback calibration, serial deployment, or full package.
+2. Use `cliche-quality-regression-suite-9.md` to score the source, promise, proof, graph, portfolio, feedback, serial, debt, packaging, and originality gates.
+3. Use `narrative-coherence-audit-9.md` to check temporal, causal, motivational, institutional, reward, scale, reader-memory, and packaging coherence.
+4. Map each regression to severity P0-P3 and choose pass, revise, or rebuild.
+5. Write a concrete patch list with target section, action, preserved promise, and re-test command.
+6. If the output is saved or requested as a stable artifact, run `scripts/cliche_quality_lint.py <path>` or pipe the output through it.
+
+Avoid:
+
+- trusting fluent prose without gate scores;
+- adding only praise when the artifact needs release-style QA;
+- using broad repairs such as "make it more interesting";
+- rebuilding the whole engine when one gate repair is enough;
+- ignoring copy-shadow risk because the plot feels generic.
 
 ### Genre Reference Registration
 

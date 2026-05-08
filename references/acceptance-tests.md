@@ -237,6 +237,30 @@ Fail signs:
 - 26-50 expansion changes genre pleasure instead of scaling it;
 - the deployment has no first repair or next artifact.
 
+### Quality Regression Test
+
+Use when the output claims to be a quality regression audit, phase-9 upgrade, release gate, narrative coherence audit, or post-deployment QA pass.
+
+The quality regression passes if:
+
+- it names the artifact under test and its production stage;
+- it identifies source families rather than citing reference names as decoration;
+- it scores source, promise, proof, graph, portfolio, feedback, serial, debt, packaging, and originality gates;
+- every weak gate has severity P0-P3 and a concrete repair;
+- it checks that phase-2 synthesis, phase-3 graph, phase-4 compiler, phase-5 portfolio, phase-6 feedback, and phase-7 deployment promises are preserved;
+- it audits temporal, causal, motivational, institutional, reward, scale, reader-memory, and packaging coherence;
+- it flags reward debt and paid-trust regressions before adding new hooks;
+- it checks originality safety and copy-shadow risk;
+- it ends with a patch list, release verdict, and next artifact.
+
+Fail signs:
+
+- it praises fluent prose but gives no gate scores;
+- P0/P1 failures are hidden in vague notes;
+- repairs are generic, such as "make it more interesting";
+- the audit ignores whether previous phase contracts were preserved;
+- copy-shadow risk is ignored because the plan uses common genre devices.
+
 ## Acceptance Output
 
 Use:
@@ -255,6 +279,7 @@ Use:
 | Cliche portfolio |  |  |  |
 | Reader feedback |  |  |  |
 | Serial deployment |  |  |  |
+| Quality regression |  |  |  |
 
 Then add:
 
