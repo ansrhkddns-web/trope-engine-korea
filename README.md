@@ -17,6 +17,7 @@
 - 선택된 클리셰 포트폴리오의 독자 반응, 피로도, 유료 전환 신뢰를 보정하는 6차 피드백 엔진
 - 검증된 클리셰 엔진을 1-5화, 6-25화, 26-50화에 배치하는 7차 연재 운용 엔진
 - 산출물의 약속/증명/그래프/보상 부채/고유성 회귀를 잡는 9차 품질 회귀검사 엔진
+- 좋은 클리셰 구조를 메모리 카드로 저장하고 다른 장르로 안전하게 옮기는 10차 클리셰 메모리/전이 엔진
 - 익숙한 클리셰를 metric swap, witness swap, cost injection 같은 연산자로 변주
 - 헌터/게이트/탑/시스템/성좌/회귀/재벌/무협/아카데미/빙의 계열 클리셰 조합
 - 많이 쓰이는 성공 클리셰를 정체성, 우위, 증명, 사회 반응, 갱신, 장기 훅으로 조립
@@ -74,6 +75,10 @@ $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행7. 연재 �
 
 ```text
 $trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행9. 품질 회귀검사와 서사 일관성 감사까지 붙여줘.
+```
+
+```text
+$trope-engine-korea로 클리셰 레퍼런스 참고 고도화 진행10. 재사용 가능한 클리셰 메모리와 장르 전이표까지 만들어줘.
 ```
 
 ```text
@@ -150,6 +155,8 @@ trope-engine-korea/
 │   ├── reward-debt-ledger-7.md
 │   ├── cliche-quality-regression-suite-9.md
 │   ├── narrative-coherence-audit-9.md
+│   ├── trope-memory-distiller-10.md
+│   ├── cliche-transfer-lab-10.md
 │   ├── scene-proof-bank.md
 │   ├── self-audit-prompts.md
 │   ├── successful-cliche-card-bank-2.md
@@ -167,6 +174,7 @@ trope-engine-korea/
     ├── cliche_feedback_lint.py
     ├── cliche_serial_lint.py
     ├── cliche_quality_lint.py
+    ├── cliche_memory_lint.py
     ├── genre_bank_count.py
     └── trope_pack_lint.py
 ```
@@ -194,6 +202,8 @@ trope-engine-korea/
 | `references/reward-debt-ledger-7.md` | 열린 독자 약속과 갚은 보상을 추적하는 보상 부채 장부 |
 | `references/cliche-quality-regression-suite-9.md` | 2-7차 산출물의 약속, 증명, 그래프, 피드백, 연재 배치, 보상 부채, 패키징, 고유성 회귀를 잡는 품질 게이트 |
 | `references/narrative-coherence-audit-9.md` | 시간, 인과, 동기, 기관 반응, 보상, 스케일, 독자 기억, 패키징 일관성을 검사하는 서사 감사표 |
+| `references/trope-memory-distiller-10.md` | 레퍼런스와 기존 산출물을 재사용 가능한 클리셰 메모리 카드로 압축하는 10차 메모리 증류 규칙 |
+| `references/cliche-transfer-lab-10.md` | 저장된 클리셰 메모리를 다른 장르로 옮길 때 보존할 코어와 바꿀 껍질을 분리하는 장르 전이 규칙 |
 | `references/cliche-remix-operators.md` | 익숙한 클리셰를 증거물, 목격자, 비용, 기관, 소유권 등으로 변주하는 연산자 모음 |
 | `references/reference-derived-card-bank-3.md` | 기능 카드, 모티프 카드, 그래프 카드로 구성된 3차 레퍼런스 파생 카드 은행 |
 | `references/external-cliche-reference-map.md` | 외부 클리셰/모티프/서사 기능 레퍼런스를 스킬용 원칙으로 정리 |
@@ -220,6 +230,7 @@ trope-engine-korea/
 | `scripts/cliche_feedback_lint.py` | 6차 독자 피드백/피로도 수리 산출물의 독자 코호트, 점수축, 불만, 1-5화 지도, 유료 전환, 수리안 누락 검사 |
 | `scripts/cliche_serial_lint.py` | 7차 연재 배치 산출물의 에피소드 job, 클리셰 배치, 보상 부채, 훅 회전, 피드백 체크포인트 누락 검사 |
 | `scripts/cliche_quality_lint.py` | 9차 품질 회귀검사 산출물의 게이트 점수, 심각도, 크로스 페이즈 보존, 서사 일관성, 패치 리스트, 판정 누락 검사 |
+| `scripts/cliche_memory_lint.py` | 10차 클리셰 메모리/전이 산출물의 메모리 카드, 클리셰 DNA, 검색 단서, 보존 코어, 전이 껍질, 검증 누락 검사 |
 
 ## 작업 모드
 
@@ -235,6 +246,7 @@ trope-engine-korea/
 | `reader feedback calibrate` | 선택된 포트폴리오의 독자 반응, 피로도, 유료 전환 신뢰를 예측하고 수리 |
 | `serial arc deploy` | 검증된 클리셰 엔진을 에피소드/아크별로 배치하고 보상 부채와 훅을 관리 |
 | `quality regression audit` | 기존 산출물의 약속, 증명, 그래프, 보상 부채, 패키징, 고유성, 서사 일관성 회귀를 검사 |
+| `trope memory distill` | 성공한 클리셰 구조를 재사용 가능한 메모리 카드로 저장하고 다른 장르로 전이 |
 | `genre reference registration` | 웹소설 장르 조사값과 장르별 100종 클리셰 뱅크를 등록/참조 |
 | `trope pack` | 클리셰 카드, 보상, 변주, 첫 증명 장면 생성 |
 | `familiar-but-fresh premise` | 익숙한 장르 장치를 새 콘셉트로 변주 |
@@ -459,6 +471,26 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 
 서사 일관성 감사는 시간 순서, 인과, 주인공 동기, 기관 반응, 보상 지급, 스케일 상승, 독자 기억, 패키징 일치까지 봅니다. 문제가 있으면 “재밌게 만들기”처럼 넓은 지시가 아니라 `어느 섹션을`, `무엇으로`, `어떤 약속은 보존하면서`, `어떤 명령으로 다시 검사할지`까지 패치 리스트로 남깁니다.
 
+## 클리셰 메모리/전이 10차 고도화
+
+10차 고도화는 좋은 클리셰 구조를 한 번 쓰고 버리지 않도록, 재사용 가능한 `메모리 카드`로 압축합니다.
+
+```text
+소스 케이스 → 클리셰 DNA → 보존 코어/전이 껍질 → 검색 단서 → 장르 전이 → 검증
+```
+
+메모리 카드는 단순히 “랭크 테스트”, “회귀 투자”, “비밀 기연” 같은 이름을 저장하지 않습니다. 독자가 좋아하는 보상, 주인공의 행동 방식, 눈에 보이는 증거물, 권위 있는 목격자, 성공 때문에 생기는 비용, 다음 화를 누르게 하는 훅까지 함께 저장합니다.
+
+| 요소 | 의미 |
+| --- | --- |
+| 클리셰 DNA | 압박, 주인공 방법, 증거물, 목격자, 보상, 비용, 기관, 훅 |
+| 보존 코어 | 장르가 바뀌어도 지켜야 하는 독자 보상과 작동 원리 |
+| 전이 껍질 | 장르에 맞게 바꿀 기관, 증거물, 목격자, 비용, 훅 |
+| 검색 단서 | 나중에 다시 꺼내기 위한 장르, 보상, 기관, 증명, 위험 태그 |
+| 복사 방지 | 특정 작품의 고유 이름, 규칙, 장면 순서, 기관을 제거하는 규칙 |
+
+예를 들어 “공개 증명 → 권위자의 인정 → 성공 때문에 생긴 제도권 압박”이라는 코어는 헌터물에서는 협회 감사와 길드 소송이 되고, 무협에서는 비무 결과와 사문 혈채가 되며, 아카데미물에서는 실기 평가와 퇴학 심문이 됩니다. 같은 쾌감은 보존하되 장르 껍질만 바꾸는 방식입니다.
+
 ## 레퍼런스 기반 업그레이드
 
 이 스킬은 클리셰를 단순히 많이 나열하지 않고, 다음 레퍼런스 계열을 **기능 단위**로 추상화해 사용합니다.
@@ -488,6 +520,8 @@ $trope-engine-korea로 헌터+지원직+회귀 조합을 익숙하지만 새롭�
 - [The Role of Cliffhangers in Serial Entertainment](https://www.ovid.com/journals/popmed/pdf/10.1037/ppm0000392~the-role-of-cliffhangers-in-serial-entertainment-an)
 - [A Study on the Narrative Form of Korean Web Novels](https://journal.kci.go.kr/djnar/archive/articleView?artiId=ART002199659)
 - [Neural Story Planning](https://arxiv.org/abs/2212.08718)
+- [Schemas for Narrative Generation Mined from Existing Descriptions of Plot](https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.CMN.2015.54)
+- [Automated Fictional Ideation via Knowledge Base Manipulation](https://link.springer.com/article/10.1007/s12559-015-9366-4)
 
 성공 클리셰 고도화에서 보조적으로 참고한 공개 장르/태그 자료:
 
@@ -608,7 +642,14 @@ python scripts/cliche_quality_lint.py --self-test
 python scripts/cliche_quality_lint.py path/to/quality-audit.md
 ```
 
-이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`, `cliche_portfolio_lint.py`, `cliche_feedback_lint.py`, `cliche_serial_lint.py`, `cliche_quality_lint.py`는 Python 표준 라이브러리만 사용합니다.
+클리셰 메모리/전이 검증:
+
+```bash
+python scripts/cliche_memory_lint.py --self-test
+python scripts/cliche_memory_lint.py path/to/trope-memory.md
+```
+
+이 저장소는 외부 런타임 의존성이 거의 없습니다. `trope_pack_lint.py`, `genre_bank_count.py`, `cliche_graph_lint.py`, `cliche_engine_compile_lint.py`, `cliche_portfolio_lint.py`, `cliche_feedback_lint.py`, `cliche_serial_lint.py`, `cliche_quality_lint.py`, `cliche_memory_lint.py`는 Python 표준 라이브러리만 사용합니다.
 
 ## 라이선스
 

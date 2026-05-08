@@ -363,6 +363,88 @@ Use with `cliche-quality-regression-suite-9.md` and `narrative-coherence-audit-9
 - **검증 명령**:
 - **다음 산출물**:
 
+## 클리셰 메모리/전이 10차 고도화
+
+Use with `trope-memory-distiller-10.md` and `cliche-transfer-lab-10.md`.
+
+- **메모리화할 소스 케이스**:
+- **참고한 레퍼런스 계열**:
+- **메모리 카드 요약**:
+
+| 카드 ID | 라벨 | 원본 장르 | 재사용 약속 | 검색 단서 | 판정 |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+- **정규화한 메모리 카드**:
+
+```yaml
+trope_memory_card:
+  id:
+  label:
+  source_family:
+  source_abstraction:
+  genre_origin:
+  reusable_promise:
+  trope_dna:
+    pressure:
+    protagonist_method:
+    proof_object:
+    witness:
+    reward:
+    cost:
+    institution:
+    hook_object:
+  preconditions:
+  causal_edges:
+  retrieval_cues:
+  transfer_axes:
+  protected_core:
+  flexible_shell:
+  anti_copy_rules:
+  best_use:
+  fatigue_risk:
+  validation:
+  next_artifact:
+```
+
+- **중복/병합 판단**:
+
+| 카드 | 판단 | 이유 | 처리 |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+- **장르 전이표**:
+
+| 소스 카드 | 대상 장르 | 보존 코어 | 바꾼 축 | 대상 증명/목격자/비용 | 위험 |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+- **전이 결과**:
+
+```yaml
+cliche_transfer:
+  source_memory_id:
+  target_genre:
+  protected_core:
+  translated_shell:
+    institution:
+    proof_object:
+    witness:
+    cost:
+    hook_object:
+  preserved_reward:
+  changed_axes:
+  target_card:
+  first_proof_scene:
+  one_to_five_loop:
+  anti_copy_check:
+  validation:
+  next_artifact:
+```
+
+- **검증 명령**:
+- **다음 산출물**:
+
 ## 입력 조립 결과
 
 Use when the user's request is vague or keyword-heavy.
@@ -722,6 +804,7 @@ Use with `acceptance-tests.md` when deciding readiness.
 | 독자 피드백 |  |  |  |
 | 연재 배치 |  |  |  |
 | 품질 회귀검사 |  |  |  |
+| 클리셰 메모리/전이 |  |  |  |
 
 Then add:
 

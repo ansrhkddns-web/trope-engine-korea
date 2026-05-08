@@ -11,8 +11,8 @@ Every request should be routed by:
 1. **Intent**: what the user wants done.
 2. **Genre scope**: one genre, cross-genre, or genre-wide.
 3. **Reference depth**: default, 100-bank, synthesis, triangulation, or market-current.
-4. **Output artifact**: trope pack, graph, bible insert, episode ladder, package, diagnosis, compiled engine, ranked portfolio, reader feedback calibration, serial deployment plan, or quality regression audit.
-5. **Verification need**: none, lint, triangulation, graph stress test, portfolio lint, feedback lint, serial lint, quality lint, or market check.
+4. **Output artifact**: trope pack, graph, bible insert, episode ladder, package, diagnosis, compiled engine, ranked portfolio, reader feedback calibration, serial deployment plan, quality regression audit, or trope memory card.
+5. **Verification need**: none, lint, triangulation, graph stress test, portfolio lint, feedback lint, serial lint, quality lint, memory lint, or market check.
 
 ## Intent Router
 
@@ -29,6 +29,7 @@ Every request should be routed by:
 | "고도화 진행6" | feedback calibrator | `reader-feedback-calibrator-6.md`, `cliche-fatigue-repair-loop-6.md` | selected portfolio, `reader-response-simulation.md`, `acceptance-tests.md` | `cliche_feedback_lint.py` |
 | "고도화 진행7" | serial deployment | `serial-arc-deployment-planner-7.md`, `reward-debt-ledger-7.md` | selected engine, feedback calibration, `production-handoff.md` | `cliche_serial_lint.py` |
 | "고도화 진행9" | quality regression | `cliche-quality-regression-suite-9.md`, `narrative-coherence-audit-9.md` | previous phase artifact, `acceptance-tests.md` | `cliche_quality_lint.py` |
+| "고도화 진행10" | trope memory | `trope-memory-distiller-10.md`, `cliche-transfer-lab-10.md` | previous phase artifact, `reference-routing-matrix-4.md`, `acceptance-tests.md` | `cliche_memory_lint.py` |
 | "성공한/잘 먹히는" | success cliche | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `scene-proof-bank.md` | acceptance tests |
 | "1화 장면" | proof scene | `scene-proof-bank.md` | `reader-reward-model.md` | first-scene test |
 | "50화/장기연재" | escalation | `escalation-ladders.md` | `cliche-graph-stress-tests.md` | 50-episode test |
@@ -152,6 +153,19 @@ Load:
 - previous compiled engine, portfolio, feedback, or deployment artifact when available;
 - `acceptance-tests.md`;
 - `cliche_quality_lint.py` when validating a saved artifact.
+
+### Level 10: Trope Memory
+
+Use when phase 10, reusable cliche memory, reference distillation, trope library, case reuse, or cross-genre transfer is requested.
+
+Load:
+
+- `trope-memory-distiller-10.md`;
+- `cliche-transfer-lab-10.md`;
+- previous compiled engine, portfolio, feedback, deployment, or quality audit artifact when available;
+- `reference-routing-matrix-4.md` when retrieval must choose from many references;
+- `acceptance-tests.md`;
+- `cliche_memory_lint.py` when validating a saved artifact.
 
 ## Source Reliability Tags
 

@@ -24,6 +24,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 | "클리셰 레퍼런스 참고 고도화 진행6" | reader feedback calibrate | `reader-feedback-calibrator-6.md`, `cliche-fatigue-repair-loop-6.md` | `reader-response-simulation.md`, `acceptance-tests.md`, `failure-patterns.md` |
 | "클리셰 레퍼런스 참고 고도화 진행7" | serial arc deploy | `serial-arc-deployment-planner-7.md`, `reward-debt-ledger-7.md` | `reader-feedback-calibrator-6.md`, `escalation-ladders.md`, `production-handoff.md` |
 | "클리셰 레퍼런스 참고 고도화 진행9" | quality regression audit | `cliche-quality-regression-suite-9.md`, `narrative-coherence-audit-9.md` | previous phase artifact, `acceptance-tests.md`, relevant lint scripts |
+| "클리셰 레퍼런스 참고 고도화 진행10" | trope memory distill | `trope-memory-distiller-10.md`, `cliche-transfer-lab-10.md` | previous phase artifact, `reference-routing-matrix-4.md`, `acceptance-tests.md` |
 | "많이 쓰이는/성공한 클리셰" | successful cliche upgrade | `successful-webnovel-cliche-patterns.md`, `successful-cliche-card-bank-2.md` | `reader-reward-model.md`, `scene-proof-bank.md`, `variation-engine.md` |
 | "다양한 클리셰 레퍼런스 참고" | reference-backed upgrade | `external-cliche-reference-map.md`, `cliche-taxonomy-engine.md` | `reference-backed-card-bank-1.md`, `originality-safety.md` |
 
@@ -51,6 +52,7 @@ Use this file when deciding how to run the skill for a specific user request. It
 - Load `reader-feedback-calibrator-6.md` and `cliche-fatigue-repair-loop-6.md` when the user asks for phase 6, reader comments, retention risk, fatigue repair, paid-trust risk, or episode-level response calibration.
 - Load `serial-arc-deployment-planner-7.md` and `reward-debt-ledger-7.md` when the user asks for phase 7, serial deployment, episode operation, 1-50 placement, reward scheduling, reward debt, hook cadence, or converting a tested engine into an arc plan.
 - Load `cliche-quality-regression-suite-9.md` and `narrative-coherence-audit-9.md` when the user asks for phase 9, quality regression, release gate, narrative coherence, cross-phase preservation, or post-deployment QA.
+- Load `trope-memory-distiller-10.md` and `cliche-transfer-lab-10.md` when the user asks for phase 10, cliche memory, reusable trope library, reference distillation, cross-genre transfer, or learning from prior outputs.
 - Load `successful-webnovel-cliche-patterns.md` and `successful-cliche-card-bank-2.md` when the user asks for common, successful, proven, widely used, or commercially reliable webnovel cliches without needing live rankings.
 - Load `originality-safety.md` whenever a named reference work appears.
 - Load `failure-patterns.md` when the result feels generic, bloated, too easy, or not serializable.
@@ -235,6 +237,27 @@ Avoid:
 - using broad repairs such as "make it more interesting";
 - rebuilding the whole engine when one gate repair is enough;
 - ignoring copy-shadow risk because the plot feels generic.
+
+### Trope Memory Distill
+
+Use when the user asks for phase 10, reusable cliche memory, a trope library, cross-genre transfer, or a way to learn from earlier outputs.
+
+Steps:
+
+1. Use `trope-memory-distiller-10.md` to scope the source cases: reference-derived cards, compiled engine, selected portfolio, feedback calibration, serial deployment, or quality audit.
+2. Normalize each useful case into a memory card with reusable promise, trope DNA, preconditions, causal edges, retrieval cues, protected core, flexible shell, and anti-copy rules.
+3. Deduplicate cards that repeat the same reward/proof/witness/cost combination.
+4. Use `cliche-transfer-lab-10.md` to translate one or more memories into a target genre by changing institution, proof object, witness, cost, hook, and cadence.
+5. End with memory cards, transfer map, validation target, and next production artifact.
+6. If the output is saved or requested as a stable artifact, run `scripts/cliche_memory_lint.py <path>` or pipe the output through it.
+
+Avoid:
+
+- saving only cliche names without proof, witness, cost, and institution;
+- transferring by swapping vocabulary only;
+- changing the protected reader reward during transfer;
+- keeping source-specific scene order, unique rules, names, or institutions;
+- building a library that has no retrieval cues or validation target.
 
 ### Genre Reference Registration
 

@@ -261,6 +261,30 @@ Fail signs:
 - the audit ignores whether previous phase contracts were preserved;
 - copy-shadow risk is ignored because the plan uses common genre devices.
 
+### Trope Memory Transfer Test
+
+Use when the output claims to be a trope memory card, phase-10 upgrade, reusable cliche library, reference distillation, or cross-genre transfer.
+
+The memory/transfer output passes if:
+
+- it names the source cases used for memory;
+- each memory card has source abstraction, reusable promise, and trope DNA;
+- trope DNA includes pressure, protagonist method, proof object, witness, reward, cost, institution, and hook object;
+- preconditions and causal edges explain when the memory works;
+- retrieval cues make the card searchable by genre, reward, institution, proof, pressure, transfer, or risk;
+- protected core and flexible shell are separated;
+- transfer changes target-genre institution, proof object, witness, cost, hook, and cadence without reward drift;
+- anti-copy rules remove named-work shadows, unique rules, and signature scene order;
+- validation and next artifact are named.
+
+Fail signs:
+
+- the library stores only cliche names;
+- transfer only swaps vocabulary;
+- the protected reader reward changes;
+- source-specific scene order remains;
+- memory cards have no retrieval cues or validation target.
+
 ## Acceptance Output
 
 Use:
@@ -280,6 +304,7 @@ Use:
 | Reader feedback |  |  |  |
 | Serial deployment |  |  |  |
 | Quality regression |  |  |  |
+| Trope memory transfer |  |  |  |
 
 Then add:
 
