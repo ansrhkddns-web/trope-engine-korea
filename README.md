@@ -31,6 +31,34 @@
 - 유명작의 감각을 안전하게 일반화하는 고유성 점검
 - 저장된 클리셰 팩의 누락 요소를 검사하는 lint 스크립트 제공
 
+## 현재 버전 요약
+
+이 저장소의 현재 버전은 10차 고도화까지 반영된 상태입니다. 스킬은 단순히 클리셰를 나열하는 도구가 아니라, 레퍼런스를 안전하게 추상화하고, 독자 보상 구조로 조립하고, 연재 운용과 품질 검사, 재사용 메모리까지 이어지는 제작 엔진으로 구성되어 있습니다.
+
+| 단계 | 핵심 목적 | 주요 산출물 | 검증 도구 |
+| --- | --- | --- | --- |
+| 기본 엔진 | 장르 기본값과 클리셰 카드 조립 | 트로프 팩, 장르 기본값, 1화 증명 장면 | `trope_pack_lint.py` |
+| 2차 | 다양한 레퍼런스를 기능/압박/증거물로 합성 | 레퍼런스 합성표, 리믹스 카드, 카드 그래프 | `cliche_graph_lint.py` |
+| 3차 | 레퍼런스 파생 클리셰의 내구성 검증 | 삼각검증표, 그래프 스트레스 테스트 | `cliche_graph_lint.py` |
+| 4차 | 요청별로 필요한 자료를 라우팅하고 컴파일 | 컴파일된 클리셰 엔진, 소스 패킷, 생산 인계 | `cliche_engine_compile_lint.py` |
+| 5차 | 후보 클리셰를 점수화하고 포트폴리오로 선택 | 6/8/12카드 포트폴리오, 탈락/수리 이유 | `cliche_portfolio_lint.py` |
+| 6차 | 독자 반응, 피로도, 유료 전환 신뢰 보정 | 독자 코호트 반응, 피로도 수리안 | `cliche_feedback_lint.py` |
+| 7차 | 검증된 엔진을 실제 연재 구간에 배치 | 1-5화/6-25화/26-50화 배치, 보상 부채 장부 | `cliche_serial_lint.py` |
+| 9차 | 산출물 품질 회귀와 서사 일관성 검사 | 품질 게이트, 심각도, 패치 리스트 | `cliche_quality_lint.py` |
+| 10차 | 좋은 클리셰 구조를 저장하고 장르 간 전이 | 클리셰 메모리 카드, 장르 전이표 | `cliche_memory_lint.py` |
+
+## 권장 사용 흐름
+
+처음부터 큰 설정집을 만들기보다 아래 순서로 쓰면 안정적입니다.
+
+1. 장르와 주인공 우위를 정하고 빠른 트로프 팩을 만든다.
+2. 1화에서 장르 재미가 보이는 증명 장면을 만든다.
+3. 후보 클리셰가 많아지면 5차 선택 최적화로 포트폴리오를 고른다.
+4. 6차 독자 피드백으로 피로도와 유료 전환 신뢰를 점검한다.
+5. 7차 연재 배치로 1-5화, 6-25화, 26-50화 흐름을 잡는다.
+6. 9차 품질 회귀검사로 약속, 증명, 보상 부채, 고유성 회귀를 잡는다.
+7. 10차 메모리 카드로 잘 작동한 구조를 저장해 다른 장르에 재사용한다.
+
 ## 이런 요청에 사용합니다
 
 ```text
@@ -103,13 +131,27 @@ Codex가 스킬을 자동으로 발견하려면 이 저장소 폴더를 Codex �
 git clone https://github.com/ansrhkddns-web/trope-engine-korea.git "$env:USERPROFILE\.codex\skills\trope-engine-korea"
 ```
 
+이미 설치되어 있다면 아래처럼 최신 버전으로 업데이트합니다.
+
+```powershell
+cd "$env:USERPROFILE\.codex\skills\trope-engine-korea"
+git pull origin main
+```
+
 ### macOS / Linux
 
 ```bash
 git clone https://github.com/ansrhkddns-web/trope-engine-korea.git ~/.codex/skills/trope-engine-korea
 ```
 
-이미 같은 폴더가 있다면 기존 폴더를 백업하거나 삭제한 뒤 다시 clone하세요.
+이미 설치되어 있다면 아래처럼 최신 버전으로 업데이트합니다.
+
+```bash
+cd ~/.codex/skills/trope-engine-korea
+git pull origin main
+```
+
+이 작업이 끝나면 Codex가 다음 대화부터 최신 `trope-engine-korea` 스킬을 사용할 수 있습니다.
 
 ## 저장소 구조
 
